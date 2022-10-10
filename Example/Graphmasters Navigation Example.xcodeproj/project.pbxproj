@@ -13,6 +13,7 @@
 		6D4F911528F45B3900A4769E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4F911328F45B3900A4769E /* Main.storyboard */; };
 		6D4F911728F45B3A00A4769E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4F911628F45B3A00A4769E /* Assets.xcassets */; };
 		6D4F911A28F45B3A00A4769E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4F911828F45B3A00A4769E /* LaunchScreen.storyboard */; };
+		6D4F912528F4617000A4769E /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = 6D4F912428F4617000A4769E /* Mapbox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4F912528F4617000A4769E /* Mapbox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +95,9 @@
 			dependencies = (
 			);
 			name = "Graphmasters Navigation Example";
+			packageProductDependencies = (
+				6D4F912428F4617000A4769E /* Mapbox */,
+			);
 			productName = "Graphmasters Navigation Example";
 			productReference = 6D4F910A28F45B3900A4769E /* Graphmasters Navigation Example.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +126,9 @@
 				Base,
 			);
 			mainGroup = 6D4F910128F45B3900A4769E;
+			packageReferences = (
+				6D4F912328F4617000A4769E /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
+			);
 			productRefGroup = 6D4F910B28F45B3900A4769E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -374,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D4F912328F4617000A4769E /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maplibre/maplibre-gl-native-distribution";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D4F912428F4617000A4769E /* Mapbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D4F912328F4617000A4769E /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
+			productName = Mapbox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6D4F910228F45B3900A4769E /* Project object */;
 }
