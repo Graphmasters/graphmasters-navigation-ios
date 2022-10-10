@@ -1,0 +1,8 @@
+framework module GraphmastersNavigationCore {
+    umbrella header "GraphmastersNavigationCore.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}

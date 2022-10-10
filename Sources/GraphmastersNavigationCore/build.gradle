@@ -1,0 +1,88 @@
+import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFrameworkConfig
+
+plugins {
+    id 'org.jetbrains.kotlin.multiplatform'
+}
+
+def framework_name = 'GraphmastersNavigationCore'
+
+def multiplatform_core_version = '1.11.5'
+def multiplatform_navigation_version = '1.26.24'
+def multiplatform_navigation_ui_version = '1.22.1'
+
+configurations.all {
+    resolutionStrategy {
+        force "net.graphmasters.multiplatform:multiplatform-core:${multiplatform_core_version}"
+        force "net.graphmasters.multiplatform:multiplatform-navigation:${multiplatform_navigation_version}"
+        force "net.graphmasters.multiplatform:multiplatform-navigation-ui:${multiplatform_navigation_ui_version}"
+    }
+}
+
+kotlin {
+    def xcf = new XCFrameworkConfig(project)
+
+    def iosTarget
+
+    if (System.getenv(framework_name)?.startsWith("iphoneos")) {
+        iosTarget = kotlin.&iosArm64
+    } else {
+        iosTarget = kotlin.&iosSimulatorArm64
+    }
+
+    ios {
+        binaries.framework {
+            baseName = "${framework_name}"
+            export('net.graphmasters.multiplatform:multiplatform-core')
+            export('net.graphmasters.multiplatform:multiplatform-navigation')
+            export('net.graphmasters.multiplatform:multiplatform-navigation-ui')
+            transitiveExport = true
+            xcf.add(it)
+        }
+    }
+
+    iosSimulatorArm64 {
+        binaries.framework {
+            baseName = "${framework_name}"
+            export('net.graphmasters.multiplatform:multiplatform-core')
+            export('net.graphmasters.multiplatform:multiplatform-navigation')
+            export('net.graphmasters.multiplatform:multiplatform-navigation-ui')
+            transitiveExport = true
+            xcf.add(it)
+        }
+    }
+    sourceSets {
+        commonMain {
+            dependencies {
+                implementation kotlin('stdlib-common')
+                api("net.graphmasters.multiplatform:multiplatform-core:${multiplatform_core_version}")
+                api("net.graphmasters.multiplatform:multiplatform-navigation:${multiplatform_navigation_version}")
+                api("net.graphmasters.multiplatform:multiplatform-navigation-ui:${multiplatform_navigation_ui_version}")
+            }
+        }
+
+        iosMain {}
+
+        iosSimulatorArm64Main {
+            dependsOn iosMain
+        }
+    }
+}
+
+task deleteOldFramework(type: Delete) {
+    delete files(layout.projectDirectory.dir("${framework_name}.xcframework"))
+}
+
+task copyDebugFramework(type: Copy) {
+    from layout.projectDirectory.dir("build/XCFrameworks/debug/${framework_name}.xcframework")
+    into layout.projectDirectory.dir("${framework_name}.xcframework")
+}
+
+task copyReleaseFramework(type: Copy) {
+    from layout.projectDirectory.dir("build/XCFrameworks/debug/${framework_name}.xcframework")
+    into layout.projectDirectory.dir("${framework_name}.xcframework")
+}
+assembleGraphmastersNavigationCoreDebugXCFramework.finalizedBy deleteOldFramework
+assembleGraphmastersNavigationCoreDebugXCFramework.finalizedBy copyDebugFramework
+
+assembleGraphmastersNavigationCoreReleaseXCFramework.finalizedBy deleteOldFramework
+assembleGraphmastersNavigationCoreReleaseXCFramework.finalizedBy copyReleaseFramework

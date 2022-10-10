@@ -34,3 +34,6 @@ Preview.html
 .idea/
 build
 output
+local.properties
+gradle
+.swiftpm
