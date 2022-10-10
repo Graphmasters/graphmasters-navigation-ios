@@ -1,6 +1,6 @@
 import Foundation
-import XCTest
 import GraphmastersNavigationCore
+import XCTest
 
 final class AccessFrameworkTests: XCTestCase {
     func testAccess() {
