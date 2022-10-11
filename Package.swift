@@ -4,8 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "GraphmastersNavigationCore",
+    name: "GraphmastersNavigation",
     products: [
+        .library(
+            name: "GraphmastersNavigation",
+            targets: ["GraphmastersNavigation"]
+        ),
         .library(
             name: "GraphmastersNavigationCore",
             targets: ["GraphmastersNavigationCore"]
@@ -13,6 +17,16 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
+        .target(
+            name: "GraphmastersNavigation",
+            dependencies: [
+                "GraphmastersNavigationNetworking",
+                "GraphmastersNavigationCore",
+            ]
+        ),
+        .target(
+            name: "GraphmastersNavigationNetworking"
+        ),
         .binaryTarget(
             name: "GraphmastersNavigationCore",
             path: "Sources/GraphmastersNavigationCore/GraphmastersNavigationCore.xcframework"
