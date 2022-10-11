@@ -1,0 +1,42 @@
+disabled_rules:
+  - force_cast
+  - trailing_comma
+  - switch_case_alignment
+  - large_tuple
+  - file_length
+  - cyclomatic_complexity
+  - function_body_length
+  - block_based_kvo
+  - function_parameter_count
+  - inclusive_language
+
+identifier_name:
+  max_length:
+    warning: 48
+    error: 56
+  excluded:
+    - id
+    - to
+    - ui
+    - on
+    - us
+    - no
+    - e
+    - x
+    - y
+    - z
+
+type_body_length:
+  warning: 250
+  error: 500
+
+line_length:
+  warning: 136
+  ignores_comments: true
+
+type_name:
+  excluded:
+    - OnLeavingDestinationReachedDistanceListener
+
+nesting:
+  type_level: 2
