@@ -21,5 +21,11 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NAVIGATION_API_KEY</key>
+	<string>$(GM_NAVIGATION_API_KEY)</string>
+	<key>NAVIGATION_API_URL</key>
+	<string>https://$(NAVIGATION_API_URL)</string>
+	<key>MAP_STYLE_URL</key>
+	<string>https://$(MAP_STYLE_URL)</string>
 </dict>
 </plist>
