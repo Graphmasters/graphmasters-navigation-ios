@@ -123,7 +123,7 @@ class ViewController: UIViewController {
     }()
 
     private lazy var routeOutlineMapLayer: MGLStyleLayer = {
-        let layer = MGLLineStyleLayer(identifier: "ROUTE_LAYER", source: routeMapSource)
+        let layer = MGLLineStyleLayer(identifier: "ROUTE_OUTLINE_LAYER", source: routeMapSource)
         layer.lineWidth = NSExpression(forMGLInterpolating: .zoomLevelVariable,
                                        curveType: .linear,
                                        parameters: nil,
@@ -147,6 +147,7 @@ extension ViewController: MGLMapViewDelegate {
             return
         }
         style.addSource(routeMapSource)
+        style.addLayer(routeOutlineMapLayer)
         style.addLayer(routeMapLayer)
     }
 }
