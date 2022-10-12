@@ -37,3 +37,4 @@ output
 local.properties
 gradle
 .swiftpm
+Example/Graphmasters Navigation Example/Config.xcconfig

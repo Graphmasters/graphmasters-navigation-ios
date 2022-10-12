@@ -5,7 +5,7 @@
     <key>CFBundleExecutable</key>
     <string>GraphmastersNavigationCore</string>
     <key>CFBundleIdentifier</key>
-    <string>net.graphmasters.navigation.core.GraphmastersNavigationCore</string>
+    <string>net.graphmasters.GraphmastersNavigationCore</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>

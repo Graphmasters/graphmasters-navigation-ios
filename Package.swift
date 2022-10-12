@@ -4,21 +4,36 @@
 import PackageDescription
 
 let package = Package(
-    name:"GraphmastersNavigationCore",
-    products:[
+    name: "GraphmastersNavigation",
+    products: [
         .library(
-            name:"GraphmastersNavigationCore",
-            targets:["GraphmastersNavigationCore"]),
+            name: "GraphmastersNavigation",
+            targets: ["GraphmastersNavigation", "GraphmastersNavigationNetworking"]
+        ),
+        .library(
+            name: "GraphmastersNavigationCore",
+            targets: ["GraphmastersNavigationCore"]
+        ),
     ],
-    dependencies:[],
-    targets:[
+    dependencies: [],
+    targets: [
+        .target(
+            name: "GraphmastersNavigation",
+            dependencies: [
+                "GraphmastersNavigationNetworking",
+                "GraphmastersNavigationCore",
+            ]
+        ),
+        .target(
+            name: "GraphmastersNavigationNetworking"
+        ),
         .binaryTarget(
-            name:"GraphmastersNavigationCore",
-            path:"Sources/GraphmastersNavigationCore/GraphmastersNavigationCore.xcframework"
+            name: "GraphmastersNavigationCore",
+            path: "Sources/GraphmastersNavigationCore/GraphmastersNavigationCore.xcframework"
         ),
         .testTarget(
-            name:"GraphmastersNavigationCoreTests",
-            dependencies:["GraphmastersNavigationCore"]
+            name: "GraphmastersNavigationCoreTests",
+            dependencies: ["GraphmastersNavigationCore"]
         ),
     ]
 )

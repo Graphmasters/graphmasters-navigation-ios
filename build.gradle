@@ -14,5 +14,6 @@ allprojects {
         google()
         mavenCentral()
         maven { url "https://artifactory.graphmasters.net/artifactory/libs-release" }
+        maven { url "https://artifactory.graphmasters.net/artifactory/libs-snapshot" }
     }
 }
