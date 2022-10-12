@@ -1,11 +1,3 @@
-//
-//  GMNetworking
-//  Copyright © 2022, Graphmasters GmbH — All Rights Reserved
-//
-//  Unauthorized copying of this file, via any medium is strictly prohibited.
-//  Proprietary and confidential.
-//
-
 import CoreTelephony
 import Foundation
 import SystemConfiguration
@@ -61,7 +53,8 @@ public final class InternetConnectionStateProvider {
             return .connected(.wifi)
         }
         if flags.contains(.connectionOnDemand) || flags.contains(.connectionOnTraffic),
-           !flags.contains(.interventionRequired) {
+           !flags.contains(.interventionRequired)
+        {
             return .connected(.wifi)
         }
         if flags.contains(.isWWAN) {

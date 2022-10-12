@@ -1,11 +1,10 @@
-import Mapbox
-import UIKit
+import CoreLocation
 import GraphmastersNavigation
 import GraphmastersNavigationCore
-import CoreLocation
+import Mapbox
+import UIKit
 
 class ViewController: UIViewController {
-
     /// - note: This can be replaced by `DetailedDistanceConverter`
     private let distanceConverter: DistanceConverter = RoundedDistanceConverter()
 
@@ -41,14 +40,14 @@ class ViewController: UIViewController {
 
     // MARK: - Outlets
 
-    @IBOutlet weak var mapView: MGLMapView!
+    @IBOutlet var mapView: MGLMapView!
 
-    @IBOutlet weak var turnCommandLabel: UILabel!
-    @IBOutlet weak var turnDirectionLabel: UILabel!
-    @IBOutlet weak var turnDistanceLabel: UILabel!
-    @IBOutlet weak var arrivalLabel: UILabel!
-    @IBOutlet weak var durationLabel: UILabel!
-    @IBOutlet weak var distanceLabel: UILabel!
+    @IBOutlet var turnCommandLabel: UILabel!
+    @IBOutlet var turnDirectionLabel: UILabel!
+    @IBOutlet var turnDistanceLabel: UILabel!
+    @IBOutlet var arrivalLabel: UILabel!
+    @IBOutlet var durationLabel: UILabel!
+    @IBOutlet var distanceLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -91,19 +90,73 @@ class ViewController: UIViewController {
         mapView.styleURL = URL(string: Configuration.mapStyleUrl)!
         mapView.showsUserLocation = true
         mapView.userTrackingMode = .followWithCourse
+        mapView.delegate = self
     }
 
     // MARK: - User Interactions
 
-    @IBAction func stopNavigationButtonPressed(_ sender: Any) {
+    @IBAction func stopNavigationButtonPressed(_: Any) {
         navigationSdk.navigationEngine.stopNavigation()
+    }
+
+    // MARK: - Route Layer
+
+    /// - note: This can be replaced by any available `RouteFeatureCreator` or creating yourself.
+    private lazy var routeFeatureCreator: RouteFeatureCreator = ColoringRouteFeatureCreator()
+
+    private lazy var routeMapSource = MGLShapeSource(identifier: "ROUTE_SOURCE", shapes: [])
+
+    private lazy var routeMapLayer: MGLStyleLayer = {
+        let layer = MGLLineStyleLayer(identifier: "ROUTE_LAYER", source: routeMapSource)
+        layer.lineWidth = NSExpression(forMGLInterpolating: .zoomLevelVariable,
+                                       curveType: .linear,
+                                       parameters: nil,
+                                       stops: NSExpression(forConstantValue: [
+                                           1: 1,
+                                           16: 10,
+                                           20: 16,
+                                       ]))
+        layer.lineColor = NSExpression(forKeyPath: "fill-color")
+        layer.lineCap = NSExpression(forConstantValue: "round")
+        layer.lineJoin = NSExpression(forConstantValue: "round")
+        return layer
+    }()
+
+    private lazy var routeOutlineMapLayer: MGLStyleLayer = {
+        let layer = MGLLineStyleLayer(identifier: "ROUTE_OUTLINE_LAYER", source: routeMapSource)
+        layer.lineWidth = NSExpression(forMGLInterpolating: .zoomLevelVariable,
+                                       curveType: .linear,
+                                       parameters: nil,
+                                       stops: NSExpression(forConstantValue: [
+                                           1: 2.5,
+                                           16: 12.5,
+                                           20: 19
+                                       ]))
+        layer.lineColor = NSExpression(forKeyPath: "outline-color")
+        layer.lineCap = NSExpression(forConstantValue: "round")
+        layer.lineJoin = NSExpression(forConstantValue: "round")
+        return layer
+    }()
+}
+
+// MARK: - Map Handling
+
+extension ViewController: MGLMapViewDelegate {
+    func mapView(_ mapView: MGLMapView, didFinishLoading style: MGLStyle) {
+        guard mapView.styleURL == URL(string: Configuration.mapStyleUrl) else {
+            return
+        }
+        style.addSource(routeMapSource)
+        style.addLayer(routeOutlineMapLayer)
+        style.addLayer(routeMapLayer)
     }
 }
 
 // MARK: - Location Updating
+
 extension ViewController: CLLocationManagerDelegate {
     func locationManager(
-        _ manager: CLLocationManager,
+        _: CLLocationManager,
         didUpdateLocations locations: [CLLocation]
     ) {
         guard let newLocation = locations.last else {
@@ -122,19 +175,19 @@ extension ViewController: LocationProviderLocationUpdateListener {
 // MARK: - Navigation Events
 
 extension ViewController: NavigationEventHandlerOnNavigationStartedListener {
-    func onNavigationStarted(routable: Routable) {
+    func onNavigationStarted(routable _: Routable) {
         GMLog.shared.d(msg: "onNavigationStarted")
     }
 }
 
 extension ViewController: NavigationEventHandlerOnInitialRouteReceivedListener {
-    func onInitialRouteReceived(route: Route) {
+    func onInitialRouteReceived(route _: Route) {
         GMLog.shared.d(msg: "onInitialRouteReceived")
     }
 }
 
 extension ViewController: NavigationStateProviderOnNavigationStateInitializedListener {
-    func onNavigationStateInitialized(navigationState: NavigationStateProviderNavigationState) {
+    func onNavigationStateInitialized(navigationState _: NavigationStateProviderNavigationState) {
         GMLog.shared.d(msg: "onNavigationStateInitialized")
     }
 }
@@ -183,7 +236,7 @@ extension ViewController: NavigationStateProviderOnNavigationStateUpdatedListene
 }
 
 extension ViewController: NavigationEventHandlerOnTrackingSpeedReachedListener {
-    func onTrackingSpeedReached(speed: Speed) {
+    func onTrackingSpeedReached(speed _: Speed) {
         GMLog.shared.d(msg: "onTrackingSpeedReached")
     }
 }
@@ -191,17 +244,22 @@ extension ViewController: NavigationEventHandlerOnTrackingSpeedReachedListener {
 extension ViewController: NavigationEventHandlerOnRouteUpdateListener {
     func onRouteUpdated(route: Route) {
         GMLog.shared.d(msg: "onRouteUpdated")
+        updateRouteOnMap(route: route)
+    }
+
+    private func updateRouteOnMap(route: Route) {
+        routeMapSource.shape = try! routeFeatureCreator.createFeatures(waypoints: route.waypoints).mglFeature
     }
 }
 
 extension ViewController: NavigationEventHandlerOnDestinationChangedListener {
-    func onDestinationChanged(routable: Routable?) {
+    func onDestinationChanged(routable _: Routable?) {
         GMLog.shared.d(msg: "onDestinationChanged")
     }
 }
 
 extension ViewController: NavigationEventHandlerOnDestinationReachedListener {
-    func onDestinationReached(routable: Routable) {
+    func onDestinationReached(routable _: Routable) {
         GMLog.shared.d(msg: "onDestinationReached")
     }
 }
@@ -210,5 +268,6 @@ extension ViewController: NavigationEventHandlerOnNavigationStoppedListener {
     func onNavigationStopped() {
         GMLog.shared.d(msg: "onNavigationStopped")
         clearNavigationInfoView()
+        routeMapSource.shape = nil
     }
 }
