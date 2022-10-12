@@ -9,11 +9,11 @@
 import Foundation
 import GraphmastersNavigationCore
 
-class SystemInternetConnectionValidator: InternetConnectionValidator {
+public class SystemInternetConnectionValidator: InternetConnectionValidator {
     private let internetConnectionStateProvider: InternetConnectionStateProvider
 
     /// device's current internet connection state
-    var connected: Bool {
+    public var connected: Bool {
         switch internetConnectionStateProvider.connectionState {
         case .connected:
             return true
@@ -24,7 +24,7 @@ class SystemInternetConnectionValidator: InternetConnectionValidator {
 
     // MARK: - Life Cycle
 
-    init(internetConnectionStateProvider: InternetConnectionStateProvider) {
+    public init(internetConnectionStateProvider: InternetConnectionStateProvider) {
         self.internetConnectionStateProvider = internetConnectionStateProvider
     }
 }

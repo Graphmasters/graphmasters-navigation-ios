@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import GMCore
 
 public final class AggregatingSessionParamProvider: SessionClientParameterProvider {
     private var parameterProviders: [SessionClientParameterProvider]
@@ -24,5 +23,11 @@ public final class AggregatingSessionParamProvider: SessionClientParameterProvid
         return parameterProviders
             .map { $0.getAdditionalParams(sessionId: sessionId) }
             .flattendUsingFirstEntry()
+    }
+}
+
+extension Array where Element == [String: String] {
+    func flattendUsingFirstEntry() -> [String: String] {
+        return reduce(into: [String: String]()) { $0.merge($1) { $1 } }
     }
 }

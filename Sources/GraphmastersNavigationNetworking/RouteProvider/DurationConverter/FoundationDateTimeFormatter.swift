@@ -12,6 +12,6 @@ public final class FoundationDateTimeFormatter: DateTimeFormatter {
         formatter.calendar = Calendar(identifier: .gregorian)
         formatter.locale = Locale(identifier: "DE_de")
         let date = formatter.date(from: time)
-        return date.map { .Companion().fromSeconds(seconds: Int64($0.timeIntervalSince1970)) } ?? .zero
+        return date.map { Duration.companion.fromSeconds(seconds: Int64($0.timeIntervalSince1970)) } ?? Duration.companion.ZERO
     }
 }

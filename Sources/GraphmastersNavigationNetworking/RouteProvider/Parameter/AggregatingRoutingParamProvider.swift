@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SharedMultiplatform
+import GraphmastersNavigationCore
 
 public final class AggregatingRoutingParamProvider: RoutingParamProvider {
     private var parameterProviders: [RoutingParamProvider]
