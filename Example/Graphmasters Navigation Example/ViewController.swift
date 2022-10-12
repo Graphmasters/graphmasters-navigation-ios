@@ -68,10 +68,6 @@ class ViewController: UIViewController {
         navigationSdk.navigationStateProvider.addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener: self)
 
         uiLocationProvider.addLocationUpdateListener(locationUpdateListener: self)
-
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
-            try? self.navigationSdk.navigationEngine.startNavigation(routable_: RoutableFactory.shared.create(latLng: .init(latitude: 52, longitude: 8).graphmastersOfficeVienna))
-        }
     }
 
     override func viewWillAppear(_ animated: Bool) {
