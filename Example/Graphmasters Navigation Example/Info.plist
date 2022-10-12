@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>MAP_STYLE_URL</key>
+	<string>https://$(MAP_STYLE_URL)</string>
+	<key>NAVIGATION_API_KEY</key>
+	<string>$(NAVIGATION_API_KEY)</string>
+	<key>NAVIGATION_API_URL</key>
+	<string>https://$(NAVIGATION_API_URL)</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -21,11 +27,7 @@
 			</array>
 		</dict>
 	</dict>
-	<key>NAVIGATION_API_KEY</key>
-	<string>$(GM_NAVIGATION_API_KEY)</string>
-	<key>NAVIGATION_API_URL</key>
-	<string>https://$(NAVIGATION_API_URL)</string>
-	<key>MAP_STYLE_URL</key>
-	<string>https://$(MAP_STYLE_URL)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Needed for navigation</string>
 </dict>
 </plist>

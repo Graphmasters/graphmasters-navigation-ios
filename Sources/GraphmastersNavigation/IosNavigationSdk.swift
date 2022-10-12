@@ -3,7 +3,7 @@ import GraphmastersNavigationCore
 import GraphmastersNavigationNetworking
 import UIKit
 
-public class GraphmastersNavigationSdk: BaseNavigationSdk {
+public class IosNavigationSdk: BaseNavigationSdk {
     private let instanceId: String
     private let apiKey: String
 
@@ -41,7 +41,7 @@ public class GraphmastersNavigationSdk: BaseNavigationSdk {
             "Version-Code": App.buildNumber,
             "Version-Name": App.version,
             "Content-Type": "application/json",
-            "Authorization": "Bearer \(apiKey)",
+            "Authorization": "api-key \(apiKey)",
             "Timeout-Ms": "\(configuration.timeoutIntervalForRequest * 1000)"
         ]
         let urlSession = URLSession(configuration: configuration)
@@ -80,7 +80,7 @@ public class GraphmastersNavigationSdk: BaseNavigationSdk {
         )
 
         super.init(
-            executor: TestQueueExecutor(),
+            executor: AppleExecutor(),
             timeProvider: FoundationTimeProvider(),
             sessionClient: sessionClient,
             routeProvider: routeProvider,
