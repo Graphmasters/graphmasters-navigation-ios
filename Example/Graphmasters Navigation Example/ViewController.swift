@@ -9,29 +9,6 @@ class ViewController: UIViewController {
     /// - note: This can be replaced by `DetailedDistanceConverter`
     private let distanceConverter: DistanceConverter = RoundedDistanceConverter()
 
-    private lazy var timeFormatter: DateFormatter = {
-        let formatter = DateFormatter()
-        formatter.dateStyle = .none
-        formatter.timeStyle = .short
-        return formatter
-    }()
-
-    private lazy var uiLocationProvider: LocationProvider = PredictedLocationProvider(
-        executor: AppleExecutor(),
-        navigationSdk: navigationSdk
-    )
-
-    // MARK: - Outlets
-
-    @IBOutlet var mapView: MGLMapView!
-
-    @IBOutlet weak var turnCommandLabel: UILabel!
-    @IBOutlet weak var turnDirectionLabel: UILabel!
-    @IBOutlet weak var turnDistanceLabel: UILabel!
-    @IBOutlet weak var arrivalLabel: UILabel!
-    @IBOutlet weak var durationLabel: UILabel!
-    @IBOutlet weak var distanceLabel: UILabel!
-
     private lazy var locationManager: CLLocationManager = {
         let locationManager = CLLocationManager()
         locationManager.delegate = self
@@ -42,6 +19,36 @@ class ViewController: UIViewController {
         serviceUrl: Configuration.navigationApiUrl,
         apiKey: Configuration.navigationApiKey
     )
+
+    private lazy var timeFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .none
+        formatter.timeStyle = .short
+        return formatter
+    }()
+
+    private lazy var routeDetachStateProvider: RouteDetachStateProvider = OffRouteDetachStateProvider(navigationSdk: navigationSdk)
+
+    private lazy var uiLocationProvider: LocationProvider = PredictedLocationProvider(
+        executor: AppleExecutor(),
+        navigationSdk: navigationSdk,
+        routeDetachStateProvider: routeDetachStateProvider,
+        maxMilestoneStopSpeed: PredictedLocationProvider.Companion.shared
+            .DEFAULT_NEXT_MILESTONE_STOP_SPEED,
+        locationUpdateInterval: PredictedLocationProvider.Companion.shared
+            .DEFAULT_LOCATION_UPDATE_INTERVAL
+    )
+
+    // MARK: - Outlets
+
+    @IBOutlet weak var mapView: MGLMapView!
+
+    @IBOutlet weak var turnCommandLabel: UILabel!
+    @IBOutlet weak var turnDirectionLabel: UILabel!
+    @IBOutlet weak var turnDistanceLabel: UILabel!
+    @IBOutlet weak var arrivalLabel: UILabel!
+    @IBOutlet weak var durationLabel: UILabel!
+    @IBOutlet weak var distanceLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
