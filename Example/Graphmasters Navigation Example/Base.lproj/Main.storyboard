@@ -21,14 +21,27 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFz-jO-6A8">
-                                <rect key="frame" x="229" y="47" width="145" height="34.333333333333343"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Stop Navigation"/>
-                                <connections>
-                                    <action selector="stopNavigationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yNY-hC-SCW"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8vq-7D-Vbu">
+                                <rect key="frame" x="16" y="47.000000000000007" width="145" height="76.666666666666686"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFz-jO-6A8">
+                                        <rect key="frame" x="0.0" y="0.0" width="145" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Stop Navigation"/>
+                                        <connections>
+                                            <action selector="stopNavigationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yNY-hC-SCW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZP-vD-sDv">
+                                        <rect key="frame" x="0.0" y="42.333333333333329" width="145" height="34.333333333333329"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Follow"/>
+                                        <connections>
+                                            <action selector="followButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z94-M5-evT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ehG-nL-Zzo">
                                 <rect key="frame" x="8" y="693.33333333333337" width="374" height="108.66666666666663"/>
                                 <subviews>
@@ -179,16 +192,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="kFz-jO-6A8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="0UT-0S-swt"/>
-                            <constraint firstItem="kFz-jO-6A8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="78d-d7-3vj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="kFz-jO-6A8" secondAttribute="trailing" id="8Rz-QU-EbA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ehG-nL-Zzo" secondAttribute="trailing" constant="8" id="BNc-Dh-80G"/>
+                            <constraint firstItem="8vq-7D-Vbu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="HAH-PM-SDs"/>
                             <constraint firstItem="Eyb-hh-EOh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IpM-6q-kuG"/>
                             <constraint firstAttribute="bottom" secondItem="Eyb-hh-EOh" secondAttribute="bottom" id="JHZ-8B-smt"/>
                             <constraint firstItem="Eyb-hh-EOh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JLx-Pg-7Pt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ehG-nL-Zzo" secondAttribute="bottom" constant="8" id="TZe-Ng-u3e"/>
                             <constraint firstAttribute="trailing" secondItem="Eyb-hh-EOh" secondAttribute="trailing" id="XKO-Kt-8ix"/>
                             <constraint firstItem="ehG-nL-Zzo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="tVT-Zy-Z56"/>
+                            <constraint firstItem="8vq-7D-Vbu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="7.1054273576010019e-15" id="zGT-HK-s01"/>
                         </constraints>
                     </view>
                     <connections>
