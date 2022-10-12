@@ -16,6 +16,11 @@ class ViewController: UIViewController {
         return formatter
     }()
 
+    private lazy var uiLocationProvider: LocationProvider = PredictedLocationProvider(
+        executor: AppleExecutor(),
+        navigationSdk: navigationSdk
+    )
+
     // MARK: - Outlets
 
     @IBOutlet var mapView: MGLMapView!
@@ -56,6 +61,8 @@ class ViewController: UIViewController {
         navigationSdk.navigationStateProvider.addOnNavigationStateInitializedListener(onNavigationStateInitializedListener: self)
         navigationSdk.navigationStateProvider.addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener: self)
 
+        uiLocationProvider.addLocationUpdateListener(locationUpdateListener: self)
+
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
             try? self.navigationSdk.navigationEngine.startNavigation(routable_: RoutableFactory.shared.create(latLng: .init(latitude: 52, longitude: 8).graphmastersOfficeVienna))
         }
@@ -64,11 +71,13 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         locationManager.startUpdatingLocation()
+        uiLocationProvider.startLocationUpdates()
     }
 
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         locationManager.stopUpdatingLocation()
+        uiLocationProvider.stopLocationUpdates()
     }
 
     private func configureMapView() {
@@ -90,11 +99,16 @@ extension ViewController: CLLocationManagerDelegate {
         _ manager: CLLocationManager,
         didUpdateLocations locations: [CLLocation]
     ) {
-        mapView.locationManager.delegate?.locationManager(mapView.locationManager, didUpdate: locations)
         guard let newLocation = locations.last else {
             return
         }
         navigationSdk.updateLocation(location: Location.companion.from(clLocation: newLocation))
+    }
+}
+
+extension ViewController: LocationProviderLocationUpdateListener {
+    func onLocationUpdated(location: Location) {
+        mapView.locationManager.delegate?.locationManager(mapView.locationManager, didUpdate: [location.clLocation])
     }
 }
 

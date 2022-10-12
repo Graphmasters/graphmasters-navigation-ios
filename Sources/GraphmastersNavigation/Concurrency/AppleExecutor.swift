@@ -9,8 +9,8 @@
 import Foundation
 import GraphmastersNavigationCore
 
-class AppleExecutor: Executor {
-    init() {}
+public class AppleExecutor: Executor {
+    public init() {}
 
     private var timerSourceFutures = [GMTimerSourceFuture]()
 
@@ -23,7 +23,7 @@ class AppleExecutor: Executor {
     }()
 
     @discardableResult
-    func schedule(updateRate: Duration, block: @escaping () -> Void) -> ExecutorFuture {
+    public func schedule(updateRate: Duration, block: @escaping () -> Void) -> ExecutorFuture {
         timerSourceFutures = timerSourceFutures.filter { !$0.isFinished }
         let timerSource = DispatchSource.makeTimerSource(queue: .global(qos: .utility))
         timerSource.schedule(deadline: .now(), repeating: TimeInterval(Double(updateRate.milliseconds()) / 1000.0))
@@ -37,7 +37,7 @@ class AppleExecutor: Executor {
     }
 
     @discardableResult
-    func executeDelayed(delay: Duration, block: @escaping () -> Void) -> ExecutorFuture {
+    public func executeDelayed(delay: Duration, block: @escaping () -> Void) -> ExecutorFuture {
         let operation = BlockOperation(block: block)
         DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(Int(delay.milliseconds()))) {
             self.defaultOperationQueue.addOperation(operation)
@@ -45,11 +45,11 @@ class AppleExecutor: Executor {
         return operation
     }
 
-    func runOnUiThread(block: @escaping () -> Void) {
+    public func runOnUiThread(block: @escaping () -> Void) {
         mainOperationQueue.addOperation(block)
     }
 
-    func execute(block: @escaping () -> Void) {
+    public func execute(block: @escaping () -> Void) {
         defaultOperationQueue.addOperation(block)
     }
 }
