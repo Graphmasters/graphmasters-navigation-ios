@@ -15,6 +15,9 @@
 		6D4F911728F45B3A00A4769E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4F911628F45B3A00A4769E /* Assets.xcassets */; };
 		6D4F911A28F45B3A00A4769E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4F911828F45B3A00A4769E /* LaunchScreen.storyboard */; };
 		6D4F912528F4617000A4769E /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = 6D4F912428F4617000A4769E /* Mapbox */; };
+		6DAE0FC628F5950A00857BF2 /* GraphmastersNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 6DAE0FC528F5950A00857BF2 /* GraphmastersNavigation */; };
+		6DAE0FC828F5950A00857BF2 /* GraphmastersNavigationCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6DAE0FC728F5950A00857BF2 /* GraphmastersNavigationCore */; };
+		6DAE0FCD28F59A6B00857BF2 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 6DAE0FCC28F59A6B00857BF2 /* Logging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +31,7 @@
 		6D4F911628F45B3A00A4769E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D4F911928F45B3A00A4769E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D4F911B28F45B3A00A4769E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D4F912228F4610100A4769E /* graphmasters-navigation-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "graphmasters-navigation-ios"; path = ..; sourceTree = "<group>"; };
+		6DC05F8B28F594C800A1E4C2 /* graphmasters-navigation-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "graphmasters-navigation-ios"; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +40,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D4F912528F4617000A4769E /* Mapbox in Frameworks */,
+				6DAE0FC828F5950A00857BF2 /* GraphmastersNavigationCore in Frameworks */,
+				6DAE0FCD28F59A6B00857BF2 /* Logging in Frameworks */,
+				6DAE0FC628F5950A00857BF2 /* GraphmastersNavigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +55,7 @@
 				6D4F910C28F45B3900A4769E /* Graphmasters Navigation Example */,
 				6D4F912128F4610100A4769E /* Packages */,
 				6D4F910B28F45B3900A4769E /* Products */,
+				6DAE0FC428F5950A00857BF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +86,16 @@
 		6D4F912128F4610100A4769E /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				6D4F912228F4610100A4769E /* graphmasters-navigation-ios */,
+				6DC05F8B28F594C800A1E4C2 /* graphmasters-navigation-ios */,
 			);
 			name = Packages;
+			sourceTree = "<group>";
+		};
+		6DAE0FC428F5950A00857BF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +116,9 @@
 			name = "Graphmasters Navigation Example";
 			packageProductDependencies = (
 				6D4F912428F4617000A4769E /* Mapbox */,
+				6DAE0FC528F5950A00857BF2 /* GraphmastersNavigation */,
+				6DAE0FC728F5950A00857BF2 /* GraphmastersNavigationCore */,
+				6DAE0FCC28F59A6B00857BF2 /* Logging */,
 			);
 			productName = "Graphmasters Navigation Example";
 			productReference = 6D4F910A28F45B3900A4769E /* Graphmasters Navigation Example.app */;
@@ -133,6 +150,7 @@
 			mainGroup = 6D4F910128F45B3900A4769E;
 			packageReferences = (
 				6D4F912328F4617000A4769E /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
+				6DAE0FCB28F59A0500857BF2 /* XCRemoteSwiftPackageReference "swift-log" */,
 			);
 			productRefGroup = 6D4F910B28F45B3900A4769E /* Products */;
 			projectDirPath = "";
@@ -400,6 +418,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		6DAE0FCB28F59A0500857BF2 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -407,6 +433,19 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6D4F912328F4617000A4769E /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
 			productName = Mapbox;
+		};
+		6DAE0FC528F5950A00857BF2 /* GraphmastersNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GraphmastersNavigation;
+		};
+		6DAE0FC728F5950A00857BF2 /* GraphmastersNavigationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GraphmastersNavigationCore;
+		};
+		6DAE0FCC28F59A6B00857BF2 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DAE0FCB28F59A0500857BF2 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -1,8 +1,11 @@
 import UIKit
+import GraphmastersNavigationCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        GMLog.shared.append(logger: PrintLogger())
+
         return true
     }
 
