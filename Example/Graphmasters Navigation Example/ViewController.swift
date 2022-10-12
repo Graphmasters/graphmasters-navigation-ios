@@ -43,7 +43,7 @@ class ViewController: UIViewController {
 
         locationManager.requestWhenInUseAuthorization()
 
-        mapView.styleURL = URL(string: Configuration.mapStyleUrl)!
+        configureMapView()
 
         navigationSdk.navigationEventHandler.addOnNavigationStartedListener(onNavigationStartedListener: self)
         navigationSdk.navigationEventHandler.addOnInitialRouteReceivedListener(onInitialRouteReceivedListener: self)
@@ -71,6 +71,12 @@ class ViewController: UIViewController {
         locationManager.stopUpdatingLocation()
     }
 
+    private func configureMapView() {
+        mapView.styleURL = URL(string: Configuration.mapStyleUrl)!
+        mapView.showsUserLocation = true
+        mapView.userTrackingMode = .followWithCourse
+    }
+
     // MARK: - User Interactions
 
     @IBAction func stopNavigationButtonPressed(_ sender: Any) {
@@ -84,6 +90,7 @@ extension ViewController: CLLocationManagerDelegate {
         _ manager: CLLocationManager,
         didUpdateLocations locations: [CLLocation]
     ) {
+        mapView.locationManager.delegate?.locationManager(mapView.locationManager, didUpdate: locations)
         guard let newLocation = locations.last else {
             return
         }
