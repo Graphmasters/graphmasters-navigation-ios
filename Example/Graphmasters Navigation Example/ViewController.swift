@@ -192,6 +192,8 @@ extension ViewController: LocationProviderLocationUpdateListener {
 extension ViewController: NavigationEventHandlerOnNavigationStartedListener {
     func onNavigationStarted(routable _: Routable) {
         GMLog.shared.d(msg: "onNavigationStarted")
+
+        mapView.userTrackingMode = .followWithCourse
     }
 }
 
