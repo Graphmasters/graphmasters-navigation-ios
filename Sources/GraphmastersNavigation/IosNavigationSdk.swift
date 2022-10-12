@@ -42,7 +42,7 @@ public class IosNavigationSdk: BaseNavigationSdk {
             "Version-Name": App.version,
             "Content-Type": "application/json",
             "Authorization": "api-key \(apiKey)",
-            "Timeout-Ms": "\(configuration.timeoutIntervalForRequest * 1000)"
+            "Timeout-Ms": "\(configuration.timeoutIntervalForRequest * 1000)",
         ]
         let urlSession = URLSession(configuration: configuration)
 
