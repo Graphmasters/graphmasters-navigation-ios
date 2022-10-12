@@ -91,12 +91,31 @@ class ViewController: UIViewController {
         mapView.showsUserLocation = true
         mapView.userTrackingMode = .followWithCourse
         mapView.delegate = self
+        mapView.addGestureRecognizer(mapLongPressGestureRecognizer)
     }
 
     // MARK: - User Interactions
 
     @IBAction func stopNavigationButtonPressed(_: Any) {
         navigationSdk.navigationEngine.stopNavigation()
+    }
+
+    @IBAction func followButtonPressed(_ sender: Any) {
+        mapView.userTrackingMode = .followWithCourse
+    }
+
+    private lazy var mapLongPressGestureRecognizer: UILongPressGestureRecognizer = UILongPressGestureRecognizer(
+        target: self,
+        action: #selector(didLongPressMapView(sender:))
+    )
+
+    @IBAction
+    private func didLongPressMapView(sender: UILongPressGestureRecognizer) {
+        guard sender.state == .began else {
+            return
+        }
+        let coordinate = mapView.convert(sender.location(in: mapView), toCoordinateFrom: nil)
+        try! navigationSdk.navigationEngine.startNavigation(routable_: RoutableFactory.shared.create(latLng: LatLng(latitude: coordinate.latitude, longitude: coordinate.longitude)))
     }
 
     // MARK: - Route Layer
