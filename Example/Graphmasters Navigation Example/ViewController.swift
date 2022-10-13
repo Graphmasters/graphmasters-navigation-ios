@@ -5,8 +5,11 @@ import Mapbox
 import UIKit
 
 class ViewController: UIViewController {
-    /// - note: This can be replaced by `DetailedDistanceConverter`
-    private let distanceConverter: DistanceConverter = RoundedDistanceConverter()
+    private lazy var navigationSdk = IosNavigationSdk(
+        apiKey: Configuration.navigationApiKey
+    ) as! NavigationSdk
+
+    //private lazy var cameraComponent = CameraComponent(navigationSdk: navigationSdk, paddingProvider: self)
 
     private lazy var locationManager: CLLocationManager = {
         let locationManager = CLLocationManager()
@@ -14,10 +17,8 @@ class ViewController: UIViewController {
         return locationManager
     }()
 
-    private lazy var navigationSdk = IosNavigationSdk(
-        serviceUrl: Configuration.navigationApiUrl,
-        apiKey: Configuration.navigationApiKey
-    )
+    /// - note: This can be replaced by `DetailedDistanceConverter`
+    private let distanceConverter: DistanceConverter = RoundedDistanceConverter()
 
     private lazy var timeFormatter: DateFormatter = {
         let formatter = DateFormatter()
@@ -25,18 +26,6 @@ class ViewController: UIViewController {
         formatter.timeStyle = .short
         return formatter
     }()
-
-    private lazy var routeDetachStateProvider: RouteDetachStateProvider = OffRouteDetachStateProvider(navigationSdk: navigationSdk)
-
-    private lazy var uiLocationProvider: LocationProvider = PredictedLocationProvider(
-        executor: AppleExecutor(),
-        navigationSdk: navigationSdk,
-        routeDetachStateProvider: routeDetachStateProvider,
-        maxMilestoneStopSpeed: PredictedLocationProvider.Companion.shared
-            .DEFAULT_NEXT_MILESTONE_STOP_SPEED,
-        locationUpdateInterval: PredictedLocationProvider.Companion.shared
-            .DEFAULT_LOCATION_UPDATE_INTERVAL
-    )
 
     // MARK: - Outlets
 
@@ -67,25 +56,22 @@ class ViewController: UIViewController {
         navigationSdk.navigationStateProvider.addOnNavigationStateInitializedListener(onNavigationStateInitializedListener: self)
         navigationSdk.navigationStateProvider.addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener: self)
 
-        uiLocationProvider.addLocationUpdateListener(locationUpdateListener: self)
+        //cameraComponent.addLocationUpdateListener(locationUpdateListener: self)
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         locationManager.startUpdatingLocation()
-        uiLocationProvider.startLocationUpdates()
     }
 
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         locationManager.stopUpdatingLocation()
-        uiLocationProvider.stopLocationUpdates()
     }
 
     private func configureMapView() {
         mapView.styleURL = URL(string: Configuration.mapStyleUrl)!
         mapView.showsUserLocation = true
-        mapView.userTrackingMode = .followWithCourse
         mapView.delegate = self
         mapView.addGestureRecognizer(mapLongPressGestureRecognizer)
     }
@@ -96,11 +82,11 @@ class ViewController: UIViewController {
         navigationSdk.navigationEngine.stopNavigation()
     }
 
-    @IBAction func followButtonPressed(_ sender: Any) {
-        mapView.userTrackingMode = .followWithCourse
+    @IBAction func followButtonPressed(_: Any) {
+
     }
 
-    private lazy var mapLongPressGestureRecognizer: UILongPressGestureRecognizer = UILongPressGestureRecognizer(
+    private lazy var mapLongPressGestureRecognizer: UILongPressGestureRecognizer = .init(
         target: self,
         action: #selector(didLongPressMapView(sender:))
     )
@@ -184,6 +170,20 @@ extension ViewController: CLLocationManagerDelegate {
 extension ViewController: LocationProviderLocationUpdateListener {
     func onLocationUpdated(location: Location) {
         mapView.locationManager.delegate?.locationManager(mapView.locationManager, didUpdate: [location.clLocation])
+    }
+}
+
+// MARK: - Camera Handling
+
+extension ViewController: NavigationCameraHandlerCameraUpdateListener {
+    func onCameraUpdateReady(cameraUpdate: CameraUpdate) {
+
+    }
+}
+
+extension ViewController: PaddingProvider {
+    func getPadding() -> CameraUpdate.Padding {
+        CameraUpdate.Padding(left: 0, top: Int32(0.4 * view.bounds.height), right: 0, bottom: 0)
     }
 }
 

@@ -5,27 +5,24 @@ import GraphmastersNavigationUtility
 import UIKit
 
 public class IosNavigationSdk: BaseNavigationSdk {
-    private let instanceId: String
+    private enum Constants {
+        static let defaultServiceUrl = "https://navigation-sandbox.nunav.net"
+    }
+
+    private let instanceId: String = UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString
+
     private let apiKey: String
 
-    private let vehicleTypeProvider: VehicleTypeProvider
-    private let routingParamProviders: [RoutingParamProvider]
-    private let sessionClientParameterProviders: [SessionClientParameterProvider]
+    private let vehicleTypeProvider: VehicleTypeProvider = StaticVehicleTypeProvider(vehicleType: "car")
+    private let routingParamProviders: [RoutingParamProvider] = []
+    private let sessionClientParameterProviders: [SessionClientParameterProvider] = []
 
     public init(
-        instanceId: String = UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString,
-        serviceUrl: String,
         apiKey: String,
-        vehicleTypeProvider: VehicleTypeProvider = StaticVehicleTypeProvider(vehicleType: "car"),
-        routingParamProviders: [RoutingParamProvider] = [],
-        sessionClientParameterProviders: [SessionClientParameterProvider] = []
+        serviceUrl: String? = nil
     ) {
-        self.instanceId = instanceId
         self.apiKey = apiKey
-
-        self.vehicleTypeProvider = vehicleTypeProvider
-        self.routingParamProviders = routingParamProviders
-        self.sessionClientParameterProviders = sessionClientParameterProviders
+        let serviceUrl = serviceUrl ?? Constants.defaultServiceUrl
 
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yyyy HH:mm:ss ZZZZZ"
@@ -75,23 +72,21 @@ public class IosNavigationSdk: BaseNavigationSdk {
             ),
             routeConverter: MergingRouteDtoConverter(
                 timeProvider: FoundationTimeProvider(),
-                dateTimeFormatter: FoundationDateTimeFormatter(),
+                dateTimeFormatter: FoundationDateTimeFormatter() as! DateTimeFormatter,
                 geodesy: GeodesyPlus()
             )
         )
 
         super.init(
             executor: OperationQueueExecutor(),
-            timeProvider: FoundationTimeProvider(),
-            sessionClient: sessionClient,
+            sessionClient: sessionClient as! SessionClient,
             routeProvider: routeProvider,
             destinationReachedValidator: nil,
             leavingDestinationValidator: nil,
             internetConnectionValidator: nil,
             updateRateProvider: nil,
             destinationRepository: MultiStopDestinationRepository(),
-            vehicleConfig: CarConfig(),
-            serviceUrl: serviceUrl
+            vehicleConfig: CarConfig()
         )
     }
 }
