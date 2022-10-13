@@ -72,14 +72,14 @@ public class IosNavigationSdk: BaseNavigationSdk {
             ),
             routeConverter: MergingRouteDtoConverter(
                 timeProvider: FoundationTimeProvider(),
-                dateTimeFormatter: FoundationDateTimeFormatter() as! DateTimeFormatter,
+                dateTimeFormatter: FoundationDateTimeFormatter(),
                 geodesy: GeodesyPlus()
             )
         )
 
         super.init(
             executor: OperationQueueExecutor(),
-            sessionClient: sessionClient as! SessionClient,
+            sessionClient: sessionClient,
             routeProvider: routeProvider,
             destinationReachedValidator: nil,
             leavingDestinationValidator: nil,

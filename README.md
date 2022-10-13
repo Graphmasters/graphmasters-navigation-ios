@@ -52,8 +52,8 @@ NAVIGATION_API_KEY=your_api_token
 ... or directly in code
 
 ```
-this.navigationSdk = NavigationSdk(
-    apiKey = "your_api_token"
+private lazy var navigationSdk: NavigationSdk = IosNavigationSdk(
+    apiKey: "your_api_token"
 )
 ```
 
