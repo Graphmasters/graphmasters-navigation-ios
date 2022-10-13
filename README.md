@@ -75,4 +75,4 @@ If you want to test *Graphmasters Navigation Example* on a real device you have 
 ## Usage
 Once started the app requests permission to access the device location. After receiving a valid location, the camera will pan to that location.
 Via long press on the map a destination is set and a navigation session is started.
-The corresponding button will stop an active navigation. Thr Follow-button brons you back to follower-mode if you panned the map.
+The corresponding button will stop an active navigation. Thr Follow-button brings you back to follower-mode if you panned the map.
