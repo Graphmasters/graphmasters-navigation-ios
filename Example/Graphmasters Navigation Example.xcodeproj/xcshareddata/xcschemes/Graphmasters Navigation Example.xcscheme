@@ -51,7 +51,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
-         identifier = "../../../Sources/GraphmastersNavigation/SimluationFiles/Buro.gpx"
+         identifier = "../../../Sources/GraphmastersNavigationutility/SimluationFiles/Buro.gpx"
          referenceType = "0">
       </LocationScenarioReference>
    </LaunchAction>

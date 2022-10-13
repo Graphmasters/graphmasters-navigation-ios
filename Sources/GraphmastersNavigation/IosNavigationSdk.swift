@@ -1,6 +1,7 @@
 import Foundation
 import GraphmastersNavigationCore
 import GraphmastersNavigationNetworking
+import GraphmastersNavigationUtility
 import UIKit
 
 public class IosNavigationSdk: BaseNavigationSdk {
@@ -80,7 +81,7 @@ public class IosNavigationSdk: BaseNavigationSdk {
         )
 
         super.init(
-            executor: AppleExecutor(),
+            executor: OperationQueueExecutor(),
             timeProvider: FoundationTimeProvider(),
             sessionClient: sessionClient,
             routeProvider: routeProvider,

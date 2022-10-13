@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class GNCFreezable, GNCLatLng, GNCDuration, GNCCameraUpdatePadding, GNCCameraUpdate, GNCNavigationCameraUpdateProviderCompanion, GNCLocation, GNCSpeed, GNCGenericNavigationZoomProviderZoomStep, GNCKotlinArray<T>, GNCGenericNavigationZoomProviderCompanion, GNCLength, GNCRoutingEventAwareZoomProviderZoomRange, GNCRoutingEventAwareZoomProviderCompanion, GNCKotlinIntRange, GNCStatefulMilestoneAwareTiltProviderCompanion, GNCPredictedLocationProviderCompanion, GNCRouteUtils, GNCRouteWaypoint, GNCOnRouteProjectorProjectedLocation, GNCRouteFeatureCreatorRouteFeature, GNCKotlinEnumCompanion, GNCKotlinEnum<E>, GNCRelativeSpeedRouteFeatureCreatorCategory, GNCRouteFeatureCreatorCompanion, UIColor, GNCManeuverMapIconCreatorCompanion, GNCManeuverMapIconCreatorManeuverMapIcon, GNCTurnInfo, GNCTurnCommand, GNCManeuverMapIconCreator, UIImage, GNCStaticChipManeuverColorProvider, GNCLaneAssistIconProvider, GNCLaneAssistIconProviderLaneAssistIcon, GNCLaneInfoLane, GNCLaneInfo, GNCDetachConstants, GNCDurationConverterResult, GNCDistanceConverterResult, GNCDistanceConverterMeasurementSystem, GNCDistanceConverterCompanion, GNCDurationConverterCompanion, GNCFormatUtils, GNCLabelParser, UIView, GNCTurnInfoUtils, GNCVoiceInstructionContext, GNCBaseLaneVoiceInstructionStringGeneratorLaneSection, GNCNavigationStateProviderNavigationState, GNCVoiceInstructionHandlerInterceptorResult, GNCDurationBasedVoiceInstructionStageProviderCompanion, GNCKotlinLongRange, GNCBaseLaneVoiceInstructionStringGenerator, GNCGenericSpeakableConditionCreator, GNCGermanSpeakableDirectionProviderPrefixConfig, GNCGermanSpeakableDirectionProviderCompanion, NSLocale, GNCRoute, GNCKotlinException, GNCBaseNavigationSdkCompanion, GNCSimpleNavigationEventHandler, GNCBaseNavigationSdk, GNCAccelerationEffectedSpeedTrackerCompanion, GNCCalculatingSpeedTrackerCompanion, GNCJKalmanFilter, GNCJKalmanFilterCompanion, GNCJKalmanMatrix<A>, GNCJKalmanMatrixApache, GNCJKalmanStepsCompanion, GNCKalmanPair<T>, GNCRouteUtils_, GNCWeightedChanceCalculator, GNCChanceBasedOnRouteTrackerCompanion, GNCChanceCalculatorCompanion, GNCOnRouteTrackerState, GNCDistanceBasedChanceCalculatorCompanion, GNCHeadingBasedChanceCalculatorCompanion, GNCTurnCommandAlignmentChanceCalculatorCompanion, GNCLaneInfoLaneLaneTurn, GNCRoadClassCompanion, GNCRoadClass, GNCRoutableFactory, GNCRouteVehicleType, GNCRouteDestinationInfo, GNCRouteEnforcement, GNCRouteFuelStation, GNCRouteTrafficVolume, GNCRouteEnforcementType, GNCRouteFuelStationType, GNCRouteSegment, GNCRouteWaypointGpsQuality, GNCTurnCommandCompanion, GNCTurnInfoStreetSide, GNCLocationCompanion, GNCProjectionFinderOptions, GNCDistanceAlignmentProjectionFinderCompanion, GNCDistanceAlignmentProjectionFinderProjectionResult, GNCOnRoutePredictorOptions, GNCSpeedBasedOnRoutePredictorCompanion, GNCOnRouteShifterShiftedLocation, GNCOnRouteShifterShiftParameters, GNCRouteProgressTrackerRouteProgress, GNCRouteProviderRouteRequest, GNCSchedulingNavigationEngineCompanion, GNCDistanceBasedUpdateRateProviderCompanion, GNCKotlinThrowable, GNCDistanceBasedLeavingDestinationValidatorCompanion, GNCDistanceBasedDestinationReachedValidator, GNCRouteBasedDestinationReachedValidatorCompanion, GNCRouteProviderRouteData, GNCRouteProviderType, GNCRouteProviderRouteRequestDestination, GNCRouteDataDto, GNCRouteDto, GNCFullRouteDtoConverterCompanion, GNCRouteDtoDestinationInfo, GNCFullRouteDtoConverter, GNCRouteDtoRouteLeg, GNCRouteDtoGeoPoint, GNCRouteDtoEnforcement, GNCRouteDtoRouteLegStep, GNCRouteDtoRouteLegFuelStation, GNCRouteDtoRouteLegStepLane, GNCRouteDtoRouteLegStepTurnInfo, GNCGMLog, GNCDurationCompanion, GNCLengthCompanion, GNCSpeedCompanion, GNCAnalyticsHandlerType, GNCGMAnalytics, GNCMainThread, GNCIncrementor, GNCAbstractOptimizationProblemCompanion, GNCRealVector, GNCAbstractEvaluation, GNCLeastSquaresFactoryCompanion, GNCLevenbergMarquardtOptimizerCompanion, GNCAbstractOptimizationProblem<PAIR>, GNCPair<K, V>, GNCPrecisionCompanion, GNCIncrementorCompanion, GNCMatrixUtilsCompanion, GNCKotlinDoubleArray, GNCAbstractRealMatrixCompanion, GNCAbstractRealMatrix, GNCArrayRealVector, GNCBlockRealMatrixCompanion, GNCBlockRealMatrix, GNCLUDecompositionCompanion, GNCQRDecomposition, GNCCartesian, GNCGeodesyPlusCompanion, GNCLatLngCompanion, GNCUUID, GNCTime, GNCDecodeSequenceMode, GNCSerializersModule, GNCJsonDefault, GNCJsonElement, GNCJsonConfiguration, GNCJson, GNCKotlinNothing, GNCJsonElementCompanion, GNCJsonPrimitiveCompanion, GNCJsonPrimitive, GNCJsonNull, GNCKotlinCancellationException, GNCJobSupport, GNCCoroutineStart, GNCCoroutineDispatcher, GNCKotlinAbstractCoroutineContextElement, GNCCoroutineDispatcherKey, GNCKotlinRuntimeException, GNCKotlinAbstractCoroutineContextKey<B, E>, GNCCoroutineExceptionHandlerKey, GNCCoroutineNameKey, GNCCoroutineName, GNCDispatchers, GNCMainCoroutineDispatcher, GNCGlobalScope, GNCJobKey, GNCNonCancellable, GNCNonDisposableHandle, GNCKotlinIllegalStateException, GNCTimeoutCancellationException, GNCBufferOverflow, GNCChannelFactory, GNCKotlinNoSuchElementException, GNCSharingCommand, GNCSharingStartedCompanion, GNCChannelFlow<T>, GNCAtomicDesc, GNCLockFreeLinkedListNodePrepareOp, GNCAtomicOp<__contravariant T>, GNCOpDescriptor, GNCLockFreeLinkedListNode, GNCLockFreeLinkedListNodeAddLastDesc<T>, GNCLockFreeLinkedListNodeRemoveFirstDesc<T>, GNCLockFreeLinkedListNodeAbstractAtomicDesc, GNCSynchronizedObjectLockState, GNCKotlinAtomicReference<T>, GNCSynchronizedObject, GNCThreadSafeHeap<T>, GNCKotlinByteArray, GNCKotlinIllegalArgumentException, GNCSerializationException, GNCAbstractPolymorphicSerializer<T>, GNCAbstractCollectionSerializer<Element, Collection, Builder>, GNCTaggedDecoder<Tag>, GNCTaggedEncoder<Tag>, GNCSerialKind, GNCPolymorphicKind, GNCPolymorphicKindOPEN, GNCPolymorphicKindSEALED, GNCPrimitiveKind, GNCPrimitiveKindBOOLEAN, GNCPrimitiveKindBYTE, GNCPrimitiveKindCHAR, GNCPrimitiveKindDOUBLE, GNCPrimitiveKindFLOAT, GNCPrimitiveKindINT, GNCPrimitiveKindLONG, GNCPrimitiveKindSHORT, GNCPrimitiveKindSTRING, GNCSerialKindCONTEXTUAL, GNCSerialKindENUM, GNCStructureKind, GNCStructureKindCLASS, GNCStructureKindLIST, GNCStructureKindMAP, GNCStructureKindOBJECT, GNCLongAsStringSerializer, GNCCompositeDecoderCompanion, GNCTraceBase, GNCTraceBaseNone, GNCSynchronizedObjectStatus, GNCGraphmastersNavigationCore, CLLocation, GNCKotlinCValue<T>, GNCJsonArrayBuilder, GNCJsonObjectBuilder, GNCKotlinIntIterator, GNCKotlinIntArray, GNCKotlinLongIterator, GNCKotlinLongArray, GNCKotlinIntProgressionCompanion, GNCKotlinIntProgression, GNCKotlinIntRangeCompanion, GNCKotlinLongProgressionCompanion, GNCKotlinLongProgression, GNCKotlinLongRangeCompanion, GNCSerializersModuleBuilder, GNCPolymorphicModuleBuilder<__contravariant Base>, GNCClassSerialDescriptorBuilder, GNCKotlinBooleanCompanion, GNCKotlinByteCompanion, GNCKotlinCharCompanion, GNCKotlinDoubleCompanion, GNCKotlinFloatCompanion, GNCKotlinIntCompanion, GNCKotlinLongCompanion, GNCKotlinShortCompanion, GNCKotlinStringCompanion, GNCKotlinUByteCompanion, GNCKotlinUIntCompanion, GNCKotlinULongCompanion, GNCKotlinUShortCompanion, GNCKotlinUnit, GNCKotlinDurationCompanion, GNCKotlinDurationUnit, NSDate, GNCJsonBuilder, GNCCloseableCoroutineDispatcher, GNCTraceFormat, GNCAtomicArray<T>, GNCKotlinDoubleIterator, GNCKotlinByteIterator, GNCKotlinAutofreeScope, GNCKotlinCValuesRef<T>, GNCKotlinCValues<T>, GNCKotlinKTypeProjection, GNCKotlinDeferScope, GNCKotlinKVariance, GNCKotlinKTypeProjectionCompanion;
+@class GNCDuration, GNCBaseCameraSdkCompanion, GNCFreezable, GNCLatLng, GNCCameraUpdatePadding, GNCCameraUpdate, GNCNavigationCameraUpdateProviderCompanion, GNCLocation, GNCSpeed, GNCGenericNavigationZoomProviderZoomStep, GNCKotlinArray<T>, GNCGenericNavigationZoomProviderCompanion, GNCLength, GNCRoutingEventAwareZoomProviderZoomRange, GNCRoutingEventAwareZoomProviderCompanion, GNCKotlinIntRange, GNCStatefulMilestoneAwareTiltProviderCompanion, GNCPredictedLocationProviderCompanion, GNCRouteUtils, GNCRouteWaypoint, GNCOnRouteProjectorProjectedLocation, GNCRouteFeatureCreatorRouteFeature, GNCKotlinEnumCompanion, GNCKotlinEnum<E>, GNCRelativeSpeedRouteFeatureCreatorCategory, GNCRouteFeatureCreatorCompanion, UIColor, GNCManeuverMapIconCreatorCompanion, GNCManeuverMapIconCreatorManeuverMapIcon, GNCTurnInfo, GNCTurnCommand, GNCManeuverMapIconCreator, UIImage, GNCStaticChipManeuverColorProvider, GNCLaneAssistIconProvider, GNCLaneAssistIconProviderLaneAssistIcon, GNCLaneInfoLane, GNCLaneInfo, GNCDetachConstants, GNCDurationConverterResult, GNCDistanceConverterResult, GNCDistanceConverterMeasurementSystem, GNCDistanceConverterCompanion, GNCDurationConverterCompanion, GNCFormatUtils, GNCLabelParser, UIView, GNCTurnInfoUtils, GNCVoiceInstructionContext, GNCBaseLaneVoiceInstructionStringGeneratorLaneSection, GNCNavigationStateProviderNavigationState, GNCVoiceInstructionHandlerInterceptorResult, GNCDurationBasedVoiceInstructionStageProviderCompanion, GNCKotlinLongRange, GNCBaseLaneVoiceInstructionStringGenerator, GNCGenericSpeakableConditionCreator, GNCGermanSpeakableDirectionProviderPrefixConfig, GNCGermanSpeakableDirectionProviderCompanion, NSLocale, GNCRoute, GNCKotlinException, GNCBaseNavigationSdkCompanion, GNCSimpleNavigationEventHandler, GNCBaseNavigationSdk, GNCAccelerationEffectedSpeedTrackerCompanion, GNCCalculatingSpeedTrackerCompanion, GNCJKalmanFilter, GNCJKalmanFilterCompanion, GNCJKalmanMatrix<A>, GNCJKalmanMatrixApache, GNCJKalmanStepsCompanion, GNCKalmanPair<T>, GNCRouteUtils_, GNCWeightedChanceCalculator, GNCChanceBasedOnRouteTrackerCompanion, GNCChanceCalculatorCompanion, GNCOnRouteTrackerState, GNCDistanceBasedChanceCalculatorCompanion, GNCHeadingBasedChanceCalculatorCompanion, GNCTurnCommandAlignmentChanceCalculatorCompanion, GNCLaneInfoLaneLaneTurn, GNCRoadClassCompanion, GNCRoadClass, GNCRoutableFactory, GNCRouteVehicleType, GNCRouteDestinationInfo, GNCRouteEnforcement, GNCRouteFuelStation, GNCRouteTrafficVolume, GNCRouteEnforcementType, GNCRouteFuelStationType, GNCRouteSegment, GNCRouteWaypointGpsQuality, GNCTurnCommandCompanion, GNCTurnInfoStreetSide, GNCLocationCompanion, GNCProjectionFinderOptions, GNCDistanceAlignmentProjectionFinderCompanion, GNCDistanceAlignmentProjectionFinderProjectionResult, GNCOnRoutePredictorOptions, GNCSpeedBasedOnRoutePredictorCompanion, GNCOnRouteShifterShiftedLocation, GNCOnRouteShifterShiftParameters, GNCRouteProgressTrackerRouteProgress, GNCRouteProviderRouteRequest, GNCSchedulingNavigationEngineCompanion, GNCDistanceBasedUpdateRateProviderCompanion, GNCKotlinThrowable, GNCDistanceBasedLeavingDestinationValidatorCompanion, GNCDistanceBasedDestinationReachedValidator, GNCRouteBasedDestinationReachedValidatorCompanion, GNCRouteProviderRouteData, GNCRouteProviderType, GNCRouteProviderRouteRequestDestination, GNCRouteDataDto, GNCRouteDto, GNCFullRouteDtoConverterCompanion, GNCRouteDtoDestinationInfo, GNCFullRouteDtoConverter, GNCRouteDtoRouteLeg, GNCRouteDtoGeoPoint, GNCRouteDtoEnforcement, GNCRouteDtoRouteLegStep, GNCRouteDtoRouteLegFuelStation, GNCRouteDtoRouteLegStepLane, GNCRouteDtoRouteLegStepTurnInfo, GNCGMLog, GNCDurationCompanion, GNCLengthCompanion, GNCSpeedCompanion, GNCAnalyticsHandlerType, GNCGMAnalytics, GNCMainThread, GNCIncrementor, GNCAbstractOptimizationProblemCompanion, GNCRealVector, GNCAbstractEvaluation, GNCLeastSquaresFactoryCompanion, GNCLevenbergMarquardtOptimizerCompanion, GNCAbstractOptimizationProblem<PAIR>, GNCPair<K, V>, GNCPrecisionCompanion, GNCIncrementorCompanion, GNCMatrixUtilsCompanion, GNCKotlinDoubleArray, GNCAbstractRealMatrixCompanion, GNCAbstractRealMatrix, GNCArrayRealVector, GNCBlockRealMatrixCompanion, GNCBlockRealMatrix, GNCLUDecompositionCompanion, GNCQRDecomposition, GNCCartesian, GNCGeodesyPlusCompanion, GNCLatLngCompanion, GNCUUID, GNCTime, GNCDecodeSequenceMode, GNCSerializersModule, GNCJsonDefault, GNCJsonElement, GNCJsonConfiguration, GNCJson, GNCKotlinNothing, GNCJsonElementCompanion, GNCJsonPrimitiveCompanion, GNCJsonPrimitive, GNCJsonNull, GNCKotlinCancellationException, GNCJobSupport, GNCCoroutineStart, GNCCoroutineDispatcher, GNCKotlinAbstractCoroutineContextElement, GNCCoroutineDispatcherKey, GNCKotlinRuntimeException, GNCKotlinAbstractCoroutineContextKey<B, E>, GNCCoroutineExceptionHandlerKey, GNCCoroutineNameKey, GNCCoroutineName, GNCDispatchers, GNCMainCoroutineDispatcher, GNCGlobalScope, GNCJobKey, GNCNonCancellable, GNCNonDisposableHandle, GNCKotlinIllegalStateException, GNCTimeoutCancellationException, GNCBufferOverflow, GNCChannelFactory, GNCKotlinNoSuchElementException, GNCSharingCommand, GNCSharingStartedCompanion, GNCChannelFlow<T>, GNCAtomicDesc, GNCLockFreeLinkedListNodePrepareOp, GNCAtomicOp<__contravariant T>, GNCOpDescriptor, GNCLockFreeLinkedListNode, GNCLockFreeLinkedListNodeAddLastDesc<T>, GNCLockFreeLinkedListNodeRemoveFirstDesc<T>, GNCLockFreeLinkedListNodeAbstractAtomicDesc, GNCSynchronizedObjectLockState, GNCKotlinAtomicReference<T>, GNCSynchronizedObject, GNCThreadSafeHeap<T>, GNCKotlinByteArray, GNCKotlinIllegalArgumentException, GNCSerializationException, GNCAbstractPolymorphicSerializer<T>, GNCAbstractCollectionSerializer<Element, Collection, Builder>, GNCTaggedDecoder<Tag>, GNCTaggedEncoder<Tag>, GNCSerialKind, GNCPolymorphicKind, GNCPolymorphicKindOPEN, GNCPolymorphicKindSEALED, GNCPrimitiveKind, GNCPrimitiveKindBOOLEAN, GNCPrimitiveKindBYTE, GNCPrimitiveKindCHAR, GNCPrimitiveKindDOUBLE, GNCPrimitiveKindFLOAT, GNCPrimitiveKindINT, GNCPrimitiveKindLONG, GNCPrimitiveKindSHORT, GNCPrimitiveKindSTRING, GNCSerialKindCONTEXTUAL, GNCSerialKindENUM, GNCStructureKind, GNCStructureKindCLASS, GNCStructureKindLIST, GNCStructureKindMAP, GNCStructureKindOBJECT, GNCLongAsStringSerializer, GNCCompositeDecoderCompanion, GNCTraceBase, GNCTraceBaseNone, GNCSynchronizedObjectStatus, GNCGraphmastersNavigationCore, CLLocation, GNCKotlinCValue<T>, GNCJsonArrayBuilder, GNCJsonObjectBuilder, GNCKotlinIntIterator, GNCKotlinIntArray, GNCKotlinLongIterator, GNCKotlinLongArray, GNCKotlinIntProgressionCompanion, GNCKotlinIntProgression, GNCKotlinIntRangeCompanion, GNCKotlinLongProgressionCompanion, GNCKotlinLongProgression, GNCKotlinLongRangeCompanion, GNCSerializersModuleBuilder, GNCPolymorphicModuleBuilder<__contravariant Base>, GNCClassSerialDescriptorBuilder, GNCKotlinBooleanCompanion, GNCKotlinByteCompanion, GNCKotlinCharCompanion, GNCKotlinDoubleCompanion, GNCKotlinFloatCompanion, GNCKotlinIntCompanion, GNCKotlinLongCompanion, GNCKotlinShortCompanion, GNCKotlinStringCompanion, GNCKotlinUByteCompanion, GNCKotlinUIntCompanion, GNCKotlinULongCompanion, GNCKotlinUShortCompanion, GNCKotlinUnit, GNCKotlinDurationCompanion, GNCKotlinDurationUnit, NSDate, GNCJsonBuilder, GNCCloseableCoroutineDispatcher, GNCTraceFormat, GNCAtomicArray<T>, GNCBaseNavigationUISdk, GNCKotlinDoubleIterator, GNCKotlinByteIterator, GNCKotlinAutofreeScope, GNCKotlinCValuesRef<T>, GNCKotlinCValues<T>, GNCKotlinKTypeProjection, GNCKotlinDeferScope, GNCKotlinKVariance, GNCKotlinKTypeProjectionCompanion;
 
-@protocol GNCNavigationCameraHandler, GNCCameraUpdateProvider, GNCRouteDetachStateProvider, GNCNavigationSdk, GNCPaddingProvider, GNCNavigationCameraHandlerCameraTrackingListener, GNCNavigationCameraHandlerCameraUpdateListener, GNCCameraLocationProvider, GNCHeadingProvider, GNCZoomProvider, GNCTiltProvider, GNCExecutor, GNCOnRoutePredictor, GNCGeodesy, GNCSpeedTracker, GNCNavigationStateProvider, GNCTimeProvider, GNCLocationProviderLocationUpdateListener, GNCLocationProvider, GNCRouteFeatureCreator, GNCRelativeSpeedRouteFeatureCreatorColorProvider, GNCKotlinComparable, GNCManeuverIconProvider, GNCViewImageRenderer, GNCChipManeuverColorProvider, GNCDurationConverter, GNCDistanceConverter, GNCRoutable, GNCVoiceInstructionStringGenerator, GNCVoiceInstructionHandlerInterceptor, GNCVoiceInstructionHandler, GNCNavigationStateProviderOnNavigationStateUpdatedListener, GNCVoiceInstructionDispatcher, GNCVoiceInstructionContextProvider, GNCVoiceInstructionStageProvider, GNCSpeakableConditionCreator, GNCLanguageProvider, GNCSpeakableDirectionProvider, GNCThreadChecker, GNCDestinationRepository, GNCLocationRepository, GNCNavigationEngine, GNCNavigationEventHandler, GNCOnRouteProjector, GNCRouteProgressTracker, GNCVehicleConfig, GNCSessionClient, GNCRouteProvider, GNCDestinationReachedValidator, GNCLeavingDestinationValidator, GNCInternetConnectionValidator, GNCUpdateRateProvider, GNCLocationRepositoryLocationUpdateListener, GNCAccelerationEffectedSpeedTrackerDecelerationModifier, GNCRealMatrix, GNCOnRouteTrackerOnRouteStateListener, GNCOnRouteTracker, GNCOnRouteProjectorOnRouteProjectorListener, GNCChanceCalculator, GNCProjectionFinder, GNCDistanceAlignmentProjectionFinderProjectionResultListener, GNCOnRoutePredictorOnRoutePredictionListener, GNCOnRouteShifter, GNCNavigationStateProviderOnNavigationStateInitializedListener, GNCSessionClientCallback, GNCSessionRepository, GNCSessionIdGenerator, GNCNavigationEventHandlerOnDestinationChangedListener, GNCNavigationEventHandlerOnDestinationReachedListener, GNCNavigationEventHandlerOnInitialRouteReceivedListener, GNCNavigationEventHandlerOnLeavingDestinationListener, GNCNavigationEventHandlerOnNavigationStartedListener, GNCNavigationEventHandlerOnNavigationStoppedListener, GNCNavigationEventHandlerOnOffRouteListener, GNCNavigationEventHandlerOnRouteRequestFailedListener, GNCNavigationEventHandlerOnRouteUpdateListener, GNCNavigationEventHandlerOnTrackingSpeedReachedListener, GNCDestinationRepositoryOnDestinationChangedListener, GNCMultiStopRepositoryOnStopsChangedListener, GNCMultiStopRepository, GNCRouteRepositoryRouteUpdatedListener, GNCRouteProgressTrackerRouteProgressListener, GNCRouteRepository, GNCRouteProgressTrackerOnMilestoneReachedListener, GNCRouteProgressTrackerOnWaypointReachedListener, GNCRouteProgressStateUpdater, GNCRouteRequestJobListener, GNCRouteProviderCallback, GNCRouteDtoConverter, GNCDateTimeFormatter, GNCRouteMerger, GNCExecutorFuture, GNCLogger, GNCSerializable, GNCKSerializer, GNCAnalyticsHandler, GNCOptimizationProblem, GNCLeastSquaresProblemEvaluation, GNCLeastSquaresProblem, GNCMultivariateJacobianFunction, GNCLeastSquaresOptimizerOptimum, GNCLeastSquaresOptimizer, GNCKotlinIterator, GNCIncrementorMaxCountExceededCallback, GNCAnyMatrix, GNCRealMatrixPreservingVisitor, GNCDecompositionSolver, GNCDeserializationStrategy, GNCSerializationStrategy, GNCSerialFormat, GNCStringFormat, GNCEncoder, GNCSerialDescriptor, GNCDecoder, GNCKotlinKClass, GNCCompositeDecoder, GNCCompositeEncoder, GNCChildHandle, GNCChildJob, GNCDisposableHandle, GNCJob, GNCKotlinSequence, GNCSelectClause0, GNCKotlinCoroutineContextKey, GNCKotlinCoroutineContextElement, GNCKotlinCoroutineContext, GNCParentJob, GNCSelectInstance, GNCKotlinSuspendFunction0, GNCKotlinContinuation, GNCCoroutineScope, GNCKotlinSuspendFunction1, GNCKotlinContinuationInterceptor, GNCRunnable, GNCSelectClause1, GNCDeferred, GNCCancellableContinuation, GNCCopyableThrowable, GNCReceiveChannel, GNCSelectClause2, GNCSendChannel, GNCChannelIterator, GNCBroadcastChannel, GNCFlowCollector, GNCFlow, GNCStateFlow, GNCSharedFlow, GNCMutableSharedFlow, GNCSharingStarted, GNCFusibleFlow, GNCProducerScope, GNCMainDispatcherFactory, GNCKotlinMapEntry, GNCSerializersModuleCollector, GNCKotlinAnnotation, GNCKotlinIterable, GNCKotlinClosedRange, GNCKotlinOpenEndRange, GNCKotlinKType, GNCCompletableJob, GNCCompletableDeferred, GNCCoroutineExceptionHandler, GNCChannel, GNCKotlinSuspendFunction2, GNCKotlinSuspendFunction3, GNCMutableStateFlow, GNCKotlinSuspendFunction5, GNCKotlinSuspendFunction4, GNCKotlinSuspendFunction6, GNCSelectBuilder, GNCMutex, GNCSemaphore, GNCBinaryFormat, GNCKotlinKDeclarationContainer, GNCKotlinKAnnotatedElement, GNCKotlinKClassifier, GNCKotlinFunction, GNCKotlinNativePlacement;
+@protocol GNCRouteDetachStateProvider, GNCLocationProvider, GNCNavigationCameraHandler, GNCBaseCameraSdk, GNCNavigationUISdk, GNCNavigationSdk, GNCScreenHeightProvider, GNCExecutor, GNCCameraUpdateProvider, GNCPaddingProvider, GNCNavigationCameraHandlerCameraTrackingListener, GNCNavigationCameraHandlerCameraUpdateListener, GNCCameraLocationProvider, GNCHeadingProvider, GNCZoomProvider, GNCTiltProvider, GNCOnRoutePredictor, GNCGeodesy, GNCSpeedTracker, GNCNavigationStateProvider, GNCTimeProvider, GNCLocationProviderLocationUpdateListener, GNCRouteFeatureCreator, GNCRelativeSpeedRouteFeatureCreatorColorProvider, GNCKotlinComparable, GNCManeuverIconProvider, GNCViewImageRenderer, GNCChipManeuverColorProvider, GNCDurationConverter, GNCDistanceConverter, GNCRoutable, GNCVoiceInstructionStringGenerator, GNCVoiceInstructionHandlerInterceptor, GNCVoiceInstructionHandler, GNCNavigationStateProviderOnNavigationStateUpdatedListener, GNCVoiceInstructionDispatcher, GNCVoiceInstructionContextProvider, GNCVoiceInstructionStageProvider, GNCSpeakableConditionCreator, GNCLanguageProvider, GNCSpeakableDirectionProvider, GNCDestinationRepository, GNCLocationRepository, GNCNavigationEngine, GNCNavigationEventHandler, GNCOnRouteProjector, GNCRouteProgressTracker, GNCVehicleConfig, GNCSessionClient, GNCRouteProvider, GNCDestinationReachedValidator, GNCLeavingDestinationValidator, GNCInternetConnectionValidator, GNCUpdateRateProvider, GNCLocationRepositoryLocationUpdateListener, GNCAccelerationEffectedSpeedTrackerDecelerationModifier, GNCRealMatrix, GNCOnRouteTrackerOnRouteStateListener, GNCOnRouteTracker, GNCOnRouteProjectorOnRouteProjectorListener, GNCChanceCalculator, GNCProjectionFinder, GNCDistanceAlignmentProjectionFinderProjectionResultListener, GNCOnRoutePredictorOnRoutePredictionListener, GNCOnRouteShifter, GNCNavigationStateProviderOnNavigationStateInitializedListener, GNCSessionClientCallback, GNCSessionRepository, GNCSessionIdGenerator, GNCNavigationEventHandlerOnDestinationChangedListener, GNCNavigationEventHandlerOnDestinationReachedListener, GNCNavigationEventHandlerOnInitialRouteReceivedListener, GNCNavigationEventHandlerOnLeavingDestinationListener, GNCNavigationEventHandlerOnNavigationStartedListener, GNCNavigationEventHandlerOnNavigationStoppedListener, GNCNavigationEventHandlerOnOffRouteListener, GNCNavigationEventHandlerOnRouteRequestFailedListener, GNCNavigationEventHandlerOnRouteUpdateListener, GNCNavigationEventHandlerOnTrackingSpeedReachedListener, GNCDestinationRepositoryOnDestinationChangedListener, GNCMultiStopRepositoryOnStopsChangedListener, GNCMultiStopRepository, GNCRouteRepositoryRouteUpdatedListener, GNCRouteProgressTrackerRouteProgressListener, GNCRouteRepository, GNCRouteProgressTrackerOnMilestoneReachedListener, GNCRouteProgressTrackerOnWaypointReachedListener, GNCRouteProgressStateUpdater, GNCRouteRequestJobListener, GNCRouteProviderCallback, GNCRouteDtoConverter, GNCDateTimeFormatter, GNCRouteMerger, GNCExecutorFuture, GNCLogger, GNCSerializable, GNCKSerializer, GNCAnalyticsHandler, GNCOptimizationProblem, GNCLeastSquaresProblemEvaluation, GNCLeastSquaresProblem, GNCMultivariateJacobianFunction, GNCLeastSquaresOptimizerOptimum, GNCLeastSquaresOptimizer, GNCKotlinIterator, GNCIncrementorMaxCountExceededCallback, GNCAnyMatrix, GNCRealMatrixPreservingVisitor, GNCDecompositionSolver, GNCDeserializationStrategy, GNCSerializationStrategy, GNCSerialFormat, GNCStringFormat, GNCEncoder, GNCSerialDescriptor, GNCDecoder, GNCKotlinKClass, GNCCompositeDecoder, GNCCompositeEncoder, GNCChildHandle, GNCChildJob, GNCDisposableHandle, GNCJob, GNCKotlinSequence, GNCSelectClause0, GNCKotlinCoroutineContextKey, GNCKotlinCoroutineContextElement, GNCKotlinCoroutineContext, GNCParentJob, GNCSelectInstance, GNCKotlinSuspendFunction0, GNCKotlinContinuation, GNCCoroutineScope, GNCKotlinSuspendFunction1, GNCKotlinContinuationInterceptor, GNCRunnable, GNCSelectClause1, GNCDeferred, GNCCancellableContinuation, GNCCopyableThrowable, GNCReceiveChannel, GNCSelectClause2, GNCSendChannel, GNCChannelIterator, GNCBroadcastChannel, GNCFlowCollector, GNCFlow, GNCStateFlow, GNCSharedFlow, GNCMutableSharedFlow, GNCSharingStarted, GNCFusibleFlow, GNCProducerScope, GNCMainDispatcherFactory, GNCKotlinMapEntry, GNCSerializersModuleCollector, GNCKotlinAnnotation, GNCKotlinIterable, GNCKotlinClosedRange, GNCKotlinOpenEndRange, GNCKotlinKType, GNCCompletableJob, GNCCompletableDeferred, GNCCoroutineExceptionHandler, GNCChannel, GNCKotlinSuspendFunction2, GNCKotlinSuspendFunction3, GNCMutableStateFlow, GNCKotlinSuspendFunction5, GNCKotlinSuspendFunction4, GNCKotlinSuspendFunction6, GNCSelectBuilder, GNCMutex, GNCSemaphore, GNCBinaryFormat, GNCKotlinKDeclarationContainer, GNCKotlinKAnnotatedElement, GNCKotlinKClassifier, GNCKotlinFunction, GNCKotlinNativePlacement;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -144,6 +144,29 @@ __attribute__((swift_name("KotlinBoolean")))
 + (instancetype)numberWithBool:(BOOL)value;
 @end
 
+__attribute__((swift_name("BaseCameraSdk")))
+@protocol GNCBaseCameraSdk
+@required
+@property (readonly) id<GNCNavigationCameraHandler> navigationCameraHandler __attribute__((swift_name("navigationCameraHandler")));
+@end
+
+__attribute__((swift_name("NavigationUISdk")))
+@protocol GNCNavigationUISdk <GNCBaseCameraSdk>
+@required
+@property (readonly) id<GNCRouteDetachStateProvider> detachStateProvider __attribute__((swift_name("detachStateProvider")));
+@property (readonly) id<GNCLocationProvider> userInterfaceLocationProvider __attribute__((swift_name("userInterfaceLocationProvider")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BaseNavigationUISdk")))
+@interface GNCBaseNavigationUISdk : GNCBase <GNCNavigationUISdk>
+- (instancetype)initWithNavigationSdk:(id<GNCNavigationSdk>)navigationSdk screenHeightProvider:(id<GNCScreenHeightProvider>)screenHeightProvider executor:(id<GNCExecutor>)executor __attribute__((swift_name("init(navigationSdk:screenHeightProvider:executor:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNavigationSdk:(id<GNCNavigationSdk>)navigationSdk screenHeightProvider:(id<GNCScreenHeightProvider>)screenHeightProvider executor:(id<GNCExecutor>)executor updateRate:(GNCDuration *)updateRate __attribute__((swift_name("init(navigationSdk:screenHeightProvider:executor:updateRate:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) id<GNCRouteDetachStateProvider> detachStateProvider __attribute__((swift_name("detachStateProvider")));
+@property (readonly) id<GNCNavigationCameraHandler> navigationCameraHandler __attribute__((swift_name("navigationCameraHandler")));
+@property (readonly) id<GNCLocationProvider> userInterfaceLocationProvider __attribute__((swift_name("userInterfaceLocationProvider")));
+@end
+
 __attribute__((swift_name("LanguageProvider")))
 @protocol GNCLanguageProvider
 @required
@@ -151,10 +174,14 @@ __attribute__((swift_name("LanguageProvider")))
 @property (readonly) NSString * _Nullable regionCode __attribute__((swift_name("regionCode")));
 @end
 
-__attribute__((swift_name("BaseCameraSdk")))
-@protocol GNCBaseCameraSdk
-@required
-@property (readonly) id<GNCNavigationCameraHandler> navigationCameraHandler __attribute__((swift_name("navigationCameraHandler")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BaseCameraSdkCompanion")))
+@interface GNCBaseCameraSdkCompanion : GNCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNCBaseCameraSdkCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) GNCDuration *DEFAULT_UPDATE_RATE __attribute__((swift_name("DEFAULT_UPDATE_RATE")));
 @end
 
 __attribute__((swift_name("Freezable")))
@@ -283,6 +310,12 @@ __attribute__((swift_name("SchedulingCameraHandler")))
 - (void)startCameraTracking __attribute__((swift_name("startCameraTracking()")));
 - (void)stopCameraTracking __attribute__((swift_name("stopCameraTracking()")));
 @property BOOL cameraTrackingActive __attribute__((swift_name("cameraTrackingActive")));
+@end
+
+__attribute__((swift_name("ScreenHeightProvider")))
+@protocol GNCScreenHeightProvider
+@required
+@property (readonly) int32_t screenHeight __attribute__((swift_name("screenHeight")));
 @end
 
 __attribute__((swift_name("HeadingProvider")))
@@ -435,6 +468,7 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PredictedLocationProvider")))
 @interface GNCPredictedLocationProvider : GNCBase <GNCLocationProvider>
 - (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk __attribute__((swift_name("init(executor:navigationSdk:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk routeDetachStateProvider:(id<GNCRouteDetachStateProvider> _Nullable)routeDetachStateProvider __attribute__((swift_name("init(executor:navigationSdk:routeDetachStateProvider:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk routeDetachStateProvider:(id<GNCRouteDetachStateProvider> _Nullable)routeDetachStateProvider maxMilestoneStopSpeed:(GNCSpeed *)maxMilestoneStopSpeed locationUpdateInterval:(GNCDuration *)locationUpdateInterval __attribute__((swift_name("init(executor:navigationSdk:routeDetachStateProvider:maxMilestoneStopSpeed:locationUpdateInterval:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNCPredictedLocationProviderCompanion *companion __attribute__((swift_name("companion")));
 - (void)addLocationUpdateListenerLocationUpdateListener:(id<GNCLocationProviderLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("addLocationUpdateListener(locationUpdateListener:)")));
@@ -1341,20 +1375,6 @@ __attribute__((swift_name("FoundationLanguageProvider")))
 @property (readonly) NSString * _Nullable regionCode __attribute__((swift_name("regionCode")));
 @end
 
-__attribute__((swift_name("ThreadChecker")))
-@protocol GNCThreadChecker
-@required
-- (BOOL)isMainThread __attribute__((swift_name("isMainThread()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("AppleThreadChecker")))
-@interface GNCAppleThreadChecker : GNCBase <GNCThreadChecker>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (BOOL)isMainThread __attribute__((swift_name("isMainThread()")));
-@end
-
 __attribute__((swift_name("NavigationSdk")))
 @protocol GNCNavigationSdk
 @required
@@ -1392,6 +1412,13 @@ __attribute__((swift_name("BaseNavigationSdk")))
 @property id<GNCVehicleConfig> vehicleConfig __attribute__((swift_name("vehicleConfig")));
 @end
 
+__attribute__((swift_name("BaseIosNavigationSdk")))
+@interface GNCBaseIosNavigationSdk : GNCBaseNavigationSdk
+- (instancetype)initWithSessionClient:(id<GNCSessionClient>)sessionClient routeProvider:(id<GNCRouteProvider>)routeProvider serviceUrl:(NSString *)serviceUrl __attribute__((swift_name("init(sessionClient:routeProvider:serviceUrl:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithSessionClient:(id<GNCSessionClient>)sessionClient routeProvider:(id<GNCRouteProvider>)routeProvider destinationReachedValidator:(id<GNCDestinationReachedValidator> _Nullable)destinationReachedValidator leavingDestinationValidator:(id<GNCLeavingDestinationValidator> _Nullable)leavingDestinationValidator internetConnectionValidator:(id<GNCInternetConnectionValidator> _Nullable)internetConnectionValidator updateRateProvider:(id<GNCUpdateRateProvider> _Nullable)updateRateProvider destinationRepository:(id<GNCDestinationRepository>)destinationRepository vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig serviceUrl:(NSString *)serviceUrl __attribute__((swift_name("init(sessionClient:routeProvider:destinationReachedValidator:leavingDestinationValidator:internetConnectionValidator:updateRateProvider:destinationRepository:vehicleConfig:serviceUrl:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor timeProvider:(id<GNCTimeProvider>)timeProvider sessionClient:(id<GNCSessionClient>)sessionClient routeProvider:(id<GNCRouteProvider>)routeProvider destinationReachedValidator:(id<GNCDestinationReachedValidator> _Nullable)destinationReachedValidator leavingDestinationValidator:(id<GNCLeavingDestinationValidator> _Nullable)leavingDestinationValidator internetConnectionValidator:(id<GNCInternetConnectionValidator> _Nullable)internetConnectionValidator updateRateProvider:(id<GNCUpdateRateProvider> _Nullable)updateRateProvider destinationRepository:(id<GNCDestinationRepository>)destinationRepository vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig serviceUrl:(NSString *)serviceUrl __attribute__((swift_name("init(executor:timeProvider:sessionClient:routeProvider:destinationReachedValidator:leavingDestinationValidator:internetConnectionValidator:updateRateProvider:destinationRepository:vehicleConfig:serviceUrl:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BaseNavigationSdk.Companion")))
 @interface GNCBaseNavigationSdkCompanion : GNCBase
@@ -1399,6 +1426,7 @@ __attribute__((swift_name("BaseNavigationSdk.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNCBaseNavigationSdkCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) GNCSpeed *DEFAULT_REQUIRED_SPEED_FOR_PREDICTION __attribute__((swift_name("DEFAULT_REQUIRED_SPEED_FOR_PREDICTION")));
 @property (readonly) GNCDuration *DEFAULT_UPDATE_RATE __attribute__((swift_name("DEFAULT_UPDATE_RATE")));
 @property (readonly) GNCSpeed *MAX_MILESTONE_STOP_SPEED __attribute__((swift_name("MAX_MILESTONE_STOP_SPEED")));
 @end
@@ -1407,20 +1435,6 @@ __attribute__((swift_name("InternetConnectionValidator")))
 @protocol GNCInternetConnectionValidator
 @required
 @property (readonly) BOOL connected __attribute__((swift_name("connected")));
-@end
-
-__attribute__((swift_name("IosNavigationSdk")))
-@interface GNCIosNavigationSdk : GNCBaseNavigationSdk
-- (instancetype)initWithExecutor:(id<GNCExecutor>)executor serviceUrl:(NSString *)serviceUrl sessionClient:(id<GNCSessionClient>)sessionClient routeProvider:(id<GNCRouteProvider>)routeProvider __attribute__((swift_name("init(executor:serviceUrl:sessionClient:routeProvider:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithExecutor:(id<GNCExecutor>)executor serviceUrl:(NSString *)serviceUrl sessionClient:(id<GNCSessionClient>)sessionClient routeProvider:(id<GNCRouteProvider>)routeProvider destinationReachedValidator:(id<GNCDestinationReachedValidator> _Nullable)destinationReachedValidator leavingDestinationValidator:(id<GNCLeavingDestinationValidator> _Nullable)leavingDestinationValidator internetConnectionValidator:(id<GNCInternetConnectionValidator> _Nullable)internetConnectionValidator updateRateProvider:(id<GNCUpdateRateProvider> _Nullable)updateRateProvider __attribute__((swift_name("init(executor:serviceUrl:sessionClient:routeProvider:destinationReachedValidator:leavingDestinationValidator:internetConnectionValidator:updateRateProvider:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithExecutor:(id<GNCExecutor>)executor timeProvider:(id<GNCTimeProvider>)timeProvider sessionClient:(id<GNCSessionClient>)sessionClient routeProvider:(id<GNCRouteProvider>)routeProvider destinationReachedValidator:(id<GNCDestinationReachedValidator> _Nullable)destinationReachedValidator leavingDestinationValidator:(id<GNCLeavingDestinationValidator> _Nullable)leavingDestinationValidator internetConnectionValidator:(id<GNCInternetConnectionValidator> _Nullable)internetConnectionValidator updateRateProvider:(id<GNCUpdateRateProvider> _Nullable)updateRateProvider destinationRepository:(id<GNCDestinationRepository>)destinationRepository vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig serviceUrl:(NSString *)serviceUrl __attribute__((swift_name("init(executor:timeProvider:sessionClient:routeProvider:destinationReachedValidator:leavingDestinationValidator:internetConnectionValidator:updateRateProvider:destinationRepository:vehicleConfig:serviceUrl:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property NSString *serviceUrl __attribute__((swift_name("serviceUrl")));
-@end
-
-__attribute__((swift_name("VehicleConfigProvider")))
-@protocol GNCVehicleConfigProvider
-@required
-@property (readonly) id<GNCVehicleConfig> vehicleConfig __attribute__((swift_name("vehicleConfig")));
 @end
 
 __attribute__((swift_name("SpeedTracker")))
@@ -3853,6 +3867,7 @@ __attribute__((swift_name("MainThread")))
 + (instancetype)mainThread __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNCMainThread *shared __attribute__((swift_name("shared")));
 - (void)executeBlock:(void (^)(void))block __attribute__((swift_name("execute(block:)")));
+- (BOOL)isCurrentThread __attribute__((swift_name("isCurrentThread()")));
 @end
 
 __attribute__((swift_name("OptimizationProblem")))
@@ -7181,17 +7196,6 @@ __attribute__((swift_name("SynchronizedObject.Status")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TestQueueExecutor")))
-@interface GNCTestQueueExecutor : GNCBase <GNCExecutor>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)executeBlock:(void (^)(void))block __attribute__((swift_name("execute(block:)")));
-- (id<GNCExecutorFuture>)executeDelayedDelay:(GNCDuration *)delay block:(void (^)(void))block __attribute__((swift_name("executeDelayed(delay:block:)")));
-- (void)runOnUiThreadBlock:(void (^)(void))block __attribute__((swift_name("runOnUiThread(block:)"))) __attribute__((deprecated("Overrides deprecated member in 'net.graphmasters.multiplatform.core.Executor'. Will be removed soon")));
-- (id<GNCExecutorFuture>)scheduleUpdateRate:(GNCDuration *)updateRate block:(void (^)(void))block __attribute__((swift_name("schedule(updateRate:block:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GraphmastersNavigationCore")))
 @interface GNCGraphmastersNavigationCore : GNCBase
 + (instancetype)alloc __attribute__((unavailable));
@@ -7228,14 +7232,14 @@ __attribute__((swift_name("GraphmastersNavigationCore")))
 @interface GNCLatLng (Extensions)
 - (GNCLength *)distanceFromLatLng:(GNCLatLng *)latLng __attribute__((swift_name("distanceFrom(latLng:)")));
 @property (readonly) GNCKotlinCValue<id> *clLocationCoordinate2D __attribute__((swift_name("clLocationCoordinate2D")));
-@property (readonly) GNCLatLng *graphmastersOfficeHanover __attribute__((swift_name("graphmastersOfficeHanover")));
-@property (readonly) GNCLatLng *graphmastersOfficeVienna __attribute__((swift_name("graphmastersOfficeVienna")));
-@property (readonly) GNCLatLng *invalid __attribute__((swift_name("invalid")));
 @property (readonly) BOOL isValid __attribute__((swift_name("isValid")));
 @end
 
 @interface GNCLatLngCompanion (Extensions)
 - (GNCLatLng *)fromCoordinate:(void *)coordinate __attribute__((swift_name("from(coordinate:)")));
+@property (readonly) GNCLatLng *graphmastersOfficeHanover __attribute__((swift_name("graphmastersOfficeHanover")));
+@property (readonly) GNCLatLng *graphmastersOfficeVienna __attribute__((swift_name("graphmastersOfficeVienna")));
+@property (readonly) GNCLatLng *invalid __attribute__((swift_name("invalid")));
 @end
 
 @interface GNCJsonPrimitive (Extensions)
@@ -8079,6 +8083,12 @@ __attribute__((swift_name("KotlinDuration.Companion")))
 
 @interface GNCSynchronizedObject (Extensions)
 - (id _Nullable)withLockBlock:(id _Nullable (^)(void))block __attribute__((swift_name("withLock(block:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NavigationEngineKt")))
+@interface GNCNavigationEngineKt : GNCBase
++ (void)startNavigation:(id<GNCNavigationEngine>)receiver latLng:(GNCLatLng *)latLng __attribute__((swift_name("startNavigation(_:latLng:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -9228,6 +9238,12 @@ __attribute__((swift_name("SynchronizedKt_")))
 @interface GNCSynchronizedKt_ : GNCBase
 + (GNCSynchronizedObject *)reentrantLock __attribute__((swift_name("reentrantLock()")));
 + (id _Nullable)synchronizedLock:(GNCSynchronizedObject *)lock block:(id _Nullable (^)(void))block __attribute__((swift_name("synchronized(lock:block:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SdkKt")))
+@interface GNCSdkKt : GNCBase
++ (GNCBaseNavigationUISdk *)BaseNavigationUISdkNavigationSdk:(id<GNCNavigationSdk>)navigationSdk screenHeightProvider:(id<GNCScreenHeightProvider>)screenHeightProvider __attribute__((swift_name("BaseNavigationUISdk(navigationSdk:screenHeightProvider:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))

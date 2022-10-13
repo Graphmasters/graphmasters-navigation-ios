@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "GraphmastersNavigation",
-            targets: ["GraphmastersNavigation", "GraphmastersNavigationNetworking"]
+            targets: ["GraphmastersNavigation", "GraphmastersNavigationUtility"]
         ),
         .library(
             name: "GraphmastersNavigationCore",
@@ -20,6 +20,7 @@ let package = Package(
         .target(
             name: "GraphmastersNavigation",
             dependencies: [
+                "GraphmastersNavigationUtility",
                 "GraphmastersNavigationNetworking",
                 "GraphmastersNavigationCore",
             ]
@@ -27,6 +28,7 @@ let package = Package(
         .target(
             name: "GraphmastersNavigationNetworking"
         ),
+        .target(name: "GraphmastersNavigationUtility"),
         .binaryTarget(
             name: "GraphmastersNavigationCore",
             path: "Sources/GraphmastersNavigationCore/GraphmastersNavigationCore.xcframework"
