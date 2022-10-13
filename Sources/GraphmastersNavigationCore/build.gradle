@@ -8,13 +8,15 @@ def framework_name = 'GraphmastersNavigationCore'
 
 def multiplatform_core_version = '1.11.6-163-add-uni-convenience-initializer-from-apple-objects-SNAPSHOT'
 def multiplatform_navigation_version = '1.26.25-578-improve-iosnavigationsdk-SNAPSHOT'
-def multiplatform_navigation_ui_version = '1.22.4-173-add-camerasdk-for-ios-SNAPSHOT'
+def multiplatform_navigation_ui_version = '1.22.5-173-add-camerasdk-for-ios-SNAPSHOT'
 
 configurations.all {
     resolutionStrategy {
         force "net.graphmasters.multiplatform:multiplatform-core:${multiplatform_core_version}"
         force "net.graphmasters.multiplatform:multiplatform-navigation:${multiplatform_navigation_version}"
         force "net.graphmasters.multiplatform:multiplatform-navigation-ui:${multiplatform_navigation_ui_version}"
+        cacheChangingModulesFor 15, 'seconds'
+        cacheDynamicVersionsFor 15, 'seconds'
     }
 }
 
@@ -54,9 +56,9 @@ kotlin {
         commonMain {
             dependencies {
                 implementation kotlin('stdlib-common')
-                api("net.graphmasters.multiplatform:multiplatform-core:${multiplatform_core_version}")
-                api("net.graphmasters.multiplatform:multiplatform-navigation:${multiplatform_navigation_version}")
-                api("net.graphmasters.multiplatform:multiplatform-navigation-ui:${multiplatform_navigation_ui_version}")
+                api("net.graphmasters.multiplatform:multiplatform-core:${multiplatform_core_version}") { changing true }
+                api("net.graphmasters.multiplatform:multiplatform-navigation:${multiplatform_navigation_version}") { changing true }
+                api("net.graphmasters.multiplatform:multiplatform-navigation-ui:${multiplatform_navigation_ui_version}") { changing true }
             }
         }
 

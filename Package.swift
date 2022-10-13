@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "GraphmastersNavigation",
-            targets: ["GraphmastersNavigation", "GraphmastersNavigationUtility"]
+            targets: ["GraphmastersNavigation"]
         ),
         .library(
             name: "GraphmastersNavigationCore",

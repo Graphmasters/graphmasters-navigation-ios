@@ -5,8 +5,11 @@ import Mapbox
 import UIKit
 
 class ViewController: UIViewController {
-    /// - note: This can be replaced by `DetailedDistanceConverter`
-    private let distanceConverter: DistanceConverter = RoundedDistanceConverter()
+    private lazy var navigationSdk: NavigationSdk = IosNavigationSdk(
+        apiKey: Configuration.navigationApiKey
+    )
+
+    private lazy var cameraComponent = CameraComponent(navigationSdk: navigationSdk, paddingProvider: self)
 
     private lazy var locationManager: CLLocationManager = {
         let locationManager = CLLocationManager()
@@ -14,10 +17,8 @@ class ViewController: UIViewController {
         return locationManager
     }()
 
-    private lazy var navigationSdk = IosNavigationSdk(
-        serviceUrl: Configuration.navigationApiUrl,
-        apiKey: Configuration.navigationApiKey
-    )
+    /// - note: This can be replaced by `DetailedDistanceConverter`
+    private let distanceConverter: DistanceConverter = RoundedDistanceConverter()
 
     private lazy var timeFormatter: DateFormatter = {
         let formatter = DateFormatter()
@@ -25,18 +26,6 @@ class ViewController: UIViewController {
         formatter.timeStyle = .short
         return formatter
     }()
-
-    private lazy var routeDetachStateProvider: RouteDetachStateProvider = OffRouteDetachStateProvider(navigationSdk: navigationSdk)
-
-    private lazy var uiLocationProvider: LocationProvider = PredictedLocationProvider(
-        executor: AppleExecutor(),
-        navigationSdk: navigationSdk,
-        routeDetachStateProvider: routeDetachStateProvider,
-        maxMilestoneStopSpeed: PredictedLocationProvider.Companion.shared
-            .DEFAULT_NEXT_MILESTONE_STOP_SPEED,
-        locationUpdateInterval: PredictedLocationProvider.Companion.shared
-            .DEFAULT_LOCATION_UPDATE_INTERVAL
-    )
 
     // MARK: - Outlets
 
@@ -67,25 +56,23 @@ class ViewController: UIViewController {
         navigationSdk.navigationStateProvider.addOnNavigationStateInitializedListener(onNavigationStateInitializedListener: self)
         navigationSdk.navigationStateProvider.addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener: self)
 
-        uiLocationProvider.addLocationUpdateListener(locationUpdateListener: self)
+        cameraComponent.navigationCameraHandler.addCameraUpdateListener(cameraUpdateListener: self)
+        cameraComponent.navigationCameraHandler.startCameraTracking()
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         locationManager.startUpdatingLocation()
-        uiLocationProvider.startLocationUpdates()
     }
 
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         locationManager.stopUpdatingLocation()
-        uiLocationProvider.stopLocationUpdates()
     }
 
     private func configureMapView() {
         mapView.styleURL = URL(string: Configuration.mapStyleUrl)!
         mapView.showsUserLocation = true
-        mapView.userTrackingMode = .followWithCourse
         mapView.delegate = self
         mapView.addGestureRecognizer(mapLongPressGestureRecognizer)
     }
@@ -96,11 +83,11 @@ class ViewController: UIViewController {
         navigationSdk.navigationEngine.stopNavigation()
     }
 
-    @IBAction func followButtonPressed(_ sender: Any) {
-        mapView.userTrackingMode = .followWithCourse
+    @IBAction func followButtonPressed(_: Any) {
+        cameraComponent.navigationCameraHandler.startCameraTracking()
     }
 
-    private lazy var mapLongPressGestureRecognizer: UILongPressGestureRecognizer = UILongPressGestureRecognizer(
+    private lazy var mapLongPressGestureRecognizer: UILongPressGestureRecognizer = .init(
         target: self,
         action: #selector(didLongPressMapView(sender:))
     )
@@ -145,7 +132,7 @@ class ViewController: UIViewController {
                                        stops: NSExpression(forConstantValue: [
                                            1: 2.5,
                                            16: 12.5,
-                                           20: 19
+                                           20: 19,
                                        ]))
         layer.lineColor = NSExpression(forKeyPath: "outline-color")
         layer.lineCap = NSExpression(forConstantValue: "round")
@@ -181,9 +168,51 @@ extension ViewController: CLLocationManagerDelegate {
     }
 }
 
-extension ViewController: LocationProviderLocationUpdateListener {
-    func onLocationUpdated(location: Location) {
-        mapView.locationManager.delegate?.locationManager(mapView.locationManager, didUpdate: [location.clLocation])
+// MARK: - Camera Handling
+
+extension ViewController: NavigationCameraHandlerCameraUpdateListener {
+    func onCameraUpdateReady(cameraUpdate: CameraUpdate) {
+        let camera = MGLMapCamera(
+            lookingAtCenter: CLLocationCoordinate2D(
+                latitude: cameraUpdate.latLng.latitude,
+                longitude: cameraUpdate.latLng.longitude
+            ),
+            acrossDistance: convertToDistance(
+                zoom: cameraUpdate.zoom?.doubleValue ?? 12,
+                pitch: cameraUpdate.tilt?.doubleValue ?? 0,
+                latitude: cameraUpdate.latLng.latitude
+            ),
+            pitch: cameraUpdate.tilt?.doubleValue ?? 0,
+            heading: cameraUpdate.bearing?.doubleValue ?? 0
+        )
+
+        mapView.setCamera(
+            camera,
+            withDuration: cameraUpdate.duration?.timeInterval ?? 0,
+            animationTimingFunction: CAMediaTimingFunction(name: .linear),
+            edgePadding: UIEdgeInsets(
+                top: CGFloat(cameraUpdate.padding.top),
+                left: CGFloat(cameraUpdate.padding.left),
+                bottom: CGFloat(cameraUpdate.padding.bottom),
+                right: CGFloat(cameraUpdate.padding.right)
+            ),
+            completionHandler: nil
+        )
+    }
+
+    private func convertToDistance(zoom: Double, pitch: CGFloat, latitude: CLLocationDegrees) -> CLLocationDistance {
+        return MGLAltitudeForZoomLevel(
+            zoom,
+            pitch,
+            latitude,
+            mapView.bounds.size
+        )
+    }
+}
+
+extension ViewController: PaddingProvider {
+    func getPadding() -> CameraUpdate.Padding {
+        CameraUpdate.Padding(left: 0, top: Int32(0.4 * view.bounds.height), right: 0, bottom: 0)
     }
 }
 
@@ -192,8 +221,7 @@ extension ViewController: LocationProviderLocationUpdateListener {
 extension ViewController: NavigationEventHandlerOnNavigationStartedListener {
     func onNavigationStarted(routable _: Routable) {
         GMLog.shared.d(msg: "onNavigationStarted")
-
-        mapView.userTrackingMode = .followWithCourse
+        cameraComponent.navigationCameraHandler.startCameraTracking()
     }
 }
 
@@ -230,7 +258,7 @@ extension ViewController: NavigationStateProviderOnNavigationStateUpdatedListene
         )
         turnDistanceLabel.text = "\(formattedTurnCommandDistance.value) \(formattedTurnCommandDistance.unit)"
 
-        arrivalLabel.text = timeFormatter.string(from: Date().addingTimeInterval(routeProgress.remainingTravelTime.timeinterval))
+        arrivalLabel.text = timeFormatter.string(from: Date().addingTimeInterval(routeProgress.remainingTravelTime.timeInterval))
 
         durationLabel.text = "\(routeProgress.remainingTravelTime.minutes()) min"
 
