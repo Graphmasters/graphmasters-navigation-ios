@@ -152,6 +152,13 @@ extension ViewController: MGLMapViewDelegate {
         style.addLayer(routeOutlineMapLayer)
         style.addLayer(routeMapLayer)
     }
+
+    func mapView(_ mapView: MGLMapView, regionIsChangingWith reason: MGLCameraChangeReason) {
+        guard reason != MGLCameraChangeReason.programmatic else {
+            return
+        }
+        cameraComponent.navigationCameraHandler.stopCameraTracking()
+    }
 }
 
 // MARK: - Location Updating
