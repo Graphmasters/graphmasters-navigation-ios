@@ -6,7 +6,7 @@ plugins {
 
 def framework_name = 'GraphmastersNavigationCore'
 
-def multiplatform_core_version = '1.11.6-163-add-uni-convenience-initializer-from-apple-objects-SNAPSHOT'
+def multiplatform_core_version = '1.11.7'
 def multiplatform_navigation_version = '1.26.25-578-improve-iosnavigationsdk-SNAPSHOT'
 def multiplatform_navigation_ui_version = '1.22.5-173-add-camerasdk-for-ios-SNAPSHOT'
 
