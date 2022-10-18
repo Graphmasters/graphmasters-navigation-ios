@@ -9,12 +9,11 @@ let package = Package(
     products: [
         .library(
             name: "GraphmastersNavigation",
-            targets: ["GraphmastersNavigation"]
-        ),
-        .library(
-            name: "GraphmastersNavigationCore",
-            targets: ["GraphmastersNavigationCore"]
-        ),
+            targets: [
+                "GraphmastersNavigation",
+                "GraphmastersNavigationCore"
+            ]
+        )
     ],
     dependencies: [],
     targets: [
@@ -27,7 +26,8 @@ let package = Package(
             ]
         ),
         .target(
-            name: "GraphmastersNavigationNetworking"
+            name: "GraphmastersNavigationNetworking",
+            dependencies: ["GraphmastersNavigationCore"]
         ),
         .target(name: "GraphmastersNavigationUtility"),
         .binaryTarget(
