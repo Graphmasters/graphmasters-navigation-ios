@@ -1,4 +1,5 @@
 [![SwiftLint](https://github.com/Graphmasters/graphmasters-navigation-ios/actions/workflows/ios_swift_lint.yml/badge.svg?style=flat)](https://github.com/Graphmasters/graphmasters-navigation-ios/actions/workflows/ios_swift_lint.yml)
+[![Build and Test](https://github.com/Graphmasters/graphmasters-navigation-ios/actions/workflows/ios_xcode_example_build.yml/badge.svg)](https://github.com/Graphmasters/graphmasters-navigation-ios/actions/workflows/ios_xcode_example_build.yml)
 ![iOS support](https://img.shields.io/badge/iOS-11.0-blue.svg?logo=apple&style=flat)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://swift.org/package-manager/)
 ![GitHub](https://img.shields.io/github/license/graphmasters/graphmasters-navigation-ios)

@@ -1,7 +1,6 @@
 import CoreTelephony
 import Foundation
 import SystemConfiguration
-import UIKit
 
 public final class InternetConnectionStateProvider {
     enum Error: Swift.Error {
