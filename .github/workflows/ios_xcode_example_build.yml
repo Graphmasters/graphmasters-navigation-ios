@@ -19,6 +19,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Create config file
+        working-directory: ./Example
+        run: echo "NAVIGATION_API_KEY=\n\nMAP_STYLE_URL=\n" > "Graphmasters Navigation Example"/Config.xcconfig
       - name: Set Default Scheme
         working-directory: ./Example
         run: |
