@@ -1,7 +1,6 @@
 import CoreTelephony
 import Foundation
 import SystemConfiguration
-import UIKit
 
 public final class InternetConnectionStateProvider {
     enum Error: Swift.Error {
@@ -53,8 +52,7 @@ public final class InternetConnectionStateProvider {
             return .connected(.wifi)
         }
         if flags.contains(.connectionOnDemand) || flags.contains(.connectionOnTraffic),
-           !flags.contains(.interventionRequired)
-        {
+           !flags.contains(.interventionRequired) {
             return .connected(.wifi)
         }
         if flags.contains(.isWWAN) {

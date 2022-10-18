@@ -8,10 +8,11 @@ public final class URLSessionRouteDtoProvider: RouteDtoProvider {
 
     // MARK: - Life Cycle
 
-    public init(routingApi: Api,
-                routingParamProvider: RoutingParamProvider,
-                routeResponseConverter: RouteResponseConverter)
-    {
+    public init(
+        routingApi: Api,
+        routingParamProvider: RoutingParamProvider,
+        routeResponseConverter: RouteResponseConverter
+    ) {
         self.routingApi = routingApi
         self.routingParamProvider = routingParamProvider
         self.routeResponseConverter = routeResponseConverter

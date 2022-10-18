@@ -98,7 +98,13 @@ class ViewController: UIViewController {
             return
         }
         let coordinate = mapView.convert(sender.location(in: mapView), toCoordinateFrom: nil)
-        try! navigationSdk.navigationEngine.startNavigation(routable_: RoutableFactory.shared.create(latLng: LatLng(latitude: coordinate.latitude, longitude: coordinate.longitude)))
+        do {
+            try navigationSdk.navigationEngine.startNavigation(
+                latLng: LatLng(latitude: coordinate.latitude, longitude: coordinate.longitude)
+            )
+        } catch {
+            GMLog.shared.e(msg: "Can not start navigation")
+        }
     }
 
     // MARK: - Route Layer
@@ -300,7 +306,11 @@ extension ViewController: NavigationEventHandlerOnRouteUpdateListener {
     }
 
     private func updateRouteOnMap(route: Route) {
-        routeMapSource.shape = try! routeFeatureCreator.createFeatures(waypoints: route.waypoints).mglFeature
+        do {
+            routeMapSource.shape = try routeFeatureCreator.createFeatures(waypoints: route.waypoints).mglFeature
+        } catch {
+            GMLog.shared.e(msg: "Can not create route features")
+        }
     }
 }
 

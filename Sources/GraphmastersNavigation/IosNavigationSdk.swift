@@ -72,8 +72,7 @@ public class IosNavigationSdk: BaseNavigationSdk {
             ),
             routeConverter: MergingRouteDtoConverter(
                 timeProvider: FoundationTimeProvider(),
-                dateTimeFormatter: FoundationDateTimeFormatter(),
-                geodesy: GeodesyPlus()
+                dateTimeFormatter: FoundationDateTimeFormatter()
             )
         )
 

@@ -23,7 +23,9 @@ enum Configuration {
 }
 
 extension Configuration {
-    static var navigationApiKey: String = try! Configuration.value(for: "NAVIGATION_API_KEY")
+    static var navigationApiKey: String = (try? Configuration.value(for: "NAVIGATION_API_KEY"))
+        ?? "unknown-api-key"
 
-    static var mapStyleUrl: String = try! Configuration.value(for: "MAP_STYLE_URL")
+    static var mapStyleUrl: String = (try? Configuration.value(for: "MAP_STYLE_URL"))
+        ?? "unknown-mapstyle-url"
 }
