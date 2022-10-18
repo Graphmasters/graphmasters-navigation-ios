@@ -1,3 +1,7 @@
+[![SwiftLint](https://github.com/Graphmasters/graphmasters-navigation-ios/actions/workflows/ios_swift_lint.yml/badge.svg)](https://github.com/Graphmasters/graphmasters-navigation-ios/actions/workflows/ios_swift_lint.yml)
+
+![iOS support](https://img.shields.io/badge/iOS-≥10.0-blue.svg?logo=apple)
+
 # Graphmasters Navigation iOS
 
 Turn-by-turn navigation-, ui- and voice command logic
@@ -59,11 +63,11 @@ private lazy var navigationSdk: NavigationSdk = IosNavigationSdk(
 
 2. For map rendering the MapLibre iOS SDK is used. You need an style to see a map. Configure it in your Config.xcconfig ...
 ```
-MAP_STYLE_URL=your_style_url
+MAP_STYLE_URL=your_style_url  // EXAMPLE: tiles.your-company.com (without https or "")
 ```
 ... or directly in code
 ```
-mapView.styleURL = URL(string: "your_style_url")!
+mapView.styleURL = URL(string: "your_style_url")! 
 ```
 
 3. Select your development team (optional)
