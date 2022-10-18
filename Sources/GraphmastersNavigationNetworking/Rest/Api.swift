@@ -59,9 +59,10 @@ public class Api {
     /// - Precondition: `route`'s type must not be `nil`.
     /// - Remark: At the moment, this method supports JSON decoding only.
     @discardableResult
-    public func request<Result: Decodable, Routes: ApiRoutes>(_ route: Routes,
-                                                              completion: @escaping ApiResultHandler<Result>) -> URLSessionTask
-    {
+    public func request<Result: Decodable, Routes: ApiRoutes>(
+        _ route: Routes,
+        completion: @escaping ApiResultHandler<Result>
+    ) -> URLSessionTask {
         guard let type = route.responseType as? Result.Type else {
             fatalError("Trying to decode response from untyped API route '\(route)'.")
         }
