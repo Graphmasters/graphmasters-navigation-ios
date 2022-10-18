@@ -17,7 +17,6 @@
 		6D4F911A28F45B3A00A4769E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4F911828F45B3A00A4769E /* LaunchScreen.storyboard */; };
 		6D4F912528F4617000A4769E /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = 6D4F912428F4617000A4769E /* Mapbox */; };
 		6DAE0FC628F5950A00857BF2 /* GraphmastersNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 6DAE0FC528F5950A00857BF2 /* GraphmastersNavigation */; };
-		6DAE0FC828F5950A00857BF2 /* GraphmastersNavigationCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6DAE0FC728F5950A00857BF2 /* GraphmastersNavigationCore */; };
 		6DAE0FCD28F59A6B00857BF2 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 6DAE0FCC28F59A6B00857BF2 /* Logging */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D4F912528F4617000A4769E /* Mapbox in Frameworks */,
-				6DAE0FC828F5950A00857BF2 /* GraphmastersNavigationCore in Frameworks */,
 				6DAE0FCD28F59A6B00857BF2 /* Logging in Frameworks */,
 				6DAE0FC628F5950A00857BF2 /* GraphmastersNavigation in Frameworks */,
 			);
@@ -120,7 +118,6 @@
 			packageProductDependencies = (
 				6D4F912428F4617000A4769E /* Mapbox */,
 				6DAE0FC528F5950A00857BF2 /* GraphmastersNavigation */,
-				6DAE0FC728F5950A00857BF2 /* GraphmastersNavigationCore */,
 				6DAE0FCC28F59A6B00857BF2 /* Logging */,
 			);
 			productName = "Graphmasters Navigation Example";
@@ -441,10 +438,6 @@
 		6DAE0FC528F5950A00857BF2 /* GraphmastersNavigation */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = GraphmastersNavigation;
-		};
-		6DAE0FC728F5950A00857BF2 /* GraphmastersNavigationCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = GraphmastersNavigationCore;
 		};
 		6DAE0FCC28F59A6B00857BF2 /* Logging */ = {
 			isa = XCSwiftPackageProductDependency;

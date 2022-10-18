@@ -3,6 +3,7 @@ name: SwiftLint
 on:
   push:
     branches-ignore:
+      - 'main'
       - 'master'
       - 'develop'
 
