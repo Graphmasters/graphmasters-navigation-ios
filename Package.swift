@@ -11,12 +11,16 @@ let package = Package(
             name: "GraphmastersNavigation",
             targets: [
                 "GraphmastersNavigation",
-                "GraphmastersNavigationCore"
             ]
-        )
+        ),
+        .library(name: "GraphmastersNavigationCore", targets: ["GraphmastersNavigationCore"]),
     ],
     dependencies: [],
     targets: [
+        .binaryTarget(
+            name: "GraphmastersNavigationCore",
+            path: "Sources/GraphmastersNavigationCore/GraphmastersNavigationCore.xcframework"
+        ),
         .target(
             name: "GraphmastersNavigation",
             dependencies: [
@@ -30,10 +34,6 @@ let package = Package(
             dependencies: ["GraphmastersNavigationCore"]
         ),
         .target(name: "GraphmastersNavigationUtility"),
-        .binaryTarget(
-            name: "GraphmastersNavigationCore",
-            path: "Sources/GraphmastersNavigationCore/GraphmastersNavigationCore.xcframework"
-        ),
         .testTarget(
             name: "GraphmastersNavigationCoreTests",
             dependencies: ["GraphmastersNavigationCore"]
