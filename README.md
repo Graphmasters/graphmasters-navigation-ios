@@ -14,7 +14,7 @@ package dependency to your `Package.swift`:
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/Graphmasters/graphmasters-navigation-ios", from: "0.0.1")
+  .package(url: "https://github.com/Graphmasters/graphmasters-navigation-ios", from: "0.1.0")
 ]
 ```
 
@@ -24,8 +24,7 @@ dependencies: [
 .target(
   name: ...,
   dependencies: [
-    .product(name: "GraphamstersNavigation", package: "GraphamstersNavigation"),
-    .product(name: "GraphamstersNavigationCore", package: "GraphamstersNavigation")
+    .product(name: "GraphmastersNavigation", package: "graphmasters-navigation-ios")
   ]
 ]
 ```
