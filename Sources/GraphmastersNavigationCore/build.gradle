@@ -8,7 +8,7 @@ def framework_name = 'GraphmastersNavigationCore'
 
 def multiplatform_core_version = '1.12.0'
 def multiplatform_navigation_version = '1.26.26'
-def multiplatform_navigation_ui_version = '1.22.6-283-update-underlying-multiplatform-libraries-SNAPSHOT'
+def multiplatform_navigation_ui_version = '1.22.6'
 
 configurations.all {
     resolutionStrategy {
@@ -80,7 +80,7 @@ task copyDebugFramework(type: Copy) {
 }
 
 task copyReleaseFramework(type: Copy) {
-    from layout.projectDirectory.dir("build/XCFrameworks/debug/${framework_name}.xcframework")
+    from layout.projectDirectory.dir("build/XCFrameworks/release/${framework_name}.xcframework")
     into layout.projectDirectory.dir("${framework_name}.xcframework")
 }
 assembleGraphmastersNavigationCoreDebugXCFramework.finalizedBy deleteOldFramework
