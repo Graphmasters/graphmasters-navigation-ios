@@ -7,7 +7,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _: UIApplication,
         didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-
         GMLog.shared.append(logger: PrintLogger())
 
         return true
