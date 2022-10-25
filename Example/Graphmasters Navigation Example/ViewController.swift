@@ -159,7 +159,7 @@ extension ViewController: MGLMapViewDelegate {
         style.addLayer(routeMapLayer)
     }
 
-    func mapView(_ mapView: MGLMapView, regionIsChangingWith reason: MGLCameraChangeReason) {
+    func mapView(_: MGLMapView, regionIsChangingWith reason: MGLCameraChangeReason) {
         guard reason != MGLCameraChangeReason.programmatic else {
             return
         }
