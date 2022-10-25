@@ -38,7 +38,7 @@ public final class RouteRequestParamProviderV3: RoutingParamProvider {
             Parameters.deviceId.rawValue: deviceId,
             Parameters.vehicleType.rawValue: vehicleTypeProvider.vehicleType,
             Parameters.version.rawValue: "3",
-            Parameters.destination.rawValue: request.destination.routable.id
+            Parameters.destinationId.rawValue: request.destination.routable.id
         ]
 
         if let heading = request.origin.heading {
