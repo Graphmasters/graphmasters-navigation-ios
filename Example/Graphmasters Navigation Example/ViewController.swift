@@ -1,4 +1,5 @@
 import CoreLocation
+import GraphamstersNavigationVoiceInstructions
 import GraphmastersNavigation
 import GraphmastersNavigationCore
 import Mapbox
@@ -10,6 +11,7 @@ class ViewController: UIViewController {
     )
 
     private lazy var cameraComponent = CameraComponent(navigationSdk: navigationSdk, paddingProvider: self)
+    private lazy var voiceInstructionComponent = VoiceInstructionComponent(navigationSdk: navigationSdk)
 
     private lazy var locationManager: CLLocationManager = {
         let locationManager = CLLocationManager()
@@ -41,6 +43,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        voiceInstructionComponent.enabled = true
         locationManager.requestWhenInUseAuthorization()
 
         configureMapView()
@@ -177,7 +180,17 @@ extension ViewController: CLLocationManagerDelegate {
         guard let newLocation = locations.last else {
             return
         }
-        navigationSdk.updateLocation(location: Location.companion.from(clLocation: newLocation))
+        navigationSdk.updateLocation(location: Location(
+            provider: "",
+            timestamp: Int64(Date().timeIntervalSince1970) * 1000,
+            latLng: LatLng(latitude: newLocation.coordinate.latitude, longitude: newLocation.coordinate.longitude),
+            altitude: nil,
+            heading: nil,
+            speed: .companion.fromKmh(kmh: 50),
+            accuracy: nil,
+            level: nil
+        )
+        )
     }
 }
 
