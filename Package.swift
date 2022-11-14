@@ -11,11 +11,14 @@ let package = Package(
             name: "GraphmastersNavigation",
             targets: [
                 "GraphmastersNavigation",
+                "GraphamstersNavigationVoiceInstructions",
             ]
         ),
         .library(name: "GraphmastersNavigationCore", targets: ["GraphmastersNavigationCore"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
+    ],
     targets: [
         .binaryTarget(
             name: "GraphmastersNavigationCore",
@@ -27,6 +30,14 @@ let package = Package(
                 "GraphmastersNavigationUtility",
                 "GraphmastersNavigationNetworking",
                 "GraphmastersNavigationCore",
+            ]
+        ),
+        .target(
+            name: "GraphamstersNavigationVoiceInstructions",
+            dependencies: [
+                "GraphmastersNavigationUtility",
+                "GraphmastersNavigationCore",
+                .product(name: "Logging", package: "swift-log"),
             ]
         ),
         .target(

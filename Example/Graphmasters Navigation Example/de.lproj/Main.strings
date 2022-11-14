@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "5DW-eB-Aqb"; */
+"5DW-eB-Aqb.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "6PA-gI-H3o"; */
+"6PA-gI-H3o.text" = "---";
+
+/* Class = "UIButton"; configuration.title = "Follow"; ObjectID = "BZP-vD-sDv"; */
+"BZP-vD-sDv.configuration.title" = "Follow";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BZP-vD-sDv"; */
+"BZP-vD-sDv.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Turndirection"; ObjectID = "EaE-vf-knD"; */
+"EaE-vf-knD.text" = "Turndirection";
+
+/* Class = "UILabel"; text = "Turn"; ObjectID = "Htd-3p-P9l"; */
+"Htd-3p-P9l.text" = "Turn";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Mph-OZ-R67"; */
+"Mph-OZ-R67.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Wen-hN-fTd"; */
+"Wen-hN-fTd.text" = "---";
+
+/* Class = "UILabel"; text = "Arrival"; ObjectID = "Zdl-iY-9W1"; */
+"Zdl-iY-9W1.text" = "Arrival";
+
+/* Class = "UILabel"; text = "Duration"; ObjectID = "jWf-kA-FcR"; */
+"jWf-kA-FcR.text" = "Duration";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "kFS-Gp-wAl"; */
+"kFS-Gp-wAl.text" = "---";
+
+/* Class = "UIButton"; configuration.title = "Stop Navigation"; ObjectID = "kFz-jO-6A8"; */
+"kFz-jO-6A8.configuration.title" = "Stop Navigation";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kFz-jO-6A8"; */
+"kFz-jO-6A8.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "kpp-Dy-9Ug"; */
+"kpp-Dy-9Ug.text" = "---";
+
+/* Class = "UILabel"; text = "Distance"; ObjectID = "par-7N-88p"; */
+"par-7N-88p.text" = "Distance";
+
+/* Class = "UILabel"; text = "Turndistance"; ObjectID = "v1y-o2-kRD"; */
+"v1y-o2-kRD.text" = "Turndistance";
