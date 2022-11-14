@@ -22,9 +22,7 @@ public final class AVAudioSessionInfoProvider: AudioSessionInfoProvider {
 
     public var isHFPAvailable: Bool {
         let currentRoute = audioSession.currentRoute
-        for port in currentRoute.outputs + (audioSession.availableInputs ?? [])
-            where port.portType == .bluetoothHFP
-        {
+        for port in currentRoute.outputs + (audioSession.availableInputs ?? []) where port.portType == .bluetoothHFP {
             return true
         }
         return false

@@ -9,12 +9,13 @@ public extension AVAudioSession {
         public let audioPortOveride: AVAudioSession.PortOverride
         public let supportsInAppVolume: Bool
 
-        public init(category: AVAudioSession.Category,
-                    mode: AVAudioSession.Mode,
-                    categoryOptions: AVAudioSession.CategoryOptions,
-                    audioPortOveride: AVAudioSession.PortOverride,
-                    supportsInAppVolume: Bool)
-        {
+        public init(
+            category: AVAudioSession.Category,
+            mode: AVAudioSession.Mode,
+            categoryOptions: AVAudioSession.CategoryOptions,
+            audioPortOveride: AVAudioSession.PortOverride,
+            supportsInAppVolume: Bool
+        ) {
             self.category = category
             self.mode = mode
             self.categoryOptions = categoryOptions

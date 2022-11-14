@@ -52,8 +52,7 @@ public final class InternetConnectionStateProvider {
             return .connected(.wifi)
         }
         if flags.contains(.connectionOnDemand) || flags.contains(.connectionOnTraffic),
-           !flags.contains(.interventionRequired)
-        {
+           !flags.contains(.interventionRequired) {
             return .connected(.wifi)
         }
         if flags.contains(.isWWAN) {
