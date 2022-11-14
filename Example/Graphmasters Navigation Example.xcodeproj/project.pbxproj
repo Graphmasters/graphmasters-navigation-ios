@@ -33,8 +33,6 @@
 		6D4F911928F45B3A00A4769E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D4F911B28F45B3A00A4769E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DC05F8B28F594C800A1E4C2 /* graphmasters-navigation-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "graphmasters-navigation-ios"; path = ..; sourceTree = "<group>"; };
-		6DFF667F29226EB700A30F33 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
-		6DFF668029226EB800A30F33 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +146,6 @@
 			knownRegions = (
 				en,
 				Base,
-				de,
 			);
 			mainGroup = 6D4F910128F45B3900A4769E;
 			packageReferences = (
@@ -197,7 +194,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6D4F911428F45B3900A4769E /* Base */,
-				6DFF667F29226EB700A30F33 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -206,7 +202,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6D4F911928F45B3A00A4769E /* Base */,
-				6DFF668029226EB800A30F33 /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
