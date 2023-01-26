@@ -334,7 +334,7 @@ extension ViewController: LocationProviderLocationUpdateListener {
 }
 
 extension ViewController: NavigationEventHandlerOnRouteUpdateListener {
-    func onRouteUpdated(route: Route) {
+    func onRouteUpdated(route _: Route) {
         GMLog.shared.d(msg: "onRouteUpdated")
     }
 }
