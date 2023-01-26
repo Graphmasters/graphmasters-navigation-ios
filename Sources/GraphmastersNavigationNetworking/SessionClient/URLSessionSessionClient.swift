@@ -13,14 +13,14 @@ public final class URLSessionSessionClient: SessionClient {
         ) { result in
             switch result {
             case .success:
-                GMLog().i(tag: String(describing: self), msg: "Successfully stopped session with id: \(sessionId)")
+                GMLog().i(tag: String(describing: self), message: "Successfully stopped session with id: \(sessionId)")
                 callback?.onSuccess()
             case let .failure(error):
                 callback?.onFailed(e: KotlinException(
                     message: "Error stopping session",
                     cause: KotlinThrowable(message: error.localizedDescription)
                 ))
-                GMLog().e(tag: String(describing: self), msg: "Error stopping session with id: \(sessionId)")
+                GMLog().e(tag: String(describing: self), message: "Error stopping session with id: \(sessionId)")
             }
         }
     }
