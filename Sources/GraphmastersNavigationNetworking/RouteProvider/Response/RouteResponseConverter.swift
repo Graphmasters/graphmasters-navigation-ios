@@ -19,7 +19,8 @@ public final class PlainRouteResponseConverter: RouteResponseConverter {
             routeLegs: response.routeLegs?.map(convert(_:)),
             trafficVolume: response.trafficVolume,
             localizedInfo: nil,
-            offRoute: nil
+            offRoute: response.offRoute.map { KotlinBoolean(bool: $0) },
+            offRouteLikelyDisplacementMetres: response.offRouteLikelyDisplacementMetres.map { KotlinDouble(double: $0) }
         )
     }
 
@@ -71,8 +72,6 @@ public final class PlainRouteResponseConverter: RouteResponseConverter {
     private func convert(_ response: RouteResponse.LaneResponse) -> RouteDto.RouteLegStepLane {
         RouteDto.RouteLegStepLane(
             laneTurns: response.laneTurns ?? [],
-            directionNames: response.directionNames ?? [],
-            directionReferenceNames: response.directionReferenceNames ?? [],
             shouldUse: response.shouldUse ?? false
         )
     }

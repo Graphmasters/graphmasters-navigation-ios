@@ -115,7 +115,7 @@ class ViewController: UIViewController {
                 latLng: LatLng(latitude: coordinate.latitude, longitude: coordinate.longitude)
             )
         } catch {
-            GMLog.shared.e(msg: "Can not start navigation")
+            GMLog.shared.e(message: "Can not start navigation")
         }
     }
 
@@ -245,26 +245,26 @@ extension ViewController: PaddingProvider {
 
 extension ViewController: NavigationEventHandlerOnNavigationStartedListener {
     func onNavigationStarted(routable _: Routable) {
-        GMLog.shared.d(msg: "onNavigationStarted")
+        GMLog.shared.d(message: "onNavigationStarted")
         cameraComponent.navigationCameraHandler.startCameraTracking()
     }
 }
 
 extension ViewController: NavigationEventHandlerOnInitialRouteReceivedListener {
     func onInitialRouteReceived(route _: Route) {
-        GMLog.shared.d(msg: "onInitialRouteReceived")
+        GMLog.shared.d(message: "onInitialRouteReceived")
     }
 }
 
 extension ViewController: NavigationStateProviderOnNavigationStateInitializedListener {
     func onNavigationStateInitialized(navigationState _: NavigationStateProviderNavigationState) {
-        GMLog.shared.d(msg: "onNavigationStateInitialized")
+        GMLog.shared.d(message: "onNavigationStateInitialized")
     }
 }
 
 extension ViewController: NavigationStateProviderOnNavigationStateUpdatedListener {
     func onNavigationStateUpdated(navigationState: NavigationStateProviderNavigationState) {
-        GMLog.shared.d(msg: "onNavigationStateUpdated")
+        GMLog.shared.d(message: "onNavigationStateUpdated")
 
         guard let routeProgress = navigationState.routeProgress else {
             return clearNavigationInfoView()
@@ -307,7 +307,7 @@ extension ViewController: NavigationStateProviderOnNavigationStateUpdatedListene
 
 extension ViewController: NavigationEventHandlerOnTrackingSpeedReachedListener {
     func onTrackingSpeedReached(speed _: Speed) {
-        GMLog.shared.d(msg: "onTrackingSpeedReached")
+        GMLog.shared.d(message: "onTrackingSpeedReached")
     }
 }
 
@@ -328,32 +328,32 @@ extension ViewController: LocationProviderLocationUpdateListener {
         do {
             routeMapSource.shape = try routeFeatureCreator.createFeatures(waypoints: waypoints).mglFeature
         } catch {
-            GMLog.shared.e(msg: "Can not create route features")
+            GMLog.shared.e(message: "Can not create route features")
         }
     }
 }
 
 extension ViewController: NavigationEventHandlerOnRouteUpdateListener {
     func onRouteUpdated(route _: Route) {
-        GMLog.shared.d(msg: "onRouteUpdated")
+        GMLog.shared.d(message: "onRouteUpdated")
     }
 }
 
 extension ViewController: NavigationEventHandlerOnDestinationChangedListener {
     func onDestinationChanged(routable _: Routable?) {
-        GMLog.shared.d(msg: "onDestinationChanged")
+        GMLog.shared.d(message: "onDestinationChanged")
     }
 }
 
 extension ViewController: NavigationEventHandlerOnDestinationReachedListener {
     func onDestinationReached(routable _: Routable) {
-        GMLog.shared.d(msg: "onDestinationReached")
+        GMLog.shared.d(message: "onDestinationReached")
     }
 }
 
 extension ViewController: NavigationEventHandlerOnNavigationStoppedListener {
     func onNavigationStopped() {
-        GMLog.shared.d(msg: "onNavigationStopped")
+        GMLog.shared.d(message: "onNavigationStopped")
         clearNavigationInfoView()
         routeMapSource.shape = nil
     }

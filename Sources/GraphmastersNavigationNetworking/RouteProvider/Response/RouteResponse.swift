@@ -97,4 +97,5 @@ public struct RouteResponse: Codable {
     var trafficVolume: String?
     var localizedInfo: String?
     var offRoute: Bool?
+    var offRouteLikelyDisplacementMetres: Double?
 }
