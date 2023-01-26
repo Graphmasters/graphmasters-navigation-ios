@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     private lazy var cameraComponent = CameraComponent(navigationSdk: navigationSdk, paddingProvider: self)
     private lazy var voiceInstructionComponent = VoiceInstructionComponent(navigationSdk: navigationSdk)
 
+    private lazy var predictedLocationProvider = PredictedLocationProvider(
+        executor: OperationQueueExecutor(),
+        navigationSdk: navigationSdk,
+        routeDetachStateProvider: nil
+    )
+
     private lazy var locationManager: CLLocationManager = {
         let locationManager = CLLocationManager()
         locationManager.delegate = self
@@ -61,6 +67,9 @@ class ViewController: UIViewController {
 
         cameraComponent.navigationCameraHandler.addCameraUpdateListener(cameraUpdateListener: self)
         cameraComponent.navigationCameraHandler.startCameraTracking()
+
+        predictedLocationProvider.addLocationUpdateListener(locationUpdateListener: self)
+        predictedLocationProvider.startLocationUpdates()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -302,18 +311,31 @@ extension ViewController: NavigationEventHandlerOnTrackingSpeedReachedListener {
     }
 }
 
-extension ViewController: NavigationEventHandlerOnRouteUpdateListener {
-    func onRouteUpdated(route: Route) {
-        GMLog.shared.d(msg: "onRouteUpdated")
-        updateRouteOnMap(route: route)
+extension ViewController: LocationProviderLocationUpdateListener {
+    func onLocationUpdated(location: Location) {
+        guard let projection = location as? OnRouteProjectorProjectedLocation else {
+            return
+        }
+        let routeWaypoints = navigationSdk.navigationStateProvider.navigationState.route?.waypoints ?? []
+        let upcomingWaypoints = RouteUtils().sliceByProjection(
+            waypoints: routeWaypoints, projectedLocation: projection
+        )
+
+        updateRouteOnMap(waypoints: upcomingWaypoints)
     }
 
-    private func updateRouteOnMap(route: Route) {
+    private func updateRouteOnMap(waypoints: [Route.Waypoint]) {
         do {
-            routeMapSource.shape = try routeFeatureCreator.createFeatures(waypoints: route.waypoints).mglFeature
+            routeMapSource.shape = try routeFeatureCreator.createFeatures(waypoints: waypoints).mglFeature
         } catch {
             GMLog.shared.e(msg: "Can not create route features")
         }
+    }
+}
+
+extension ViewController: NavigationEventHandlerOnRouteUpdateListener {
+    func onRouteUpdated(route: Route) {
+        GMLog.shared.d(msg: "onRouteUpdated")
     }
 }
 
