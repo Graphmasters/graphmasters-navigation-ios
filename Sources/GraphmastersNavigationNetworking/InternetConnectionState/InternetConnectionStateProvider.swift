@@ -51,7 +51,8 @@ public final class InternetConnectionStateProvider {
         if !flags.contains(.connectionRequired) {
             return .connected(.wifi)
         }
-        if flags.contains(.connectionOnDemand) || flags.contains(.connectionOnTraffic),
+        if flags.contains(.connectionOnDemand)
+            || flags.contains(.connectionOnTraffic),
            !flags.contains(.interventionRequired) {
             return .connected(.wifi)
         }
