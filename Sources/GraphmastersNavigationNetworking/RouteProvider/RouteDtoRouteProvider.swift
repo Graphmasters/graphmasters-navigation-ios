@@ -28,8 +28,8 @@ public final class RouteDtoRouteProvider: RouteProvider {
         let group = DispatchGroup()
         group.enter()
 
-        var route: Route? = nil
-        var errorResponse: Error? = nil
+        var route: Route?
+        var errorResponse: Error?
 
         routeDtoProvider.route(routeRequest: request) { result in
             switch result {
