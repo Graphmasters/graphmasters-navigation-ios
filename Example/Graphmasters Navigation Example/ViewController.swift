@@ -62,8 +62,8 @@ class ViewController: UIViewController {
         navigationSdk.navigationEventHandler.addOnDestinationReachedListener(onDestinationReachedListener: self)
         navigationSdk.navigationEventHandler.addOnNavigationStoppedListener(onNavigationStoppedListener: self)
 
-        navigationSdk.navigationStateProvider.addOnNavigationStateInitializedListener(onNavigationStateInitializedListener: self)
-        navigationSdk.navigationStateProvider.addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener: self)
+        navigationSdk.addOnNavigationStateInitializedListener(onNavigationStateInitializedListener: self)
+        navigationSdk.addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener: self)
 
         cameraComponent.navigationCameraHandler.addCameraUpdateListener(cameraUpdateListener: self)
         cameraComponent.navigationCameraHandler.startCameraTracking()
@@ -92,7 +92,7 @@ class ViewController: UIViewController {
     // MARK: - User Interactions
 
     @IBAction func stopNavigationButtonPressed(_: Any) {
-        navigationSdk.navigationEngine.stopNavigation()
+        navigationSdk.stopNavigation()
     }
 
     @IBAction func followButtonPressed(_: Any) {
@@ -111,7 +111,7 @@ class ViewController: UIViewController {
         }
         let coordinate = mapView.convert(sender.location(in: mapView), toCoordinateFrom: nil)
         do {
-            try navigationSdk.navigationEngine.startNavigation(
+            try navigationSdk.startNavigation(
                 latLng: LatLng(latitude: coordinate.latitude, longitude: coordinate.longitude)
             )
         } catch {
@@ -256,36 +256,34 @@ extension ViewController: NavigationEventHandlerOnInitialRouteReceivedListener {
     }
 }
 
-extension ViewController: NavigationStateProviderOnNavigationStateInitializedListener {
-    func onNavigationStateInitialized(navigationState _: NavigationStateProviderNavigationState) {
+extension ViewController: OnNavigationStateInitializedListener {
+    func onNavigationStateInitialized(navigationState _: NavigationState) {
         GMLog.shared.d(message: "onNavigationStateInitialized")
     }
 }
 
-extension ViewController: NavigationStateProviderOnNavigationStateUpdatedListener {
-    func onNavigationStateUpdated(navigationState: NavigationStateProviderNavigationState) {
+extension ViewController: OnNavigationStateUpdatedListener {
+    func onNavigationStateUpdated(navigationState: NavigationState?) {
         GMLog.shared.d(message: "onNavigationStateUpdated")
 
-        guard let routeProgress = navigationState.routeProgress else {
+        guard let routeProgress = navigationState?.routeProgress else {
             return clearNavigationInfoView()
         }
         updateNavigationInfoView(from: routeProgress)
     }
 
     private func updateNavigationInfoView(from routeProgress: RouteProgressTrackerRouteProgress) {
-        turnCommandLabel.text = routeProgress.nextMilestone?.turnInfo?.turnCommand.description() ?? "---"
-        turnDirectionLabel.text = routeProgress.nextMilestone?.turnInfo.map {
-            TurnInfoUtils.shared.getTurnInfoLabel(turnInfo: $0)
-        } ?? "---"
+        turnCommandLabel.text = routeProgress.nextManeuver.turnInfo.turnCommand.description()
+        turnDirectionLabel.text = TurnInfoUtils.shared.getTurnInfoLabel(turnInfo: routeProgress.nextManeuver.turnInfo)
         let formattedTurnCommandDistance = distanceConverter.convert(
-            length: routeProgress.nextMilestoneDistance,
+            length: routeProgress.nextManeuver.remainingDistance,
             measurementSystem: .metric
         )
         turnDistanceLabel.text = "\(formattedTurnCommandDistance.value) \(formattedTurnCommandDistance.unit)"
 
         arrivalLabel.text = timeFormatter.string(from: Date().addingTimeInterval(routeProgress.remainingTravelTime.timeInterval))
 
-        durationLabel.text = "\(routeProgress.remainingTravelTime.minutes()) min"
+        durationLabel.text = "\(routeProgress.remainingTravelTime.wholeMinutes()) min"
 
         let formattedDistance = distanceConverter.convert(
             length: routeProgress.remainingDistance,
@@ -316,7 +314,7 @@ extension ViewController: LocationProviderLocationUpdateListener {
         guard let projection = location as? OnRouteProjectorProjectedLocation else {
             return
         }
-        let routeWaypoints = navigationSdk.navigationStateProvider.navigationState.route?.waypoints ?? []
+        let routeWaypoints = navigationSdk.navigationState?.route?.waypoints ?? []
         let upcomingWaypoints = RouteUtils().sliceByProjection(
             waypoints: routeWaypoints, projectedLocation: projection
         )
@@ -346,7 +344,7 @@ extension ViewController: NavigationEventHandlerOnDestinationChangedListener {
 }
 
 extension ViewController: NavigationEventHandlerOnDestinationReachedListener {
-    func onDestinationReached(routable _: Routable) {
+    func onDestinationReached(navigationResult _: NavigationResult) {
         GMLog.shared.d(message: "onDestinationReached")
     }
 }

@@ -13,11 +13,9 @@ public final class AudioPlayerVoiceInstructionDispatcher: VoiceInstructionDispat
         self.voiceAudioJobProvider = voiceAudioJobProvider
     }
 
-    public func dispatch(voiceInstruction: [String], onDone: @escaping (String) -> Void) {
-        voiceInstruction.forEach { instruction in
-            self.audioJobPlayer.execute(audioJob: self.voiceAudioJobProvider.audioJob(for: instruction), completion: {
-                onDone(instruction)
-            })
-        }
+    public func dispatch(voiceInstructionContext _: VoiceInstructionContext, voiceInstructionText: String, balance _: Float, onDone: @escaping (String) -> Void) {
+        audioJobPlayer.execute(audioJob: voiceAudioJobProvider.audioJob(for: voiceInstructionText), completion: {
+            onDone(voiceInstructionText)
+        })
     }
 }

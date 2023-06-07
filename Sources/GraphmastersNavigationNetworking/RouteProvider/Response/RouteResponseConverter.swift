@@ -27,8 +27,9 @@ public final class PlainRouteResponseConverter: RouteResponseConverter {
     private func convert(_ response: RouteResponse.DestinationInfoResponse) -> RouteDto.DestinationInfo {
         RouteDto.DestinationInfo(
             location: convert(response.location),
-            tag: response.tag,
-            tags: response.tags?.convertToMap ?? [:]
+            type: response.type,
+            tags: response.tags?.convertToMap ?? [:],
+            destinationReachedDistanceMeters: nil
         )
     }
 
@@ -43,7 +44,8 @@ public final class PlainRouteResponseConverter: RouteResponseConverter {
         RouteDto.RouteLeg(
             destinationRoadOffset: response.destinationRoadOffset,
             steps: response.steps.map(convert(_:)),
-            fuelStations: response.fuelStations?.map(convert(_:)) ?? []
+            fuelStations: response.fuelStations?.map(convert(_:)) ?? [],
+            parkingAreas: []
         )
     }
 
@@ -83,6 +85,8 @@ public final class PlainRouteResponseConverter: RouteResponseConverter {
             directionNames: response.directionNames ?? [],
             directionReferenceNames: response.directionReferenceNames ?? [],
             turnCommand: response.turnCommand,
+            turnCost: nil,
+            angle: nil,
             leadsToRoadClass: response.leadsToRoadClass,
             leadsToStreetName: response.leadsToStreetName,
             leadsToLevel: response.leadsToLevel.map { KotlinInt(value: Int32($0)) }
