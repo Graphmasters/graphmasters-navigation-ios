@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class GNCDuration, GNCBaseCameraComponentCompanion, GNCBaseCameraComponent, UIView, GNCFreezable, GNCLatLng, GNCCameraUpdatePadding, GNCCameraUpdate, GNCNavigationCameraUpdateProviderCompanion, GNCLocation, GNCSpeed, GNCGenericNavigationZoomProviderZoomStep, GNCKotlinArray<T>, GNCGenericNavigationZoomProviderCompanion, GNCLength, GNCRoutingEventAwareZoomProviderZoomRange, GNCRoutingEventAwareZoomProviderCompanion, GNCKotlinIntRange, GNCStatefulMilestoneAwareTiltProviderCompanion, GNCPredictedLocationProviderCompanion, GNCRouteUtils, GNCRouteWaypoint, GNCOnRouteProjectorProjectedLocation, GNCRouteFeatureCreatorRouteFeature, GNCKotlinEnumCompanion, GNCKotlinEnum<E>, GNCRelativeSpeedRouteFeatureCreatorCategory, GNCRouteFeatureCreatorCompanion, UIColor, GNCManeuverMapIconCreatorCompanion, GNCManeuverMapIconCreatorManeuverMapIcon, GNCTurnInfo, GNCTurnCommand, GNCManeuverMapIconCreator, UIImage, GNCStaticChipManeuverColorProvider, GNCLaneAssistIconProvider, GNCLaneAssistIconProviderLaneAssistIcon, GNCLaneInfoLane, GNCLaneInfo, GNCDetachConstants, GNCDurationConverterResult, GNCDistanceConverterResult, GNCDistanceConverterMeasurementSystem, GNCDistanceConverterCompanion, GNCDurationConverterCompanion, GNCFormatUtils, GNCLabelParser, GNCTurnInfoUtils, GNCVoiceInstructionContext, GNCBaseLaneVoiceInstructionStringGeneratorLaneSection, GNCNavigationStateProviderNavigationState, GNCVoiceInstructionHandlerInterceptorResult, GNCDurationBasedVoiceInstructionStageProviderCompanion, GNCKotlinLongRange, GNCBaseLaneVoiceInstructionStringGenerator, GNCGenericSpeakableConditionCreator, GNCGermanSpeakableDirectionProviderPrefixConfig, GNCGermanSpeakableDirectionProviderCompanion, NSLocale, GNCRoute, GNCKotlinException, GNCBaseNavigationSdkCompanion, GNCSimpleNavigationEventHandler, GNCAccelerationEffectedSpeedTrackerCompanion, GNCCalculatingSpeedTrackerCompanion, GNCJKalmanFilter, GNCJKalmanFilterCompanion, GNCJKalmanMatrix<A>, GNCJKalmanMatrixApache, GNCJKalmanStepsCompanion, GNCKalmanPair<T>, GNCRouteUtils_, GNCWeightedChanceCalculator, GNCChanceBasedOnRouteTrackerCompanion, GNCChanceCalculatorCompanion, GNCOnRouteTrackerState, GNCDistanceBasedChanceCalculatorCompanion, GNCHeadingBasedChanceCalculatorCompanion, GNCTurnCommandAlignmentChanceCalculatorCompanion, GNCLaneInfoLaneLaneTurn, GNCRoadClassCompanion, GNCRoadClass, GNCRoutableFactory, GNCRouteVehicleType, GNCRouteDestinationInfo, GNCRouteEnforcement, GNCRouteFuelStation, GNCRouteTrafficVolume, GNCRouteEnforcementType, GNCRouteFuelStationType, GNCRouteSegment, GNCRouteWaypointGpsQuality, GNCTurnCommandCompanion, GNCTurnInfoStreetSide, GNCLocationCompanion, GNCProjectionFinderOptions, GNCDistanceAlignmentProjectionFinderCompanion, GNCDistanceAlignmentProjectionFinderProjectionResult, GNCOnRoutePredictorOptions, GNCSpeedBasedOnRoutePredictorCompanion, GNCOnRouteShifterShiftedLocation, GNCOnRouteShifterShiftParameters, GNCRouteProgressTrackerRouteProgress, GNCRouteProviderRouteRequest, GNCSchedulingNavigationEngineCompanion, GNCDistanceBasedUpdateRateProviderCompanion, GNCKotlinThrowable, GNCDistanceBasedLeavingDestinationValidatorCompanion, GNCDistanceBasedDestinationReachedValidator, GNCRouteBasedDestinationReachedValidatorCompanion, GNCRouteRequestJob, GNCRouteProviderRouteData, GNCRouteProviderType, GNCRouteProviderRouteRequestDestination, GNCRouteDataDto, GNCRouteDto, GNCFullRouteDtoConverterCompanion, GNCRouteDtoDestinationInfo, GNCFullRouteDtoConverter, GNCRouteDtoRouteLeg, GNCRouteDtoGeoPoint, GNCRouteDtoEnforcement, GNCRouteDtoRouteLegStep, GNCRouteDtoRouteLegFuelStation, GNCRouteDtoRouteLegStepLane, GNCRouteDtoRouteLegStepTurnInfo, GNCGMLog, GNCDurationCompanion, GNCLengthCompanion, GNCSpeedCompanion, GNCAnalyticsHandlerType, GNCGMAnalytics, GNCMainThread, GNCIncrementor, GNCAbstractOptimizationProblemCompanion, GNCRealVector, GNCAbstractEvaluation, GNCLeastSquaresFactoryCompanion, GNCLevenbergMarquardtOptimizerCompanion, GNCAbstractOptimizationProblem<PAIR>, GNCPair<K, V>, GNCPrecisionCompanion, GNCIncrementorCompanion, GNCMatrixUtilsCompanion, GNCKotlinDoubleArray, GNCAbstractRealMatrixCompanion, GNCAbstractRealMatrix, GNCArrayRealVector, GNCBlockRealMatrixCompanion, GNCBlockRealMatrix, GNCLUDecompositionCompanion, GNCQRDecomposition, GNCCartesian, GNCGeodesy, GNCLatLngCompanion, GNCUUID, GNCTime, GNCDecodeSequenceMode, GNCSerializersModule, GNCJsonDefault, GNCJsonElement, GNCJsonConfiguration, GNCJson, GNCKotlinNothing, GNCJsonElementCompanion, GNCJsonPrimitiveCompanion, GNCJsonPrimitive, GNCJsonNull, GNCKotlinCancellationException, GNCJobSupport, GNCCoroutineStart, GNCCoroutineDispatcher, GNCKotlinAbstractCoroutineContextElement, GNCCoroutineDispatcherKey, GNCKotlinRuntimeException, GNCKotlinAbstractCoroutineContextKey<B, E>, GNCCoroutineExceptionHandlerKey, GNCCoroutineNameKey, GNCCoroutineName, GNCDispatchers, GNCMainCoroutineDispatcher, GNCGlobalScope, GNCJobKey, GNCNonCancellable, GNCNonDisposableHandle, GNCKotlinIllegalStateException, GNCTimeoutCancellationException, GNCBufferOverflow, GNCChannelFactory, GNCKotlinNoSuchElementException, GNCSharingCommand, GNCSharingStartedCompanion, GNCChannelFlow<T>, GNCAtomicDesc, GNCLockFreeLinkedListNodePrepareOp, GNCAtomicOp<__contravariant T>, GNCOpDescriptor, GNCLockFreeLinkedListNode, GNCLockFreeLinkedListNodeAddLastDesc<T>, GNCLockFreeLinkedListNodeRemoveFirstDesc<T>, GNCLockFreeLinkedListNodeAbstractAtomicDesc, GNCSynchronizedObjectLockState, GNCKotlinAtomicReference<T>, GNCSynchronizedObject, GNCThreadSafeHeap<T>, GNCKotlinByteArray, GNCKotlinIllegalArgumentException, GNCSerializationException, GNCAbstractPolymorphicSerializer<T>, GNCAbstractCollectionSerializer<Element, Collection, Builder>, GNCTaggedDecoder<Tag>, GNCTaggedEncoder<Tag>, GNCSerialKind, GNCPolymorphicKind, GNCPolymorphicKindOPEN, GNCPolymorphicKindSEALED, GNCPrimitiveKind, GNCPrimitiveKindBOOLEAN, GNCPrimitiveKindBYTE, GNCPrimitiveKindCHAR, GNCPrimitiveKindDOUBLE, GNCPrimitiveKindFLOAT, GNCPrimitiveKindINT, GNCPrimitiveKindLONG, GNCPrimitiveKindSHORT, GNCPrimitiveKindSTRING, GNCSerialKindCONTEXTUAL, GNCSerialKindENUM, GNCStructureKind, GNCStructureKindCLASS, GNCStructureKindLIST, GNCStructureKindMAP, GNCStructureKindOBJECT, GNCLongAsStringSerializer, GNCCompositeDecoderCompanion, GNCTraceBase, GNCTraceBaseNone, GNCSynchronizedObjectStatus, GNCGraphmastersNavigationCore, CLLocation, GNCKotlinCValue<T>, GNCJsonArrayBuilder, GNCJsonObjectBuilder, GNCKotlinIntIterator, GNCKotlinIntArray, GNCKotlinLongIterator, GNCKotlinLongArray, GNCKotlinIntProgressionCompanion, GNCKotlinIntProgression, GNCKotlinIntRangeCompanion, GNCKotlinLongProgressionCompanion, GNCKotlinLongProgression, GNCKotlinLongRangeCompanion, GNCSerializersModuleBuilder, GNCPolymorphicModuleBuilder<__contravariant Base>, GNCClassSerialDescriptorBuilder, GNCKotlinBooleanCompanion, GNCKotlinByteCompanion, GNCKotlinCharCompanion, GNCKotlinDoubleCompanion, GNCKotlinFloatCompanion, GNCKotlinIntCompanion, GNCKotlinLongCompanion, GNCKotlinShortCompanion, GNCKotlinStringCompanion, GNCKotlinUByteCompanion, GNCKotlinUIntCompanion, GNCKotlinULongCompanion, GNCKotlinUShortCompanion, GNCKotlinUnit, GNCKotlinDurationCompanion, GNCKotlinDurationUnit, NSDate, GNCJsonBuilder, GNCCloseableCoroutineDispatcher, GNCTraceFormat, GNCAtomicArray<T>, GNCKotlinDoubleIterator, GNCKotlinByteIterator, GNCKotlinAutofreeScope, GNCKotlinCValuesRef<T>, GNCKotlinCValues<T>, GNCKotlinKTypeProjection, GNCKotlinDeferScope, GNCKotlinKVariance, GNCKotlinKTypeProjectionCompanion;
+@class GNCDuration, GNCGenericNavigationZoomProviderZoomStep, GNCKotlinArray<T>, GNCBaseCameraComponentCompanion, GNCBaseCameraComponent, UIView, GNCFreezable, GNCLatLng, GNCCameraUpdatePadding, GNCCameraUpdate, GNCNavigationCameraUpdateProviderCompanion, GNCLocation, GNCSpeed, GNCGenericNavigationZoomProviderCompanion, GNCLength, GNCRoutingEventAwareZoomProviderZoomRange, GNCRoutingEventAwareZoomProviderCompanion, GNCKotlinIntRange, GNCStatefulManeuverAwareTiltProviderCompanion, GNCPredictedLocationProviderCompanion, GNCRouteUtils, GNCRouteWaypoint, GNCOnRouteProjectorProjectedLocation, GNCRouteFeatureCreatorRouteFeature, GNCColorUtils, GNCKotlinFloatArray, GNCColorUtilsColor, GNCKotlinEnumCompanion, GNCKotlinEnum<E>, GNCRelativeSpeedRouteFeatureCreatorCategory, GNCRouteFeatureCreatorCompanion, UIColor, GNCManeuverMapIconCreatorCompanion, GNCManeuverMapIconCreatorManeuverMapIcon, GNCTurnInfo, GNCTurnCommand, GNCManeuverMapIconCreator, GNCManeuverIconProvider, GNCManeuverIconProviderManeuverIcon, UIImage, GNCStaticChipManeuverColorProvider, GNCLaneIcon, GNCLaneIconComposition, GNCLaneIconCompositionProvider, GNCLaneInfoLane, GNCLaneInfo, GNCDetachConstants, GNCDurationConverterResult, GNCDistanceConverterResult, GNCMeasurementSystem, GNCDistanceConverterCompanion, GNCDurationConverterCompanion, GNCFormatUtils, GNCLabelParser, GNCTurnInfoUtils, GNCVoiceInstructionContext, GNCBaseLaneVoiceInstructionStringGeneratorLaneSection, GNCNavigationState, GNCVoiceInstructionHandlerInterceptorResult, GNCManeuver, GNCDurationBasedVoiceInstructionStageProviderCompanion, GNCKotlinLongRange, GNCBaseLaneVoiceInstructionStringGenerator, GNCGenericSpeakableConditionCreator, GNCGermanSpeakableDirectionProviderPrefixConfig, GNCGermanSpeakableDirectionProviderCompanion, NSLocale, GNCRoute, GNCKotlinException, GNCRouteData, GNCBaseNavigationSdkCompanion, GNCSimpleNavigationEventHandler, GNCDispatcherProvider, GNCCoroutineDispatcher, GNCIosInternetConnectionValidatorCompanion, GNCAccelerationEffectedSpeedTrackerCompanion, GNCCalculatingSpeedTrackerCompanion, GNCJKalmanFilter, GNCJKalmanFilterCompanion, GNCJKalmanMatrix<A>, GNCJKalmanMatrixApache, GNCJKalmanStepsCompanion, GNCKalmanPair<T>, GNCRouteUtils_, GNCWeightedChanceCalculator, GNCChanceBasedOnRouteTrackerCompanion, GNCChanceCalculatorCompanion, GNCOnRouteTrackerState, GNCDistanceBasedChanceCalculatorCompanion, GNCHeadingBasedChanceCalculatorCompanion, GNCTurnCommandAlignmentChanceCalculatorCompanion, GNCLaneInfoLaneLaneTurn, GNCRoadClassCompanion, GNCRoadClass, GNCRoutableFactory, GNCRouteDestinationInfo, GNCRouteEnforcement, GNCRouteFuelStation, GNCRouteParkingArea, GNCRouteEnforcementType, GNCRouteFuelStationType, GNCRouteParkingAreaType, GNCRouteSegment, GNCRouteWaypointGpsQuality, GNCTurnCommandCompanion, GNCTurnInfoStreetSide, GNCDeviceStatisticsProviderCompanion, GNCDeviceStatisticsProviderThermalState, GNCDeviceStatisticsProviderDeviceState, GNCDeviceStatisticsProviderDeviceStatistics, GNCNavigationResult, GNCVehicleConfigProperties, GNCTemplates, GNCGenericVehicleConfig, GNCTruckConfig, GNCVehicleConfigDimensions, GNCLocationCompanion, GNCProjectionFinderOptions, GNCDistanceAlignmentProjectionFinderCompanion, GNCDistanceAlignmentProjectionFinderProjectionResult, GNCOnRoutePredictorOptions, GNCSpeedBasedOnRoutePredictorCompanion, GNCOnRouteShifterShiftedLocation, GNCOnRouteShifterShiftParameters, GNCRouteProgressTrackerRouteProgress, GNCDefaultNavigationStateRepositoryCompanion, GNCRouteProviderRouteRequest, GNCDistanceBasedUpdateRateProviderCompanion, GNCKotlinThrowable, GNCDistanceBasedLeavingDestinationValidatorCompanion, GNCRouteRequestJob, GNCRouteProviderType, GNCRouteProviderRouteRequestDestination, GNCRouteDto, GNCRouteDataDto, GNCFullRouteDtoConverterCompanion, GNCRouteDtoDestinationInfo, GNCFullRouteDtoConverter, GNCRouteDtoRouteLeg, GNCRouteDtoGeoPoint, GNCRouteDtoEnforcement, GNCRouteDtoRouteLegStep, GNCRouteDtoRouteLegFuelStation, GNCRouteDtoRouteLegParkingArea, GNCRouteDtoRouteLegPosition, GNCRouteDtoRouteLegStepLane, GNCRouteDtoRouteLegStepTurnInfo, GNCGMLog, GNCDurationCompanion, GNCLengthCompanion, GNCSpeedCompanion, GNCTimestampCompanion, GNCTimestamp, GNCGMAnalytics, GNCMainThread, GNCIncrementor, GNCAbstractOptimizationProblemCompanion, GNCRealVector, GNCAbstractEvaluation, GNCLeastSquaresFactoryCompanion, GNCLevenbergMarquardtOptimizerCompanion, GNCAbstractOptimizationProblem<PAIR>, GNCPair<K, V>, GNCPrecisionCompanion, GNCIncrementorCompanion, GNCMatrixUtilsCompanion, GNCKotlinDoubleArray, GNCAbstractRealMatrixCompanion, GNCAbstractRealMatrix, GNCArrayRealVector, GNCBlockRealMatrixCompanion, GNCBlockRealMatrix, GNCLUDecompositionCompanion, GNCQRDecomposition, GNCCartesian, GNCGeodesy, GNCGeodesySegment, GNCLatLngCompanion, GNCUUID, GNCTime, GNCDecodeSequenceMode, GNCSerializersModule, GNCJsonDefault, GNCJsonElement, GNCJsonConfiguration, GNCJson, GNCKotlinNothing, GNCJsonElementCompanion, GNCJsonPrimitiveCompanion, GNCJsonPrimitive, GNCJsonNull, GNCKotlinCancellationException, GNCJobSupport, GNCCoroutineStart, GNCKotlinAbstractCoroutineContextElement, GNCCoroutineDispatcherKey, GNCKotlinRuntimeException, GNCKotlinAbstractCoroutineContextKey<B, E>, GNCCoroutineExceptionHandlerKey, GNCCoroutineNameKey, GNCCoroutineName, GNCDispatchers, GNCMainCoroutineDispatcher, GNCGlobalScope, GNCJobKey, GNCNonCancellable, GNCNonDisposableHandle, GNCKotlinIllegalStateException, GNCTimeoutCancellationException, GNCBufferOverflow, GNCChannelFactory, GNCKotlinNoSuchElementException, GNCSharingCommand, GNCSharingStartedCompanion, GNCChannelFlow<T>, GNCAtomicDesc, GNCLockFreeLinkedListNodePrepareOp, GNCAtomicOp<__contravariant T>, GNCOpDescriptor, GNCLockFreeLinkedListNode, GNCLockFreeLinkedListNodeAddLastDesc<T>, GNCLockFreeLinkedListNodeRemoveFirstDesc<T>, GNCLockFreeLinkedListNodeAbstractAtomicDesc, GNCSynchronizedObjectLockState, GNCKotlinAtomicReference<T>, GNCSynchronizedObject, GNCThreadSafeHeap<T>, GNCKotlinByteArray, GNCKotlinIllegalArgumentException, GNCSerializationException, GNCAbstractPolymorphicSerializer<T>, GNCAbstractCollectionSerializer<Element, Collection, Builder>, GNCTaggedDecoder<Tag>, GNCTaggedEncoder<Tag>, GNCSerialKind, GNCPolymorphicKind, GNCPolymorphicKindOPEN, GNCPolymorphicKindSEALED, GNCPrimitiveKind, GNCPrimitiveKindBOOLEAN, GNCPrimitiveKindBYTE, GNCPrimitiveKindCHAR, GNCPrimitiveKindDOUBLE, GNCPrimitiveKindFLOAT, GNCPrimitiveKindINT, GNCPrimitiveKindLONG, GNCPrimitiveKindSHORT, GNCPrimitiveKindSTRING, GNCSerialKindCONTEXTUAL, GNCSerialKindENUM, GNCStructureKind, GNCStructureKindCLASS, GNCStructureKindLIST, GNCStructureKindMAP, GNCStructureKindOBJECT, GNCLongAsStringSerializer, GNCCompositeDecoderCompanion, GNCTraceBase, GNCTraceBaseNone, GNCSynchronizedObjectStatus, GNCGraphmastersNavigationCore, GNCBaseNavigationSdk, CLLocation, NSError, GNCKotlinCValue<T>, GNCJsonArrayBuilder, GNCJsonObjectBuilder, GNCKotlinIntIterator, GNCKotlinIntArray, GNCKotlinLongIterator, GNCKotlinLongArray, GNCKotlinIntProgressionCompanion, GNCKotlinIntProgression, GNCKotlinIntRangeCompanion, GNCKotlinLongProgressionCompanion, GNCKotlinLongProgression, GNCKotlinLongRangeCompanion, GNCSerializersModuleBuilder, GNCPolymorphicModuleBuilder<__contravariant Base>, GNCClassSerialDescriptorBuilder, GNCKotlinBooleanCompanion, GNCKotlinByteCompanion, GNCKotlinCharCompanion, GNCKotlinDoubleCompanion, GNCKotlinFloatCompanion, GNCKotlinIntCompanion, GNCKotlinLongCompanion, GNCKotlinShortCompanion, GNCKotlinStringCompanion, GNCKotlinUByteCompanion, GNCKotlinUIntCompanion, GNCKotlinULongCompanion, GNCKotlinUShortCompanion, GNCKotlinUnit, GNCKotlinDurationCompanion, GNCKotlinDurationUnit, NSDate, GNCJsonBuilder, GNCCloseableCoroutineDispatcher, GNCTraceFormat, GNCAtomicArray<T>, GNCKotlinFloatIterator, GNCKotlinDoubleIterator, GNCKotlinByteIterator, GNCKotlinAutofreeScope, GNCKotlinCValuesRef<T>, GNCKotlinCValues<T>, GNCKotlinKTypeProjection, GNCKotlinDeferScope, GNCKotlinKVariance, GNCKotlinKTypeProjectionCompanion;
 
-@protocol GNCExecutor, GNCNavigationSdk, GNCPaddingProvider, GNCRouteDetachStateProvider, GNCNavigationCameraHandlerCameraTrackingListener, GNCNavigationCameraHandlerCameraUpdateListener, GNCNavigationCameraHandler, GNCCameraUpdateProvider, GNCCameraLocationProvider, GNCHeadingProvider, GNCZoomProvider, GNCTiltProvider, GNCOnRoutePredictor, GNCSpeedTracker, GNCNavigationStateProvider, GNCTimeProvider, GNCLocationProviderLocationUpdateListener, GNCLocationProvider, GNCRouteFeatureCreator, GNCRelativeSpeedRouteFeatureCreatorColorProvider, GNCKotlinComparable, GNCManeuverIconProvider, GNCViewImageRenderer, GNCChipManeuverColorProvider, GNCDurationConverter, GNCDistanceConverter, GNCRoutable, GNCVoiceInstructionStringGenerator, GNCVoiceInstructionHandlerInterceptor, GNCVoiceInstructionHandler, GNCNavigationStateProviderOnNavigationStateUpdatedListener, GNCVoiceInstructionDispatcher, GNCVoiceInstructionContextProvider, GNCVoiceInstructionStageProvider, GNCSpeakableConditionCreator, GNCLanguageProvider, GNCSpeakableDirectionProvider, GNCDestinationRepository, GNCLocationRepository, GNCNavigationEngine, GNCNavigationEventHandler, GNCOnRouteProjector, GNCRouteProgressTracker, GNCVehicleConfig, GNCSessionClient, GNCRouteProvider, GNCDestinationReachedValidator, GNCLeavingDestinationValidator, GNCInternetConnectionValidator, GNCUpdateRateProvider, GNCLocationRepositoryLocationUpdateListener, GNCAccelerationEffectedSpeedTrackerDecelerationModifier, GNCRealMatrix, GNCOnRouteTrackerOnRouteStateListener, GNCOnRouteTracker, GNCOnRouteProjectorOnRouteProjectorListener, GNCChanceCalculator, GNCProjectionFinder, GNCDistanceAlignmentProjectionFinderProjectionResultListener, GNCOnRoutePredictorOnRoutePredictionListener, GNCOnRouteShifter, GNCNavigationStateProviderOnNavigationStateInitializedListener, GNCSessionClientCallback, GNCSessionRepository, GNCSessionIdGenerator, GNCNavigationEventHandlerOnDestinationChangedListener, GNCNavigationEventHandlerOnDestinationReachedListener, GNCNavigationEventHandlerOnInitialRouteReceivedListener, GNCNavigationEventHandlerOnLeavingDestinationListener, GNCNavigationEventHandlerOnNavigationStartedListener, GNCNavigationEventHandlerOnNavigationStoppedListener, GNCNavigationEventHandlerOnOffRouteListener, GNCNavigationEventHandlerOnRouteRequestFailedListener, GNCNavigationEventHandlerOnRouteUpdateListener, GNCNavigationEventHandlerOnTrackingSpeedReachedListener, GNCDestinationRepositoryOnDestinationChangedListener, GNCMultiStopRepositoryOnStopsChangedListener, GNCMultiStopRepository, GNCRouteRepositoryRouteUpdatedListener, GNCRouteProgressTrackerRouteProgressListener, GNCRouteRepository, GNCRouteProgressTrackerOnMilestoneReachedListener, GNCRouteProgressTrackerOnWaypointReachedListener, GNCRouteProgressStateUpdater, GNCSchedulingRouteRepositoryOffRouteRequestValidator, GNCRouteRequestJobListener, GNCRouteProviderCallback, GNCRouteDtoConverter, GNCDateTimeFormatter, GNCRouteMerger, GNCExecutorFuture, GNCLogger, GNCSerializable, GNCKSerializer, GNCAnalyticsHandler, GNCOptimizationProblem, GNCLeastSquaresProblemEvaluation, GNCLeastSquaresProblem, GNCMultivariateJacobianFunction, GNCLeastSquaresOptimizerOptimum, GNCLeastSquaresOptimizer, GNCKotlinIterator, GNCIncrementorMaxCountExceededCallback, GNCAnyMatrix, GNCRealMatrixPreservingVisitor, GNCDecompositionSolver, GNCDeserializationStrategy, GNCSerializationStrategy, GNCSerialFormat, GNCStringFormat, GNCEncoder, GNCSerialDescriptor, GNCDecoder, GNCKotlinKClass, GNCCompositeDecoder, GNCCompositeEncoder, GNCChildHandle, GNCChildJob, GNCDisposableHandle, GNCJob, GNCKotlinSequence, GNCSelectClause0, GNCKotlinCoroutineContextKey, GNCKotlinCoroutineContextElement, GNCKotlinCoroutineContext, GNCParentJob, GNCSelectInstance, GNCKotlinSuspendFunction0, GNCKotlinContinuation, GNCCoroutineScope, GNCKotlinSuspendFunction1, GNCKotlinContinuationInterceptor, GNCRunnable, GNCSelectClause1, GNCDeferred, GNCCancellableContinuation, GNCCopyableThrowable, GNCReceiveChannel, GNCSelectClause2, GNCSendChannel, GNCChannelIterator, GNCBroadcastChannel, GNCFlowCollector, GNCFlow, GNCStateFlow, GNCSharedFlow, GNCMutableSharedFlow, GNCSharingStarted, GNCFusibleFlow, GNCProducerScope, GNCMainDispatcherFactory, GNCKotlinMapEntry, GNCSerializersModuleCollector, GNCKotlinAnnotation, GNCKotlinIterable, GNCKotlinClosedRange, GNCKotlinOpenEndRange, GNCKotlinKType, GNCCompletableJob, GNCCompletableDeferred, GNCCoroutineExceptionHandler, GNCChannel, GNCKotlinSuspendFunction2, GNCKotlinSuspendFunction3, GNCMutableStateFlow, GNCKotlinSuspendFunction5, GNCKotlinSuspendFunction4, GNCKotlinSuspendFunction6, GNCSelectBuilder, GNCMutex, GNCSemaphore, GNCBinaryFormat, GNCKotlinKDeclarationContainer, GNCKotlinKAnnotatedElement, GNCKotlinKClassifier, GNCKotlinFunction, GNCKotlinNativePlacement;
+@protocol GNCExecutor, GNCNavigationSdk, GNCPaddingProvider, GNCRouteDetachStateProvider, GNCNavigationCameraHandlerCameraTrackingListener, GNCNavigationCameraHandlerCameraUpdateListener, GNCNavigationCameraHandler, GNCCameraUpdateProvider, GNCCameraLocationProvider, GNCHeadingProvider, GNCZoomProvider, GNCTiltProvider, GNCOnRoutePredictor, GNCSpeedTracker, GNCTimeProvider, GNCLocationProviderLocationUpdateListener, GNCLocationProvider, GNCRouteFeatureCreator, GNCRelativeSpeedRouteFeatureCreatorColorProvider, GNCKotlinComparable, GNCManeuverImageProvider, GNCViewImageRenderer, GNCChipManeuverColorProvider, GNCDurationConverter, GNCDistanceConverter, GNCRoutable, GNCVoiceInstructionStringGenerator, GNCVoiceInstructionHandlerInterceptor, GNCVoiceInstructionHandler, GNCOnNavigationStateUpdatedListener, GNCVoiceInstructionDispatcher, GNCVoiceInstructionContextProvider, GNCVoiceInstructionStageProvider, GNCSpeakableConditionCreator, GNCLanguageProvider, GNCSpeakableDirectionProvider, GNCInterceptingValidatorInterceptor, GNCLocationUpdateListener, GNCOnNavigationStateInitializedListener, GNCStatisticsProvider, GNCVehicleConfig, GNCDestinationRepository, GNCLocationRepository, GNCNavigationEventHandler, GNCOnRouteProjector, GNCRouteProgressTracker, GNCSessionClient, GNCRouteProvider, GNCInternetConnectionValidator, GNCUpdateRateProvider, GNCAccelerationEffectedSpeedTrackerDecelerationModifier, GNCRealMatrix, GNCOnRouteTrackerOnRouteStateListener, GNCOnRouteTracker, GNCOnRouteProjectorOnRouteProjectorListener, GNCChanceCalculator, GNCDeviceStatisticsProviderDeviceStateProvider, GNCNavigationEventHandlerOnInitialRouteReceivedListener, GNCNavigationEventHandlerOnNavigationStartedListener, GNCNavigationEventHandlerOnNavigationStoppedListener, GNCNavigationEventHandlerOnDestinationReachedListener, GNCProjectionFinder, GNCDistanceAlignmentProjectionFinderProjectionResultListener, GNCOnRoutePredictorOnRoutePredictionListener, GNCOnRouteShifter, GNCNavigationStateRepository, GNCValidator, GNCSessionClientCallback, GNCSessionRepository, GNCSessionIdGenerator, GNCNavigationEventHandlerOnDestinationChangedListener, GNCNavigationEventHandlerOnLeavingDestinationListener, GNCNavigationEventHandlerOnOffRouteListener, GNCNavigationEventHandlerOnRouteRequestFailedListener, GNCNavigationEventHandlerOnRouteUpdateListener, GNCNavigationEventHandlerOnTrackingSpeedReachedListener, GNCDestinationRepositoryOnDestinationChangedListener, GNCMultiStopRepositoryOnStopsChangedListener, GNCMultiStopRepository, GNCNavigationEngine, GNCRouteRepositoryRouteUpdatedListener, GNCRouteProgressTrackerOnRouteProgressUpdatedListener, GNCRouteRepository, GNCRouteProgressStateUpdater, GNCSchedulingRouteRepositoryOffRouteRequestValidator, GNCRouteRequestJobListener, GNCRouteDtoConverter, GNCRouteMerger, GNCExecutorFuture, GNCLogger, GNCSerializable, GNCKSerializer, GNCMeasurementSystemProvider, GNCAnalyticsHandler, GNCOptimizationProblem, GNCLeastSquaresProblemEvaluation, GNCLeastSquaresProblem, GNCMultivariateJacobianFunction, GNCLeastSquaresOptimizerOptimum, GNCLeastSquaresOptimizer, GNCKotlinIterator, GNCIncrementorMaxCountExceededCallback, GNCAnyMatrix, GNCRealMatrixPreservingVisitor, GNCDecompositionSolver, GNCDeserializationStrategy, GNCSerializationStrategy, GNCSerialFormat, GNCStringFormat, GNCEncoder, GNCSerialDescriptor, GNCDecoder, GNCKotlinKClass, GNCCompositeDecoder, GNCCompositeEncoder, GNCChildHandle, GNCChildJob, GNCDisposableHandle, GNCJob, GNCKotlinSequence, GNCSelectClause0, GNCKotlinCoroutineContextKey, GNCKotlinCoroutineContextElement, GNCKotlinCoroutineContext, GNCParentJob, GNCSelectInstance, GNCKotlinSuspendFunction0, GNCKotlinContinuation, GNCCoroutineScope, GNCKotlinSuspendFunction1, GNCKotlinContinuationInterceptor, GNCRunnable, GNCSelectClause1, GNCDeferred, GNCCancellableContinuation, GNCCopyableThrowable, GNCReceiveChannel, GNCSelectClause2, GNCSendChannel, GNCChannelIterator, GNCBroadcastChannel, GNCFlowCollector, GNCFlow, GNCStateFlow, GNCSharedFlow, GNCMutableSharedFlow, GNCSharingStarted, GNCFusibleFlow, GNCProducerScope, GNCMainDispatcherFactory, GNCKotlinMapEntry, GNCSerializersModuleCollector, GNCKotlinAnnotation, GNCKotlinIterable, GNCKotlinClosedRange, GNCKotlinOpenEndRange, GNCKotlinKType, GNCCompletableJob, GNCCompletableDeferred, GNCCoroutineExceptionHandler, GNCChannel, GNCKotlinSuspendFunction2, GNCKotlinSuspendFunction3, GNCMutableStateFlow, GNCKotlinSuspendFunction5, GNCKotlinSuspendFunction4, GNCKotlinSuspendFunction6, GNCSelectBuilder, GNCMutex, GNCSemaphore, GNCBinaryFormat, GNCKotlinKDeclarationContainer, GNCKotlinKAnnotatedElement, GNCKotlinKClassifier, GNCKotlinFunction, GNCKotlinNativePlacement;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -154,8 +154,10 @@ __attribute__((swift_name("LanguageProvider")))
 __attribute__((swift_name("BaseCameraComponent")))
 @interface GNCBaseCameraComponent : GNCBase
 - (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider updateRate:(GNCDuration *)updateRate __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:updateRate:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider detachStateProvider:(id<GNCRouteDetachStateProvider>)detachStateProvider updateRate:(GNCDuration *)updateRate __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:detachStateProvider:updateRate:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider zoomSteps:(GNCKotlinArray<GNCGenericNavigationZoomProviderZoomStep *> *)zoomSteps __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:zoomSteps:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider detachStateProvider:(id<GNCRouteDetachStateProvider>)detachStateProvider updateRate:(GNCDuration *)updateRate zoomSteps:(GNCKotlinArray<GNCGenericNavigationZoomProviderZoomStep *> *)zoomSteps __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:detachStateProvider:updateRate:zoomSteps:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNCBaseCameraComponentCompanion *companion __attribute__((swift_name("companion")));
 - (void)addCameraTrackingListenerCameraTrackingListener:(id<GNCNavigationCameraHandlerCameraTrackingListener>)cameraTrackingListener __attribute__((swift_name("addCameraTrackingListener(cameraTrackingListener:)")));
 - (void)addCameraUpdateListenerCameraUpdateListener:(id<GNCNavigationCameraHandlerCameraUpdateListener>)cameraUpdateListener __attribute__((swift_name("addCameraUpdateListener(cameraUpdateListener:)")));
@@ -184,8 +186,10 @@ __attribute__((swift_name("CameraComponent")))
 - (instancetype)initWithNavigationSdk:(id<GNCNavigationSdk>)navigationSdk mapView:(UIView *)mapView __attribute__((swift_name("init(navigationSdk:mapView:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNavigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider __attribute__((swift_name("init(navigationSdk:paddingProvider:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider updateRate:(GNCDuration *)updateRate __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:updateRate:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider detachStateProvider:(id<GNCRouteDetachStateProvider>)detachStateProvider updateRate:(GNCDuration *)updateRate __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:detachStateProvider:updateRate:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider zoomSteps:(GNCKotlinArray<GNCGenericNavigationZoomProviderZoomStep *> *)zoomSteps __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:zoomSteps:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk paddingProvider:(id<GNCPaddingProvider>)paddingProvider detachStateProvider:(id<GNCRouteDetachStateProvider>)detachStateProvider updateRate:(GNCDuration *)updateRate zoomSteps:(GNCKotlinArray<GNCGenericNavigationZoomProviderZoomStep *> *)zoomSteps __attribute__((swift_name("init(executor:navigationSdk:paddingProvider:detachStateProvider:updateRate:zoomSteps:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
 __attribute__((swift_name("Freezable")))
@@ -325,8 +329,8 @@ __attribute__((swift_name("HeadingProvider")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PredictionHeadingProvider")))
 @interface GNCPredictionHeadingProvider : GNCBase <GNCHeadingProvider>
-- (instancetype)initWithOnRoutePredictor:(id<GNCOnRoutePredictor>)onRoutePredictor speedTracker:(id<GNCSpeedTracker>)speedTracker maxMilestoneStopSpeed:(GNCSpeed *)maxMilestoneStopSpeed __attribute__((swift_name("init(onRoutePredictor:speedTracker:maxMilestoneStopSpeed:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithOnRoutePredictor:(id<GNCOnRoutePredictor>)onRoutePredictor speedTracker:(id<GNCSpeedTracker>)speedTracker maxMilestoneStopSpeed:(GNCSpeed * _Nullable)maxMilestoneStopSpeed maxHeadingDeltaDegrees:(double)maxHeadingDeltaDegrees predictionDuration:(GNCDuration *)predictionDuration __attribute__((swift_name("init(onRoutePredictor:speedTracker:maxMilestoneStopSpeed:maxHeadingDeltaDegrees:predictionDuration:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithOnRoutePredictor:(id<GNCOnRoutePredictor>)onRoutePredictor speedTracker:(id<GNCSpeedTracker>)speedTracker maxManeuverStopSpeed:(GNCSpeed *)maxManeuverStopSpeed __attribute__((swift_name("init(onRoutePredictor:speedTracker:maxManeuverStopSpeed:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithOnRoutePredictor:(id<GNCOnRoutePredictor>)onRoutePredictor speedTracker:(id<GNCSpeedTracker>)speedTracker maxManeuverStopSpeed:(GNCSpeed * _Nullable)maxManeuverStopSpeed maxHeadingDeltaDegrees:(double)maxHeadingDeltaDegrees predictionDuration:(GNCDuration *)predictionDuration __attribute__((swift_name("init(onRoutePredictor:speedTracker:maxManeuverStopSpeed:maxHeadingDeltaDegrees:predictionDuration:)"))) __attribute__((objc_designated_initializer));
 - (GNCDouble * _Nullable)getHeadingLocation:(GNCLocation *)location __attribute__((swift_name("getHeading(location:)")));
 @end
 
@@ -373,7 +377,7 @@ __attribute__((swift_name("GenericNavigationZoomProvider.ZoomStep")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RoutingEventAwareZoomProvider")))
 @interface GNCRoutingEventAwareZoomProvider : GNCBase <GNCZoomProvider>
-- (instancetype)initWithZoomProvider:(id<GNCZoomProvider>)zoomProvider navigationStateProvider:(id<GNCNavigationStateProvider>)navigationStateProvider minDistance:(GNCLength *)minDistance maxSpeed:(GNCSpeed *)maxSpeed zoomRange:(GNCRoutingEventAwareZoomProviderZoomRange *)zoomRange __attribute__((swift_name("init(zoomProvider:navigationStateProvider:minDistance:maxSpeed:zoomRange:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithZoomProvider:(id<GNCZoomProvider>)zoomProvider navigationSdk:(id<GNCNavigationSdk>)navigationSdk minDistance:(GNCLength *)minDistance maxSpeed:(GNCSpeed *)maxSpeed zoomRange:(GNCRoutingEventAwareZoomProviderZoomRange *)zoomRange __attribute__((swift_name("init(zoomProvider:navigationSdk:minDistance:maxSpeed:zoomRange:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNCRoutingEventAwareZoomProviderCompanion *companion __attribute__((swift_name("companion")));
 - (double)convertSpeed:(GNCSpeed *)speed __attribute__((swift_name("convert(speed:)")));
 @end
@@ -411,7 +415,7 @@ __attribute__((swift_name("CameraLocationProvider")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PredictionCameraLocationProvider")))
 @interface GNCPredictionCameraLocationProvider : GNCBase <GNCCameraLocationProvider>
-- (instancetype)initWithNavigationSdk:(id<GNCNavigationSdk>)navigationSdk timeProvider:(id<GNCTimeProvider>)timeProvider maxMilestoneStopSpeed:(GNCSpeed *)maxMilestoneStopSpeed __attribute__((swift_name("init(navigationSdk:timeProvider:maxMilestoneStopSpeed:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNavigationSdk:(id<GNCNavigationSdk>)navigationSdk timeProvider:(id<GNCTimeProvider>)timeProvider maxManeuverStopSpeed:(GNCSpeed *)maxManeuverStopSpeed __attribute__((swift_name("init(navigationSdk:timeProvider:maxManeuverStopSpeed:)"))) __attribute__((objc_designated_initializer));
 
 /**
  * @note This method converts instances of Exception to errors.
@@ -427,20 +431,20 @@ __attribute__((swift_name("TiltProvider")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("StatefulMilestoneAwareTiltProvider")))
-@interface GNCStatefulMilestoneAwareTiltProvider : GNCBase <GNCTiltProvider>
-- (instancetype)initWithNavigationStateProvider:(id<GNCNavigationStateProvider>)navigationStateProvider speedTracker:(id<GNCSpeedTracker>)speedTracker minDistance:(GNCLength *)minDistance minSpeed:(GNCSpeed *)minSpeed tilt3DRange:(GNCKotlinIntRange *)tilt3DRange __attribute__((swift_name("init(navigationStateProvider:speedTracker:minDistance:minSpeed:tilt3DRange:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) GNCStatefulMilestoneAwareTiltProviderCompanion *companion __attribute__((swift_name("companion")));
+__attribute__((swift_name("StatefulManeuverAwareTiltProvider")))
+@interface GNCStatefulManeuverAwareTiltProvider : GNCBase <GNCTiltProvider>
+- (instancetype)initWithNavigationSdk:(id<GNCNavigationSdk>)navigationSdk minDistance:(GNCLength *)minDistance minSpeed:(GNCSpeed *)minSpeed tilt3DRange:(GNCKotlinIntRange *)tilt3DRange __attribute__((swift_name("init(navigationSdk:minDistance:minSpeed:tilt3DRange:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNCStatefulManeuverAwareTiltProviderCompanion *companion __attribute__((swift_name("companion")));
 - (double)getTilt __attribute__((swift_name("getTilt()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("StatefulMilestoneAwareTiltProvider.Companion")))
-@interface GNCStatefulMilestoneAwareTiltProviderCompanion : GNCBase
+__attribute__((swift_name("StatefulManeuverAwareTiltProvider.Companion")))
+@interface GNCStatefulManeuverAwareTiltProviderCompanion : GNCBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNCStatefulMilestoneAwareTiltProviderCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) GNCStatefulManeuverAwareTiltProviderCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) int32_t TILT_3D_MAX __attribute__((swift_name("TILT_3D_MAX")));
 @property (readonly) int32_t TILT_3D_MIN __attribute__((swift_name("TILT_3D_MIN")));
 @end
@@ -467,7 +471,7 @@ __attribute__((swift_name("PredictedLocationProvider")))
 @interface GNCPredictedLocationProvider : GNCBase <GNCLocationProvider>
 - (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk __attribute__((swift_name("init(executor:navigationSdk:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk routeDetachStateProvider:(id<GNCRouteDetachStateProvider> _Nullable)routeDetachStateProvider __attribute__((swift_name("init(executor:navigationSdk:routeDetachStateProvider:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk routeDetachStateProvider:(id<GNCRouteDetachStateProvider> _Nullable)routeDetachStateProvider maxMilestoneStopSpeed:(GNCSpeed *)maxMilestoneStopSpeed locationUpdateInterval:(GNCDuration *)locationUpdateInterval __attribute__((swift_name("init(executor:navigationSdk:routeDetachStateProvider:maxMilestoneStopSpeed:locationUpdateInterval:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor navigationSdk:(id<GNCNavigationSdk>)navigationSdk routeDetachStateProvider:(id<GNCRouteDetachStateProvider> _Nullable)routeDetachStateProvider maxManeuverStopSpeed:(GNCSpeed *)maxManeuverStopSpeed locationUpdateInterval:(GNCDuration *)locationUpdateInterval __attribute__((swift_name("init(executor:navigationSdk:routeDetachStateProvider:maxManeuverStopSpeed:locationUpdateInterval:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNCPredictedLocationProviderCompanion *companion __attribute__((swift_name("companion")));
 - (void)addLocationUpdateListenerLocationUpdateListener:(id<GNCLocationProviderLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("addLocationUpdateListener(locationUpdateListener:)")));
 - (void)removeLocationUpdateListenerLocationUpdateListener:(id<GNCLocationProviderLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("removeLocationUpdateListener(locationUpdateListener:)")));
@@ -485,7 +489,7 @@ __attribute__((swift_name("PredictedLocationProvider.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNCPredictedLocationProviderCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) GNCDuration *DEFAULT_LOCATION_UPDATE_INTERVAL __attribute__((swift_name("DEFAULT_LOCATION_UPDATE_INTERVAL")));
-@property (readonly) GNCSpeed *DEFAULT_NEXT_MILESTONE_STOP_SPEED __attribute__((swift_name("DEFAULT_NEXT_MILESTONE_STOP_SPEED")));
+@property (readonly) double DEFAULT_NEXT_MANEUVER_STOP_SPEED_KMH __attribute__((swift_name("DEFAULT_NEXT_MANEUVER_STOP_SPEED_KMH")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -521,6 +525,36 @@ __attribute__((swift_name("AbsoluteSpeedRouteFeatureCreator")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (NSArray<GNCRouteFeatureCreatorRouteFeature *> * _Nullable)createFeaturesWaypoints:(NSArray<GNCRouteWaypoint *> *)waypoints error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("createFeatures(waypoints:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ColorUtils")))
+@interface GNCColorUtils : GNCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)colorUtils __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNCColorUtils *shared __attribute__((swift_name("shared")));
+- (NSString *)convertSpeedToColorSpeed:(GNCSpeed *)speed brightness:(float)brightness __attribute__((swift_name("convertSpeedToColor(speed:brightness:)")));
+- (NSString *)convertToHexRed:(int32_t)red green:(int32_t)green blue:(int32_t)blue __attribute__((swift_name("convertToHex(red:green:blue:)")));
+- (GNCKotlinFloatArray *)toRGBAHue:(float)hue saturation:(float)saturation brightness:(float)brightness alpha:(float)alpha __attribute__((swift_name("toRGBA(hue:saturation:brightness:alpha:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ColorUtils.Color")))
+@interface GNCColorUtilsColor : GNCBase
+- (instancetype)initWithRed:(int32_t)red green:(int32_t)green blue:(int32_t)blue __attribute__((swift_name("init(red:green:blue:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithRed:(double)red green:(double)green blue_:(double)blue __attribute__((swift_name("init(red:green:blue_:)"))) __attribute__((objc_designated_initializer));
+- (double)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (double)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (double)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCColorUtilsColor *)doCopyRed:(double)red green:(double)green blue:(double)blue __attribute__((swift_name("doCopy(red:green:blue:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)toHex __attribute__((swift_name("toHex()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) double blue __attribute__((swift_name("blue")));
+@property (readonly) double green __attribute__((swift_name("green")));
+@property (readonly) double red __attribute__((swift_name("red")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -664,17 +698,61 @@ __attribute__((swift_name("ManeuverMapIconCreator")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ChipManeuverMapIconCreator")))
 @interface GNCChipManeuverMapIconCreator : GNCManeuverMapIconCreator
-- (instancetype)initWithManeuverIconProvider:(id<GNCManeuverIconProvider>)maneuverIconProvider __attribute__((swift_name("init(maneuverIconProvider:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithManeuverIconProvider:(id<GNCManeuverIconProvider>)maneuverIconProvider viewImageRenderer:(id<GNCViewImageRenderer>)viewImageRenderer colorProvider:(id<GNCChipManeuverColorProvider>)colorProvider __attribute__((swift_name("init(maneuverIconProvider:viewImageRenderer:colorProvider:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithManeuverImageProvider:(id<GNCManeuverImageProvider>)maneuverImageProvider __attribute__((swift_name("init(maneuverImageProvider:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithManeuverImageProvider:(id<GNCManeuverImageProvider>)maneuverImageProvider viewImageRenderer:(id<GNCViewImageRenderer>)viewImageRenderer colorProvider:(id<GNCChipManeuverColorProvider>)colorProvider __attribute__((swift_name("init(maneuverImageProvider:viewImageRenderer:colorProvider:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (GNCManeuverMapIconCreatorManeuverMapIcon * _Nullable)createTurnInfo:(GNCTurnInfo *)turnInfo showDirectionLabel:(BOOL)showDirectionLabel __attribute__((swift_name("create(turnInfo:showDirectionLabel:)")));
 @end
 
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ManeuverIconProvider")))
-@protocol GNCManeuverIconProvider
+@interface GNCManeuverIconProvider : GNCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)maneuverIconProvider __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNCManeuverIconProvider *shared __attribute__((swift_name("shared")));
+- (GNCManeuverIconProviderManeuverIcon *)getManeuverIconTurnInfo:(GNCTurnInfo * _Nullable)turnInfo __attribute__((swift_name("getManeuverIcon(turnInfo:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ManeuverIconProvider.ManeuverIcon")))
+@interface GNCManeuverIconProviderManeuverIcon : GNCKotlinEnum<GNCManeuverIconProviderManeuverIcon *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *unknown __attribute__((swift_name("unknown")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *arriveStraight __attribute__((swift_name("arriveStraight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *continueLeft __attribute__((swift_name("continueLeft")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *continueSharpLeft __attribute__((swift_name("continueSharpLeft")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *continueSharpRight __attribute__((swift_name("continueSharpRight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *continueSlightLeft __attribute__((swift_name("continueSlightLeft")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *continueSlightRight __attribute__((swift_name("continueSlightRight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *continueStraight __attribute__((swift_name("continueStraight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *continueRight __attribute__((swift_name("continueRight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *departStraight __attribute__((swift_name("departStraight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *endOfRoadLeft __attribute__((swift_name("endOfRoadLeft")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *endOfRoadRight __attribute__((swift_name("endOfRoadRight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *forkSlightLeft __attribute__((swift_name("forkSlightLeft")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *forkSlightRight __attribute__((swift_name("forkSlightRight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *rampLevelDown __attribute__((swift_name("rampLevelDown")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *rampLevelUp __attribute__((swift_name("rampLevelUp")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *roundaboutLeft __attribute__((swift_name("roundaboutLeft")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *roundaboutRight __attribute__((swift_name("roundaboutRight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *roundaboutSharpLeft __attribute__((swift_name("roundaboutSharpLeft")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *roundaboutSharpRight __attribute__((swift_name("roundaboutSharpRight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *roundaboutSlightLeft __attribute__((swift_name("roundaboutSlightLeft")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *roundaboutSlightRight __attribute__((swift_name("roundaboutSlightRight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *roundaboutStraight __attribute__((swift_name("roundaboutStraight")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *roundaboutRht __attribute__((swift_name("roundaboutRht")));
+@property (class, readonly) GNCManeuverIconProviderManeuverIcon *uturnRht __attribute__((swift_name("uturnRht")));
++ (GNCKotlinArray<GNCManeuverIconProviderManeuverIcon *> *)values __attribute__((swift_name("values()")));
+@end
+
+__attribute__((swift_name("ManeuverImageProvider")))
+@protocol GNCManeuverImageProvider
 @required
-- (UIImage *)getImageByTurnCommandTurnCommand:(GNCTurnCommand * _Nullable)turnCommand __attribute__((swift_name("getImageByTurnCommand(turnCommand:)")));
+- (UIImage *)getImageByTurnInfoTurnInfo:(GNCTurnInfo * _Nullable)turnInfo __attribute__((swift_name("getImageByTurnInfo(turnInfo:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -724,35 +802,44 @@ __attribute__((swift_name("StaticChipManeuverColorProvider")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaneAssistIconProvider")))
-@interface GNCLaneAssistIconProvider : GNCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)laneAssistIconProvider __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNCLaneAssistIconProvider *shared __attribute__((swift_name("shared")));
-- (GNCLaneAssistIconProviderLaneAssistIcon *)getLaneAssistIconTurnCommand:(GNCTurnCommand * _Nullable)turnCommand lane:(GNCLaneInfoLane *)lane __attribute__((swift_name("getLaneAssistIcon(turnCommand:lane:)")));
-- (NSArray<GNCLaneAssistIconProviderLaneAssistIcon *> *)getLaneAssistIconsTurnCommand:(GNCTurnCommand * _Nullable)turnCommand laneInfo:(GNCLaneInfo *)laneInfo __attribute__((swift_name("getLaneAssistIcons(turnCommand:laneInfo:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaneAssistIconProvider.LaneAssistIcon")))
-@interface GNCLaneAssistIconProviderLaneAssistIcon : GNCKotlinEnum<GNCLaneAssistIconProviderLaneAssistIcon *>
+__attribute__((swift_name("LaneIcon")))
+@interface GNCLaneIcon : GNCKotlinEnum<GNCLaneIcon *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *left __attribute__((swift_name("left")));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *right __attribute__((swift_name("right")));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *slightLeft __attribute__((swift_name("slightLeft")));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *slightRight __attribute__((swift_name("slightRight")));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *through __attribute__((swift_name("through")));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *throughLeft __attribute__((swift_name("throughLeft")));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *throughLeftUseLeft __attribute__((swift_name("throughLeftUseLeft")));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *throughLeftUseThrough __attribute__((swift_name("throughLeftUseThrough")));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *throughRight __attribute__((swift_name("throughRight")));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *throughRightUseRight __attribute__((swift_name("throughRightUseRight")));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *throughRightUseThrough __attribute__((swift_name("throughRightUseThrough")));
-@property (class, readonly) GNCLaneAssistIconProviderLaneAssistIcon *unknown __attribute__((swift_name("unknown")));
-+ (GNCKotlinArray<GNCLaneAssistIconProviderLaneAssistIcon *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) GNCLaneIcon *left __attribute__((swift_name("left")));
+@property (class, readonly) GNCLaneIcon *slightLeft __attribute__((swift_name("slightLeft")));
+@property (class, readonly) GNCLaneIcon *sharpLeft __attribute__((swift_name("sharpLeft")));
+@property (class, readonly) GNCLaneIcon *right __attribute__((swift_name("right")));
+@property (class, readonly) GNCLaneIcon *slightRight __attribute__((swift_name("slightRight")));
+@property (class, readonly) GNCLaneIcon *sharpRight __attribute__((swift_name("sharpRight")));
+@property (class, readonly) GNCLaneIcon *through __attribute__((swift_name("through")));
++ (GNCKotlinArray<GNCLaneIcon *> *)values __attribute__((swift_name("values()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LaneIconComposition")))
+@interface GNCLaneIconComposition : GNCBase
+- (instancetype)initWithUse:(GNCLaneIcon * _Nullable)use remaining:(NSArray<GNCLaneIcon *> *)remaining __attribute__((swift_name("init(use:remaining:)"))) __attribute__((objc_designated_initializer));
+- (GNCLaneIcon * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSArray<GNCLaneIcon *> *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLaneIconComposition *)doCopyUse:(GNCLaneIcon * _Nullable)use remaining:(NSArray<GNCLaneIcon *> *)remaining __attribute__((swift_name("doCopy(use:remaining:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<GNCLaneIcon *> *remaining __attribute__((swift_name("remaining")));
+@property (readonly) GNCLaneIcon * _Nullable use __attribute__((swift_name("use")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LaneIconCompositionProvider")))
+@interface GNCLaneIconCompositionProvider : GNCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)laneIconCompositionProvider __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNCLaneIconCompositionProvider *shared __attribute__((swift_name("shared")));
+- (GNCLaneIconComposition *)getLaneIconCompositionLane:(GNCLaneInfoLane *)lane turnCommand:(GNCTurnCommand * _Nullable)turnCommand __attribute__((swift_name("getLaneIconComposition(lane:turnCommand:)")));
+- (NSArray<GNCLaneIconComposition *> *)getLaneIconCompositionsLaneInfo:(GNCLaneInfo *)laneInfo turnCommand:(GNCTurnCommand * _Nullable)turnCommand __attribute__((swift_name("getLaneIconCompositions(laneInfo:turnCommand:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -797,7 +884,7 @@ __attribute__((swift_name("CompactDurationConverter")))
 __attribute__((swift_name("DistanceConverter")))
 @protocol GNCDistanceConverter
 @required
-- (GNCDistanceConverterResult *)convertLength:(GNCLength *)length measurementSystem:(GNCDistanceConverterMeasurementSystem *)measurementSystem __attribute__((swift_name("convert(length:measurementSystem:)")));
+- (GNCDistanceConverterResult *)convertLength:(GNCLength *)length measurementSystem:(GNCMeasurementSystem *)measurementSystem __attribute__((swift_name("convert(length:measurementSystem:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -805,7 +892,7 @@ __attribute__((swift_name("DetailedDistanceConverter")))
 @interface GNCDetailedDistanceConverter : GNCBase <GNCDistanceConverter>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (GNCDistanceConverterResult *)convertLength:(GNCLength *)length measurementSystem:(GNCDistanceConverterMeasurementSystem *)measurementSystem __attribute__((swift_name("convert(length:measurementSystem:)")));
+- (GNCDistanceConverterResult *)convertLength:(GNCLength *)length measurementSystem:(GNCMeasurementSystem *)measurementSystem __attribute__((swift_name("convert(length:measurementSystem:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -819,17 +906,6 @@ __attribute__((swift_name("DistanceConverterCompanion")))
 @property (readonly) NSString *UNIT_KILOMETER __attribute__((swift_name("UNIT_KILOMETER")));
 @property (readonly) NSString *UNIT_METERS __attribute__((swift_name("UNIT_METERS")));
 @property (readonly) NSString *UNIT_MILES __attribute__((swift_name("UNIT_MILES")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DistanceConverterMeasurementSystem")))
-@interface GNCDistanceConverterMeasurementSystem : GNCKotlinEnum<GNCDistanceConverterMeasurementSystem *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) GNCDistanceConverterMeasurementSystem *metric __attribute__((swift_name("metric")));
-@property (class, readonly) GNCDistanceConverterMeasurementSystem *imperial __attribute__((swift_name("imperial")));
-+ (GNCKotlinArray<GNCDistanceConverterMeasurementSystem *> *)values __attribute__((swift_name("values()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -881,7 +957,7 @@ __attribute__((swift_name("RoundedDistanceConverter")))
 @interface GNCRoundedDistanceConverter : GNCBase <GNCDistanceConverter>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (GNCDistanceConverterResult *)convertLength:(GNCLength *)length measurementSystem:(GNCDistanceConverterMeasurementSystem *)measurementSystem __attribute__((swift_name("convert(length:measurementSystem:)")));
+- (GNCDistanceConverterResult *)convertLength:(GNCLength *)length measurementSystem:(GNCMeasurementSystem *)measurementSystem __attribute__((swift_name("convert(length:measurementSystem:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -964,22 +1040,30 @@ __attribute__((swift_name("VoiceInstructionHandler")))
 @property BOOL enabled __attribute__((swift_name("enabled")));
 @end
 
-__attribute__((swift_name("NavigationStateProviderOnNavigationStateUpdatedListener")))
-@protocol GNCNavigationStateProviderOnNavigationStateUpdatedListener
+__attribute__((swift_name("OnNavigationStateUpdatedListener")))
+@protocol GNCOnNavigationStateUpdatedListener
 @required
-- (void)onNavigationStateUpdatedNavigationState:(GNCNavigationStateProviderNavigationState *)navigationState __attribute__((swift_name("onNavigationStateUpdated(navigationState:)")));
+- (void)onNavigationStateUpdatedNavigationState:(GNCNavigationState * _Nullable)navigationState __attribute__((swift_name("onNavigationStateUpdated(navigationState:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("NavigationVoiceInstructionHandler")))
-@interface GNCNavigationVoiceInstructionHandler : GNCBase <GNCVoiceInstructionHandler, GNCNavigationStateProviderOnNavigationStateUpdatedListener>
+@interface GNCNavigationVoiceInstructionHandler : GNCBase <GNCVoiceInstructionHandler, GNCOnNavigationStateUpdatedListener>
 - (instancetype)initWithNavigationSdk:(id<GNCNavigationSdk>)navigationSdk voiceInstructionStringGenerator:(id<GNCVoiceInstructionStringGenerator>)voiceInstructionStringGenerator voiceInstructionDispatcher:(id<GNCVoiceInstructionDispatcher>)voiceInstructionDispatcher __attribute__((swift_name("init(navigationSdk:voiceInstructionStringGenerator:voiceInstructionDispatcher:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNavigationSdk:(id<GNCNavigationSdk>)navigationSdk voiceInstructionStringGenerator:(id<GNCVoiceInstructionStringGenerator>)voiceInstructionStringGenerator voiceInstructionDispatcher:(id<GNCVoiceInstructionDispatcher>)voiceInstructionDispatcher detachStateProvider:(id<GNCRouteDetachStateProvider>)detachStateProvider __attribute__((swift_name("init(navigationSdk:voiceInstructionStringGenerator:voiceInstructionDispatcher:detachStateProvider:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithVoiceInstructionContextProvider:(id<GNCVoiceInstructionContextProvider>)voiceInstructionContextProvider voiceInstructionStringGenerator:(id<GNCVoiceInstructionStringGenerator>)voiceInstructionStringGenerator voiceInstructionDispatcher:(id<GNCVoiceInstructionDispatcher>)voiceInstructionDispatcher navigationStateProvider:(id<GNCNavigationStateProvider>)navigationStateProvider detachStateProvider:(id<GNCRouteDetachStateProvider> _Nullable)detachStateProvider minTimeBetweenVoiceInstructions:(GNCDuration *)minTimeBetweenVoiceInstructions __attribute__((swift_name("init(voiceInstructionContextProvider:voiceInstructionStringGenerator:voiceInstructionDispatcher:navigationStateProvider:detachStateProvider:minTimeBetweenVoiceInstructions:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithVoiceInstructionContextProvider:(id<GNCVoiceInstructionContextProvider>)voiceInstructionContextProvider voiceInstructionStringGenerator:(id<GNCVoiceInstructionStringGenerator>)voiceInstructionStringGenerator voiceInstructionDispatcher:(id<GNCVoiceInstructionDispatcher>)voiceInstructionDispatcher navigationSdk:(id<GNCNavigationSdk>)navigationSdk detachStateProvider:(id<GNCRouteDetachStateProvider> _Nullable)detachStateProvider minTimeBetweenVoiceInstructions:(GNCDuration *)minTimeBetweenVoiceInstructions __attribute__((swift_name("init(voiceInstructionContextProvider:voiceInstructionStringGenerator:voiceInstructionDispatcher:navigationSdk:detachStateProvider:minTimeBetweenVoiceInstructions:)"))) __attribute__((objc_designated_initializer));
 - (void)addInterceptorInterceptor:(id<GNCVoiceInstructionHandlerInterceptor>)interceptor __attribute__((swift_name("addInterceptor(interceptor:)")));
-- (void)onNavigationStateUpdatedNavigationState:(GNCNavigationStateProviderNavigationState *)navigationState __attribute__((swift_name("onNavigationStateUpdated(navigationState:)")));
+- (void)onNavigationStateUpdatedNavigationState:(GNCNavigationState * _Nullable)navigationState __attribute__((swift_name("onNavigationStateUpdated(navigationState:)")));
 - (void)removeInterceptorInterceptor:(id<GNCVoiceInstructionHandlerInterceptor>)interceptor __attribute__((swift_name("removeInterceptor(interceptor:)")));
 @property BOOL enabled __attribute__((swift_name("enabled")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TurnAwareAudioBalanceProvider")))
+@interface GNCTurnAwareAudioBalanceProvider : GNCBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (float)getBalanceVoiceInstructionContext:(GNCVoiceInstructionContext *)voiceInstructionContext __attribute__((swift_name("getBalance(voiceInstructionContext:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1009,7 +1093,7 @@ __attribute__((swift_name("VoiceInstructionContext")))
 __attribute__((swift_name("VoiceInstructionDispatcher")))
 @protocol GNCVoiceInstructionDispatcher
 @required
-- (void)dispatchVoiceInstruction:(NSArray<NSString *> *)voiceInstruction onDone:(void (^)(NSString *))onDone __attribute__((swift_name("dispatch(voiceInstruction:onDone:)")));
+- (void)dispatchVoiceInstructionContext:(GNCVoiceInstructionContext *)voiceInstructionContext voiceInstructionText:(NSString *)voiceInstructionText balance:(float)balance onDone:(void (^)(NSString *))onDone __attribute__((swift_name("dispatch(voiceInstructionContext:voiceInstructionText:balance:onDone:)")));
 @end
 
 __attribute__((swift_name("VoiceInstructionHandlerInterceptor")))
@@ -1035,7 +1119,7 @@ __attribute__((swift_name("VoiceInstructionHandlerInterceptorResult")))
 __attribute__((swift_name("VoiceInstructionStageProvider")))
 @protocol GNCVoiceInstructionStageProvider
 @required
-- (GNCInt * _Nullable)getStageWaypoint:(GNCRouteWaypoint *)waypoint maneuverDistance:(GNCLength *)maneuverDistance maneuverDuration:(GNCDuration *)maneuverDuration __attribute__((swift_name("getStage(waypoint:maneuverDistance:maneuverDuration:)")));
+- (GNCInt * _Nullable)getStageManeuver:(GNCManeuver *)maneuver __attribute__((swift_name("getStage(maneuver:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1045,7 +1129,7 @@ __attribute__((swift_name("DurationBasedVoiceInstructionStageProvider")))
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithOverwriteDistanceStage0:(GNCLength *)overwriteDistanceStage0 __attribute__((swift_name("init(overwriteDistanceStage0:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNCDurationBasedVoiceInstructionStageProviderCompanion *companion __attribute__((swift_name("companion")));
-- (GNCInt * _Nullable)getStageWaypoint:(GNCRouteWaypoint *)waypoint maneuverDistance:(GNCLength *)maneuverDistance maneuverDuration:(GNCDuration *)maneuverDuration __attribute__((swift_name("getStage(waypoint:maneuverDistance:maneuverDuration:)")));
+- (GNCInt * _Nullable)getStageManeuver:(GNCManeuver *)maneuver __attribute__((swift_name("getStage(maneuver:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1069,7 +1153,7 @@ __attribute__((swift_name("VoiceInstructionContextProvider")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("NavigationVoiceInstructionContextProvider")))
 @interface GNCNavigationVoiceInstructionContextProvider : GNCBase <GNCVoiceInstructionContextProvider>
-- (instancetype)initWithStageProvider:(id<GNCVoiceInstructionStageProvider>)stageProvider navigationStateProvider:(id<GNCNavigationStateProvider>)navigationStateProvider __attribute__((swift_name("init(stageProvider:navigationStateProvider:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithStageProvider:(id<GNCVoiceInstructionStageProvider>)stageProvider navigationSdk:(id<GNCNavigationSdk>)navigationSdk __attribute__((swift_name("init(stageProvider:navigationSdk:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) GNCVoiceInstructionContext * _Nullable voiceInstructionContext __attribute__((swift_name("voiceInstructionContext")));
 @end
 
@@ -1378,37 +1462,155 @@ __attribute__((swift_name("FoundationLanguageProvider")))
 __attribute__((swift_name("NavigationSdk")))
 @protocol GNCNavigationSdk
 @required
-- (void)requestStaticRouteOrigin:(GNCLocation *)origin destination:(id<GNCRoutable>)destination onSuccess:(void (^)(GNCRoute *))onSuccess onError:(void (^)(GNCKotlinException *))onError __attribute__((swift_name("requestStaticRoute(origin:destination:onSuccess:onError:)")));
+- (void)addLeavingDestinationInterceptorInterceptor:(id<GNCInterceptingValidatorInterceptor>)interceptor __attribute__((swift_name("addLeavingDestinationInterceptor(interceptor:)")));
+- (void)addLocationUpdateListenerLocationUpdateListener_:(id<GNCLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("addLocationUpdateListener(locationUpdateListener_:)")));
+- (void)addOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("addOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
+- (void)addOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
+- (void)addReachingDestinationInterceptorInterceptor:(id<GNCInterceptingValidatorInterceptor>)interceptor __attribute__((swift_name("addReachingDestinationInterceptor(interceptor:)")));
+- (void)addStatisticsProviderStatisticsProvider:(id<GNCStatisticsProvider>)statisticsProvider __attribute__((swift_name("addStatisticsProvider(statisticsProvider:)")));
+- (void)removeLocationUpdateListenerLocationUpdateListener_:(id<GNCLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("removeLocationUpdateListener(locationUpdateListener_:)")));
+- (void)removeOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("removeOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
+- (void)removeOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("removeOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
+- (void)requestStaticRouteOrigin:(GNCLocation *)origin destination:(id<GNCRoutable>)destination vehicleConfig:(id<GNCVehicleConfig> _Nullable)vehicleConfig onSuccess:(void (^)(GNCRoute *))onSuccess onError:(void (^)(GNCKotlinException *))onError __attribute__((swift_name("requestStaticRoute(origin:destination:vehicleConfig:onSuccess:onError:)")));
+- (void)requestStaticRouteDataOrigin:(GNCLocation *)origin destination:(id<GNCRoutable>)destination vehicleConfig:(id<GNCVehicleConfig> _Nullable)vehicleConfig onSuccess:(void (^)(GNCRouteData *))onSuccess onError:(void (^)(GNCKotlinException *))onError __attribute__((swift_name("requestStaticRouteData(origin:destination:vehicleConfig:onSuccess:onError:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationStops:(NSArray<id<GNCRoutable>> *)stops error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(stops:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationStops:(NSArray<id<GNCRoutable>> *)stops vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(stops:vehicleConfig:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationLatLng:(GNCLatLng *)latLng error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(latLng:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationLatLng:(GNCLatLng *)latLng vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(latLng:vehicleConfig:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationRoutable:(id<GNCRoutable> _Nullable)routable error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(routable:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationRoutable:(id<GNCRoutable> _Nullable)routable vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(routable:vehicleConfig:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationRoute:(GNCRoute *)route sessionId:(NSString * _Nullable)sessionId error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(route:sessionId:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationRoute:(GNCRoute *)route sessionId:(NSString * _Nullable)sessionId vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(route:sessionId:vehicleConfig:)")));
+- (void)stopNavigation __attribute__((swift_name("stopNavigation()")));
 - (void)updateLocationLocation:(GNCLocation *)location __attribute__((swift_name("updateLocation(location:)")));
 @property (readonly) id<GNCDestinationRepository> destinationRepository __attribute__((swift_name("destinationRepository")));
-@property (readonly) id<GNCLocationRepository> locationRepository __attribute__((swift_name("locationRepository")));
-@property (readonly) id<GNCNavigationEngine> navigationEngine __attribute__((swift_name("navigationEngine")));
+@property (readonly) GNCLocation * _Nullable location __attribute__((swift_name("location")));
+@property (readonly) id<GNCLocationRepository> locationRepository __attribute__((swift_name("locationRepository"))) __attribute__((deprecated("Use location instead. Will be removed in future updates.")));
+@property (readonly) BOOL navigationActive __attribute__((swift_name("navigationActive")));
 @property (readonly) id<GNCNavigationEventHandler> navigationEventHandler __attribute__((swift_name("navigationEventHandler")));
-@property (readonly) id<GNCNavigationStateProvider> navigationStateProvider __attribute__((swift_name("navigationStateProvider")));
+@property (readonly) GNCNavigationState * _Nullable navigationState __attribute__((swift_name("navigationState")));
 @property (readonly) id<GNCOnRoutePredictor> onRoutePredictor __attribute__((swift_name("onRoutePredictor")));
 @property (readonly) id<GNCOnRouteProjector> onRouteProjector __attribute__((swift_name("onRouteProjector")));
 @property (readonly) id<GNCRouteProgressTracker> routeProgressTracker __attribute__((swift_name("routeProgressTracker")));
 @property (readonly) id<GNCSpeedTracker> speedTracker __attribute__((swift_name("speedTracker")));
-@property id<GNCVehicleConfig> vehicleConfig __attribute__((swift_name("vehicleConfig")));
 @end
 
 __attribute__((swift_name("BaseNavigationSdk")))
 @interface GNCBaseNavigationSdk : GNCBase <GNCNavigationSdk>
 - (instancetype)initWithExecutor:(id<GNCExecutor>)executor sessionClient:(id<GNCSessionClient>)sessionClient routeProvider:(id<GNCRouteProvider>)routeProvider __attribute__((swift_name("init(executor:sessionClient:routeProvider:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithExecutor:(id<GNCExecutor>)executor sessionClient:(id<GNCSessionClient>)sessionClient routeProvider:(id<GNCRouteProvider>)routeProvider destinationReachedValidator:(id<GNCDestinationReachedValidator> _Nullable)destinationReachedValidator leavingDestinationValidator:(id<GNCLeavingDestinationValidator> _Nullable)leavingDestinationValidator internetConnectionValidator:(id<GNCInternetConnectionValidator> _Nullable)internetConnectionValidator updateRateProvider:(id<GNCUpdateRateProvider> _Nullable)updateRateProvider destinationRepository:(id<GNCDestinationRepository>)destinationRepository vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig __attribute__((swift_name("init(executor:sessionClient:routeProvider:destinationReachedValidator:leavingDestinationValidator:internetConnectionValidator:updateRateProvider:destinationRepository:vehicleConfig:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor sessionClient:(id<GNCSessionClient>)sessionClient routeProvider:(id<GNCRouteProvider>)routeProvider internetConnectionValidator:(id<GNCInternetConnectionValidator> _Nullable)internetConnectionValidator updateRateProvider:(id<GNCUpdateRateProvider>)updateRateProvider __attribute__((swift_name("init(executor:sessionClient:routeProvider:internetConnectionValidator:updateRateProvider:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNCBaseNavigationSdkCompanion *companion __attribute__((swift_name("companion")));
-- (void)requestStaticRouteOrigin:(GNCLocation *)origin destination:(id<GNCRoutable>)destination onSuccess:(void (^)(GNCRoute *))onSuccess onError:(void (^)(GNCKotlinException *))onError __attribute__((swift_name("requestStaticRoute(origin:destination:onSuccess:onError:)")));
+- (void)addLeavingDestinationInterceptorInterceptor:(id<GNCInterceptingValidatorInterceptor>)interceptor __attribute__((swift_name("addLeavingDestinationInterceptor(interceptor:)")));
+- (void)addLocationUpdateListenerLocationUpdateListener_:(id<GNCLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("addLocationUpdateListener(locationUpdateListener_:)")));
+- (void)addOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("addOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
+- (void)addOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
+- (void)addReachingDestinationInterceptorInterceptor:(id<GNCInterceptingValidatorInterceptor>)interceptor __attribute__((swift_name("addReachingDestinationInterceptor(interceptor:)")));
+- (void)addStatisticsProviderStatisticsProvider:(id<GNCStatisticsProvider>)statisticsProvider __attribute__((swift_name("addStatisticsProvider(statisticsProvider:)")));
+- (void)removeLocationUpdateListenerLocationUpdateListener_:(id<GNCLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("removeLocationUpdateListener(locationUpdateListener_:)")));
+- (void)removeOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("removeOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
+- (void)removeOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("removeOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
+- (void)requestStaticRouteOrigin:(GNCLocation *)origin destination:(id<GNCRoutable>)destination vehicleConfig:(id<GNCVehicleConfig> _Nullable)vehicleConfig onSuccess:(void (^)(GNCRoute *))onSuccess onError:(void (^)(GNCKotlinException *))onError __attribute__((swift_name("requestStaticRoute(origin:destination:vehicleConfig:onSuccess:onError:)")));
+- (void)requestStaticRouteDataOrigin:(GNCLocation *)origin destination:(id<GNCRoutable>)destination vehicleConfig:(id<GNCVehicleConfig> _Nullable)vehicleConfig onSuccess:(void (^)(GNCRouteData *))onSuccess onError:(void (^)(GNCKotlinException *))onError __attribute__((swift_name("requestStaticRouteData(origin:destination:vehicleConfig:onSuccess:onError:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationStops:(NSArray<id<GNCRoutable>> *)stops error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(stops:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationStops:(NSArray<id<GNCRoutable>> *)stops vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(stops:vehicleConfig:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationLatLng:(GNCLatLng *)latLng error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(latLng:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationLatLng:(GNCLatLng *)latLng vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(latLng:vehicleConfig:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationRoutable:(id<GNCRoutable> _Nullable)routable error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(routable:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationRoutable:(id<GNCRoutable> _Nullable)routable vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(routable:vehicleConfig:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationRoute:(GNCRoute *)route sessionId:(NSString * _Nullable)sessionId error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(route:sessionId:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)startNavigationRoute:(GNCRoute *)route sessionId:(NSString * _Nullable)sessionId vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(route:sessionId:vehicleConfig:)")));
+- (void)stopNavigation __attribute__((swift_name("stopNavigation()")));
 - (void)updateLocationLocation:(GNCLocation *)location __attribute__((swift_name("updateLocation(location:)")));
 @property (readonly) id<GNCDestinationRepository> destinationRepository __attribute__((swift_name("destinationRepository")));
-@property (readonly) id<GNCLocationRepository> locationRepository __attribute__((swift_name("locationRepository")));
-@property id<GNCNavigationEngine> navigationEngine __attribute__((swift_name("navigationEngine")));
+@property (readonly) GNCLocation * _Nullable location __attribute__((swift_name("location")));
+@property (readonly) id<GNCLocationRepository> locationRepository __attribute__((swift_name("locationRepository"))) __attribute__((deprecated("Overrides deprecated member in 'net.graphmasters.multiplatform.navigation.NavigationSdk'. Use location instead. Will be removed in future updates.")));
+@property (readonly) BOOL navigationActive __attribute__((swift_name("navigationActive")));
 @property (readonly) GNCSimpleNavigationEventHandler *navigationEventHandler __attribute__((swift_name("navigationEventHandler")));
-@property id<GNCNavigationStateProvider> navigationStateProvider __attribute__((swift_name("navigationStateProvider")));
+@property (readonly) GNCNavigationState * _Nullable navigationState __attribute__((swift_name("navigationState")));
 @property id<GNCOnRoutePredictor> onRoutePredictor __attribute__((swift_name("onRoutePredictor")));
 @property id<GNCOnRouteProjector> onRouteProjector __attribute__((swift_name("onRouteProjector")));
 @property id<GNCRouteProgressTracker> routeProgressTracker __attribute__((swift_name("routeProgressTracker")));
 @property id<GNCSpeedTracker> speedTracker __attribute__((swift_name("speedTracker")));
-@property id<GNCVehicleConfig> vehicleConfig __attribute__((swift_name("vehicleConfig")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1418,8 +1620,16 @@ __attribute__((swift_name("BaseNavigationSdk.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNCBaseNavigationSdkCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) GNCSpeed *DEFAULT_REQUIRED_SPEED_FOR_PREDICTION __attribute__((swift_name("DEFAULT_REQUIRED_SPEED_FOR_PREDICTION")));
-@property (readonly) GNCSpeed *MAX_MILESTONE_STOP_SPEED __attribute__((swift_name("MAX_MILESTONE_STOP_SPEED")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DispatcherProvider")))
+@interface GNCDispatcherProvider : GNCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)dispatcherProvider __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNCDispatcherProvider *shared __attribute__((swift_name("shared")));
+@property (readonly) GNCCoroutineDispatcher *IO __attribute__((swift_name("IO")));
 @end
 
 __attribute__((swift_name("InternetConnectionValidator")))
@@ -1428,21 +1638,40 @@ __attribute__((swift_name("InternetConnectionValidator")))
 @property (readonly) BOOL connected __attribute__((swift_name("connected")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IosInternetConnectionValidator")))
+@interface GNCIosInternetConnectionValidator : GNCBase <GNCInternetConnectionValidator>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) GNCIosInternetConnectionValidatorCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) BOOL connected __attribute__((swift_name("connected")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IosInternetConnectionValidator.Companion")))
+@interface GNCIosInternetConnectionValidatorCompanion : GNCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNCIosInternetConnectionValidatorCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) int32_t REACHABILITY_FLAGS_LENGTH __attribute__((swift_name("REACHABILITY_FLAGS_LENGTH")));
+@end
+
 __attribute__((swift_name("SpeedTracker")))
 @protocol GNCSpeedTracker
 @required
 @property (readonly) GNCSpeed *speed __attribute__((swift_name("speed")));
 @end
 
-__attribute__((swift_name("LocationRepositoryLocationUpdateListener")))
-@protocol GNCLocationRepositoryLocationUpdateListener
+__attribute__((swift_name("LocationUpdateListener")))
+@protocol GNCLocationUpdateListener
 @required
 - (void)onLocationUpdatedLocation:(GNCLocation *)location __attribute__((swift_name("onLocationUpdated(location:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AccelerationEffectedSpeedTracker")))
-@interface GNCAccelerationEffectedSpeedTracker : GNCBase <GNCSpeedTracker, GNCLocationRepositoryLocationUpdateListener>
+@interface GNCAccelerationEffectedSpeedTracker : GNCBase <GNCSpeedTracker, GNCLocationUpdateListener>
 - (instancetype)initWithTimeProvider:(id<GNCTimeProvider>)timeProvider decelerationModifier:(id<GNCAccelerationEffectedSpeedTrackerDecelerationModifier> _Nullable)decelerationModifier maxLocationAge:(GNCDuration *)maxLocationAge minSpeed:(GNCSpeed *)minSpeed __attribute__((swift_name("init(timeProvider:decelerationModifier:maxLocationAge:minSpeed:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNCAccelerationEffectedSpeedTrackerCompanion *companion __attribute__((swift_name("companion")));
 - (void)onLocationUpdatedLocation:(GNCLocation *)location __attribute__((swift_name("onLocationUpdated(location:)")));
@@ -1475,7 +1704,7 @@ __attribute__((swift_name("AccelerationEffectedSpeedTracker.SpeedBasedDecelerati
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CalculatingSpeedTracker")))
-@interface GNCCalculatingSpeedTracker : GNCBase <GNCSpeedTracker, GNCLocationRepositoryLocationUpdateListener>
+@interface GNCCalculatingSpeedTracker : GNCBase <GNCSpeedTracker, GNCLocationUpdateListener>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithMaxTimeDelta:(GNCDuration *)maxTimeDelta maxDeltaDistance:(GNCLength *)maxDeltaDistance __attribute__((swift_name("init(maxTimeDelta:maxDeltaDistance:)"))) __attribute__((objc_designated_initializer));
@@ -1495,7 +1724,7 @@ __attribute__((swift_name("CalculatingSpeedTracker.Companion")))
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SimpleSpeedTracker")))
-@interface GNCSimpleSpeedTracker : GNCBase <GNCSpeedTracker, GNCLocationRepositoryLocationUpdateListener>
+@interface GNCSimpleSpeedTracker : GNCBase <GNCSpeedTracker, GNCLocationUpdateListener>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (void)onLocationUpdatedLocation:(GNCLocation *)location __attribute__((swift_name("onLocationUpdated(location:)")));
@@ -1505,9 +1734,9 @@ __attribute__((swift_name("SimpleSpeedTracker")))
 __attribute__((swift_name("LocationRepository")))
 @protocol GNCLocationRepository
 @required
-- (void)addLocationUpdateListenerLocationUpdateListener_:(id<GNCLocationRepositoryLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("addLocationUpdateListener(locationUpdateListener_:)")));
+- (void)addLocationUpdateListenerLocationUpdateListener_:(id<GNCLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("addLocationUpdateListener(locationUpdateListener_:)")));
 - (NSArray<GNCLocation *> *)getLastLocationsMaxAge:(GNCDuration * _Nullable)maxAge maxCount:(int32_t)maxCount __attribute__((swift_name("getLastLocations(maxAge:maxCount:)")));
-- (void)removeLocationUpdateListenerLocationUpdateListener_:(id<GNCLocationRepositoryLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("removeLocationUpdateListener(locationUpdateListener_:)")));
+- (void)removeLocationUpdateListenerLocationUpdateListener_:(id<GNCLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("removeLocationUpdateListener(locationUpdateListener_:)")));
 @property (readonly) GNCLocation * _Nullable location __attribute__((swift_name("location")));
 @property (readonly) GNCLocation * _Nullable rawLocation __attribute__((swift_name("rawLocation")));
 @end
@@ -1724,14 +1953,21 @@ __attribute__((swift_name("HeadingBasedChanceCalculator.Companion")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LevelBasedChanceCalculator")))
+@interface GNCLevelBasedChanceCalculator : GNCWeightedChanceCalculator
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithWeight:(float)weight __attribute__((swift_name("init(weight:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (float)calculateChanceLocation:(GNCLocation *)location projectedProbe:(GNCOnRouteProjectorProjectedLocation *)projectedProbe __attribute__((swift_name("calculateChance(location:projectedProbe:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TurnCommandAlignmentChanceCalculator")))
 @interface GNCTurnCommandAlignmentChanceCalculator : GNCWeightedChanceCalculator
-- (instancetype)initWithWeight:(float)weight minProcessableSpeed:(GNCSpeed *)minProcessableSpeed navigationStateProvider:(id<GNCNavigationStateProvider>)navigationStateProvider __attribute__((swift_name("init(weight:minProcessableSpeed:navigationStateProvider:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithWeight:(float)weight minProcessableSpeed:(GNCSpeed *)minProcessableSpeed __attribute__((swift_name("init(weight:minProcessableSpeed:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithWeight:(float)weight __attribute__((swift_name("init(weight:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) GNCTurnCommandAlignmentChanceCalculatorCompanion *companion __attribute__((swift_name("companion")));
 - (float)calculateChanceLocation:(GNCLocation *)location projectedProbe:(GNCOnRouteProjectorProjectedLocation *)projectedProbe __attribute__((swift_name("calculateChance(location:projectedProbe:)")));
-@property (readonly) GNCSpeed *minProcessableSpeed __attribute__((swift_name("minProcessableSpeed")));
-@property (readonly) id<GNCNavigationStateProvider> navigationStateProvider __attribute__((swift_name("navigationStateProvider")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1817,6 +2053,31 @@ __attribute__((swift_name("ManagedRoutable")))
 @property GNCLatLng *managedPosition __attribute__((swift_name("managedPosition")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Maneuver")))
+@interface GNCManeuver : GNCBase
+- (instancetype)initWithWaypoint:(GNCRouteWaypoint *)waypoint waypointIndex:(int32_t)waypointIndex turnInfo:(GNCTurnInfo *)turnInfo laneInfo:(GNCLaneInfo * _Nullable)laneInfo remainingTravelTime:(GNCDuration *)remainingTravelTime remainingDistance:(GNCLength *)remainingDistance distanceFromPreviousManeuver:(GNCLength *)distanceFromPreviousManeuver __attribute__((swift_name("init(waypoint:waypointIndex:turnInfo:laneInfo:remainingTravelTime:remainingDistance:distanceFromPreviousManeuver:)"))) __attribute__((objc_designated_initializer));
+- (GNCRouteWaypoint *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCTurnInfo *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLaneInfo * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCDuration *)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLength *)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLength *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCManeuver *)doCopyWaypoint:(GNCRouteWaypoint *)waypoint waypointIndex:(int32_t)waypointIndex turnInfo:(GNCTurnInfo *)turnInfo laneInfo:(GNCLaneInfo * _Nullable)laneInfo remainingTravelTime:(GNCDuration *)remainingTravelTime remainingDistance:(GNCLength *)remainingDistance distanceFromPreviousManeuver:(GNCLength *)distanceFromPreviousManeuver __attribute__((swift_name("doCopy(waypoint:waypointIndex:turnInfo:laneInfo:remainingTravelTime:remainingDistance:distanceFromPreviousManeuver:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) GNCLength *distanceFromPreviousManeuver __attribute__((swift_name("distanceFromPreviousManeuver")));
+@property (readonly) GNCLaneInfo * _Nullable laneInfo __attribute__((swift_name("laneInfo")));
+@property (readonly) GNCLatLng *latLng __attribute__((swift_name("latLng")));
+@property (readonly) GNCLength *remainingDistance __attribute__((swift_name("remainingDistance")));
+@property (readonly) GNCDuration *remainingTravelTime __attribute__((swift_name("remainingTravelTime")));
+@property (readonly) GNCTurnInfo *turnInfo __attribute__((swift_name("turnInfo")));
+@property (readonly) GNCRouteWaypoint *waypoint __attribute__((swift_name("waypoint"))) __attribute__((deprecated("Will be removed in the future. Only here for backwards compatibility")));
+@property (readonly) int32_t waypointIndex __attribute__((swift_name("waypointIndex")));
+@end
+
 __attribute__((swift_name("ParkingLocationRoutable")))
 @protocol GNCParkingLocationRoutable <GNCRoutable>
 @required
@@ -1877,7 +2138,7 @@ __attribute__((swift_name("RoutableFactory")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Route")))
 @interface GNCRoute : GNCFreezable
-- (instancetype)initWithHash:(NSString * _Nullable)hash vehicleType:(GNCRouteVehicleType *)vehicleType waypoints:(NSArray<GNCRouteWaypoint *> *)waypoints turnCommands:(NSArray<GNCRouteWaypoint *> *)turnCommands nextUpdateCall:(GNCDuration *)nextUpdateCall remainingTravelTime:(GNCDuration *)remainingTravelTime updateTimestamp:(int64_t)updateTimestamp distance:(GNCLength *)distance destination:(id<GNCRoutable>)destination destinationInfo:(NSArray<GNCRouteDestinationInfo *> *)destinationInfo origin:(GNCLatLng *)origin enforcements:(NSArray<GNCRouteEnforcement *> *)enforcements hasAnticipatedSpeed:(BOOL)hasAnticipatedSpeed fuelStation:(NSArray<GNCRouteFuelStation *> *)fuelStation trafficVolume:(GNCRouteTrafficVolume *)trafficVolume localizedInfo:(NSString * _Nullable)localizedInfo originWasOffRoute:(GNCBoolean * _Nullable)originWasOffRoute minOffRouteDisplacement:(GNCLength * _Nullable)minOffRouteDisplacement __attribute__((swift_name("init(hash:vehicleType:waypoints:turnCommands:nextUpdateCall:remainingTravelTime:updateTimestamp:distance:destination:destinationInfo:origin:enforcements:hasAnticipatedSpeed:fuelStation:trafficVolume:localizedInfo:originWasOffRoute:minOffRouteDisplacement:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithHash:(NSString * _Nullable)hash vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig waypoints:(NSArray<GNCRouteWaypoint *> *)waypoints turnCommands:(NSArray<GNCRouteWaypoint *> *)turnCommands nextUpdateCall:(GNCDuration *)nextUpdateCall remainingTravelTime:(GNCDuration *)remainingTravelTime updateTimestamp:(int64_t)updateTimestamp distance:(GNCLength *)distance destination:(id<GNCRoutable>)destination destinationInfo:(NSArray<GNCRouteDestinationInfo *> *)destinationInfo origin:(GNCLatLng *)origin enforcements:(NSArray<GNCRouteEnforcement *> *)enforcements hasAnticipatedSpeed:(BOOL)hasAnticipatedSpeed fuelStation:(NSArray<GNCRouteFuelStation *> *)fuelStation localizedInfo:(NSString * _Nullable)localizedInfo originWasOffRoute:(GNCBoolean * _Nullable)originWasOffRoute minOffRouteDisplacement:(GNCLength * _Nullable)minOffRouteDisplacement parkingAreas:(NSArray<GNCRouteParkingArea *> *)parkingAreas __attribute__((swift_name("init(hash:vehicleConfig:waypoints:turnCommands:nextUpdateCall:remainingTravelTime:updateTimestamp:distance:destination:destinationInfo:origin:enforcements:hasAnticipatedSpeed:fuelStation:localizedInfo:originWasOffRoute:minOffRouteDisplacement:parkingAreas:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
@@ -1886,11 +2147,11 @@ __attribute__((swift_name("Route")))
 - (NSArray<GNCRouteEnforcement *> *)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BOOL)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSArray<GNCRouteFuelStation *> *)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteTrafficVolume *)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCBoolean * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCLength * _Nullable)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteVehicleType *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCBoolean * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLength * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSArray<GNCRouteParkingArea *> *)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
+- (id<GNCVehicleConfig>)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSArray<GNCRouteWaypoint *> *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSArray<GNCRouteWaypoint *> *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (GNCDuration *)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
@@ -1898,7 +2159,7 @@ __attribute__((swift_name("Route")))
 - (int64_t)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
 - (GNCLength *)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
 - (id<GNCRoutable>)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRoute *)doCopyHash:(NSString * _Nullable)hash vehicleType:(GNCRouteVehicleType *)vehicleType waypoints:(NSArray<GNCRouteWaypoint *> *)waypoints turnCommands:(NSArray<GNCRouteWaypoint *> *)turnCommands nextUpdateCall:(GNCDuration *)nextUpdateCall remainingTravelTime:(GNCDuration *)remainingTravelTime updateTimestamp:(int64_t)updateTimestamp distance:(GNCLength *)distance destination:(id<GNCRoutable>)destination destinationInfo:(NSArray<GNCRouteDestinationInfo *> *)destinationInfo origin:(GNCLatLng *)origin enforcements:(NSArray<GNCRouteEnforcement *> *)enforcements hasAnticipatedSpeed:(BOOL)hasAnticipatedSpeed fuelStation:(NSArray<GNCRouteFuelStation *> *)fuelStation trafficVolume:(GNCRouteTrafficVolume *)trafficVolume localizedInfo:(NSString * _Nullable)localizedInfo originWasOffRoute:(GNCBoolean * _Nullable)originWasOffRoute minOffRouteDisplacement:(GNCLength * _Nullable)minOffRouteDisplacement __attribute__((swift_name("doCopy(hash:vehicleType:waypoints:turnCommands:nextUpdateCall:remainingTravelTime:updateTimestamp:distance:destination:destinationInfo:origin:enforcements:hasAnticipatedSpeed:fuelStation:trafficVolume:localizedInfo:originWasOffRoute:minOffRouteDisplacement:)")));
+- (GNCRoute *)doCopyHash:(NSString * _Nullable)hash vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig waypoints:(NSArray<GNCRouteWaypoint *> *)waypoints turnCommands:(NSArray<GNCRouteWaypoint *> *)turnCommands nextUpdateCall:(GNCDuration *)nextUpdateCall remainingTravelTime:(GNCDuration *)remainingTravelTime updateTimestamp:(int64_t)updateTimestamp distance:(GNCLength *)distance destination:(id<GNCRoutable>)destination destinationInfo:(NSArray<GNCRouteDestinationInfo *> *)destinationInfo origin:(GNCLatLng *)origin enforcements:(NSArray<GNCRouteEnforcement *> *)enforcements hasAnticipatedSpeed:(BOOL)hasAnticipatedSpeed fuelStation:(NSArray<GNCRouteFuelStation *> *)fuelStation localizedInfo:(NSString * _Nullable)localizedInfo originWasOffRoute:(GNCBoolean * _Nullable)originWasOffRoute minOffRouteDisplacement:(GNCLength * _Nullable)minOffRouteDisplacement parkingAreas:(NSArray<GNCRouteParkingArea *> *)parkingAreas __attribute__((swift_name("doCopy(hash:vehicleConfig:waypoints:turnCommands:nextUpdateCall:remainingTravelTime:updateTimestamp:distance:destination:destinationInfo:origin:enforcements:hasAnticipatedSpeed:fuelStation:localizedInfo:originWasOffRoute:minOffRouteDisplacement:parkingAreas:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1914,27 +2175,29 @@ __attribute__((swift_name("Route")))
 @property (readonly) GNCDuration *nextUpdateCall __attribute__((swift_name("nextUpdateCall")));
 @property (readonly) GNCLatLng *origin __attribute__((swift_name("origin")));
 @property (readonly) GNCBoolean * _Nullable originWasOffRoute __attribute__((swift_name("originWasOffRoute")));
+@property (readonly) NSArray<GNCRouteParkingArea *> *parkingAreas __attribute__((swift_name("parkingAreas")));
 @property (readonly) GNCDuration *remainingTravelTime __attribute__((swift_name("remainingTravelTime")));
-@property (readonly) GNCRouteTrafficVolume *trafficVolume __attribute__((swift_name("trafficVolume")));
 @property (readonly) NSArray<GNCRouteWaypoint *> *turnCommands __attribute__((swift_name("turnCommands")));
 @property (readonly) int64_t updateTimestamp __attribute__((swift_name("updateTimestamp")));
-@property (readonly) GNCRouteVehicleType *vehicleType __attribute__((swift_name("vehicleType")));
+@property (readonly) id<GNCVehicleConfig> vehicleConfig __attribute__((swift_name("vehicleConfig")));
 @property (readonly) NSArray<GNCRouteWaypoint *> *waypoints __attribute__((swift_name("waypoints")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Route.DestinationInfo")))
 @interface GNCRouteDestinationInfo : GNCFreezable
-- (instancetype)initWithType:(NSString *)type location:(GNCLatLng *)location tags:(NSDictionary<NSString *, id> *)tags __attribute__((swift_name("init(type:location:tags:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithType:(NSString *)type location:(GNCLatLng *)location tags:(NSDictionary<NSString *, id> *)tags destinationReachedDistanceMeters:(GNCDouble * _Nullable)destinationReachedDistanceMeters __attribute__((swift_name("init(type:location:tags:destinationReachedDistanceMeters:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (GNCLatLng *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSDictionary<NSString *, id> *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteDestinationInfo *)doCopyType:(NSString *)type location:(GNCLatLng *)location tags:(NSDictionary<NSString *, id> *)tags __attribute__((swift_name("doCopy(type:location:tags:)")));
+- (GNCDouble * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteDestinationInfo *)doCopyType:(NSString *)type location:(GNCLatLng *)location tags:(NSDictionary<NSString *, id> *)tags destinationReachedDistanceMeters:(GNCDouble * _Nullable)destinationReachedDistanceMeters __attribute__((swift_name("doCopy(type:location:tags:destinationReachedDistanceMeters:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) GNCDouble * _Nullable destinationReachedDistanceMeters __attribute__((swift_name("destinationReachedDistanceMeters")));
 @property (readonly) GNCLatLng *location __attribute__((swift_name("location")));
 @property (readonly) NSDictionary<NSString *, id> *tags __attribute__((swift_name("tags")));
 @property (readonly) NSString *type __attribute__((swift_name("type")));
@@ -2009,6 +2272,46 @@ __attribute__((swift_name("Route.FuelStationType")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Route.ParkingArea")))
+@interface GNCRouteParkingArea : GNCFreezable <GNCRoutable>
+- (instancetype)initWithName:(NSString * _Nullable)name position:(GNCLatLng *)position liableToFee:(GNCBoolean * _Nullable)liableToFee parkingType:(GNCRouteParkingAreaType *)parkingType distanceToDestination:(GNCLength *)distanceToDestination __attribute__((swift_name("init(name:position:liableToFee:parkingType:distanceToDestination:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLatLng *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCBoolean * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteParkingAreaType *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLength *)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteParkingArea *)doCopyName:(NSString * _Nullable)name position:(GNCLatLng *)position liableToFee:(GNCBoolean * _Nullable)liableToFee parkingType:(GNCRouteParkingAreaType *)parkingType distanceToDestination:(GNCLength *)distanceToDestination __attribute__((swift_name("doCopy(name:position:liableToFee:parkingType:distanceToDestination:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable destinationStreetName __attribute__((swift_name("destinationStreetName")));
+@property (readonly) GNCLength *distanceToDestination __attribute__((swift_name("distanceToDestination")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) NSString *label __attribute__((swift_name("label")));
+@property (readonly) GNCLatLng *latLng __attribute__((swift_name("latLng")));
+@property (readonly) GNCBoolean * _Nullable liableToFee __attribute__((swift_name("liableToFee")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) GNCRouteParkingAreaType *parkingType __attribute__((swift_name("parkingType")));
+@property (readonly) GNCLatLng *position __attribute__((swift_name("position")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Route.ParkingAreaType")))
+@interface GNCRouteParkingAreaType : GNCKotlinEnum<GNCRouteParkingAreaType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) GNCRouteParkingAreaType *unknown __attribute__((swift_name("unknown")));
+@property (class, readonly) GNCRouteParkingAreaType *surface __attribute__((swift_name("surface")));
+@property (class, readonly) GNCRouteParkingAreaType *underground __attribute__((swift_name("underground")));
+@property (class, readonly) GNCRouteParkingAreaType *multiStorey __attribute__((swift_name("multiStorey")));
+@property (class, readonly) GNCRouteParkingAreaType *rooftop __attribute__((swift_name("rooftop")));
++ (GNCKotlinArray<GNCRouteParkingAreaType *> *)values __attribute__((swift_name("values()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Route.Segment")))
 @interface GNCRouteSegment : GNCFreezable
 - (instancetype)initWithSegment:(GNCRouteSegment *)segment __attribute__((swift_name("init(segment:)"))) __attribute__((objc_designated_initializer));
@@ -2025,35 +2328,6 @@ __attribute__((swift_name("Route.Segment")))
 @property (readonly) GNCRouteWaypoint *end __attribute__((swift_name("end")));
 @property (readonly) int32_t index __attribute__((swift_name("index")));
 @property (readonly) GNCRouteWaypoint *start __attribute__((swift_name("start")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Route.TrafficVolume")))
-@interface GNCRouteTrafficVolume : GNCKotlinEnum<GNCRouteTrafficVolume *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) GNCRouteTrafficVolume *little __attribute__((swift_name("little")));
-@property (class, readonly) GNCRouteTrafficVolume *normal __attribute__((swift_name("normal")));
-@property (class, readonly) GNCRouteTrafficVolume *elevated __attribute__((swift_name("elevated")));
-@property (class, readonly) GNCRouteTrafficVolume *high __attribute__((swift_name("high")));
-+ (GNCKotlinArray<GNCRouteTrafficVolume *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Route.VehicleType")))
-@interface GNCRouteVehicleType : GNCKotlinEnum<GNCRouteVehicleType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) GNCRouteVehicleType *unknown __attribute__((swift_name("unknown")));
-@property (class, readonly) GNCRouteVehicleType *car __attribute__((swift_name("car")));
-@property (class, readonly) GNCRouteVehicleType *bus __attribute__((swift_name("bus")));
-@property (class, readonly) GNCRouteVehicleType *bicycle __attribute__((swift_name("bicycle")));
-@property (class, readonly) GNCRouteVehicleType *motorbike __attribute__((swift_name("motorbike")));
-@property (class, readonly) GNCRouteVehicleType *truck __attribute__((swift_name("truck")));
-@property (class, readonly) GNCRouteVehicleType *pedestrian __attribute__((swift_name("pedestrian")));
-+ (GNCKotlinArray<GNCRouteVehicleType *> *)values __attribute__((swift_name("values()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2081,14 +2355,14 @@ __attribute__((swift_name("Route.Waypoint")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) GNCSpeed * _Nullable anticipatedSpeed __attribute__((swift_name("anticipatedSpeed")));
 @property (readonly) GNCRouteWaypointGpsQuality *gpsQuality __attribute__((swift_name("gpsQuality")));
-@property (readonly) GNCLaneInfo * _Nullable laneInfo __attribute__((swift_name("laneInfo")));
+@property (readonly) GNCLaneInfo * _Nullable laneInfo __attribute__((swift_name("laneInfo"))) __attribute__((deprecated("Will be removed in future versions. Use [LaneInfo] found in [Maneuver] instead.")));
 @property (readonly) GNCLatLng *latLng __attribute__((swift_name("latLng")));
 @property (readonly) GNCInt * _Nullable level __attribute__((swift_name("level")));
-@property (readonly) BOOL reached __attribute__((swift_name("reached")));
+@property (readonly) BOOL reached __attribute__((swift_name("reached"))) __attribute__((deprecated("Will be removed in future versions")));
 @property (readonly) GNCRoadClass *roadClass __attribute__((swift_name("roadClass")));
 @property (readonly) GNCSpeed * _Nullable speedLimit __attribute__((swift_name("speedLimit")));
 @property (readonly) NSDictionary<NSString *, id> *tags __attribute__((swift_name("tags")));
-@property (readonly) GNCTurnInfo * _Nullable turnInfo __attribute__((swift_name("turnInfo")));
+@property (readonly) GNCTurnInfo * _Nullable turnInfo __attribute__((swift_name("turnInfo"))) __attribute__((deprecated("Will be removed in future versions. Use [TurnInfo] found in [Maneuver] instead.")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2103,6 +2377,22 @@ __attribute__((swift_name("Route.WaypointGpsQuality")))
 @property (class, readonly) GNCRouteWaypointGpsQuality *beaconOnly __attribute__((swift_name("beaconOnly")));
 @property (class, readonly) GNCRouteWaypointGpsQuality *unknown __attribute__((swift_name("unknown")));
 + (GNCKotlinArray<GNCRouteWaypointGpsQuality *> *)values __attribute__((swift_name("values()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RouteData")))
+@interface GNCRouteData : GNCFreezable
+- (instancetype)initWithDuration:(GNCDuration *)duration distance:(GNCLength *)distance __attribute__((swift_name("init(duration:distance:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (GNCDuration *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLength *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteData *)doCopyDuration:(GNCDuration *)duration distance:(GNCLength *)distance __attribute__((swift_name("doCopy(duration:distance:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) GNCLength *distance __attribute__((swift_name("distance")));
+@property (readonly) GNCDuration *duration __attribute__((swift_name("duration")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2161,7 +2451,7 @@ __attribute__((swift_name("TurnCommand.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TurnInfo")))
 @interface GNCTurnInfo : GNCFreezable
-- (instancetype)initWithTurnCommand:(GNCTurnCommand *)turnCommand leadsToRoadClass:(GNCRoadClass *)leadsToRoadClass leadsToStreetName:(NSString * _Nullable)leadsToStreetName leadsToLevel:(GNCInt * _Nullable)leadsToLevel endOfStreet:(BOOL)endOfStreet turnCost:(float)turnCost turnAngle:(float)turnAngle directionReferenceNames:(NSArray<NSString *> *)directionReferenceNames directionNames:(NSArray<NSString *> *)directionNames streetSide:(GNCTurnInfoStreetSide *)streetSide suppressed:(BOOL)suppressed __attribute__((swift_name("init(turnCommand:leadsToRoadClass:leadsToStreetName:leadsToLevel:endOfStreet:turnCost:turnAngle:directionReferenceNames:directionNames:streetSide:suppressed:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithTurnCommand:(GNCTurnCommand *)turnCommand leadsToRoadClass:(GNCRoadClass *)leadsToRoadClass leadsToStreetName:(NSString * _Nullable)leadsToStreetName leadsToLevel:(GNCInt * _Nullable)leadsToLevel endOfStreet:(BOOL)endOfStreet turnCostMs:(GNCLong * _Nullable)turnCostMs turnAngle:(GNCFloat * _Nullable)turnAngle directionReferenceNames:(NSArray<NSString *> *)directionReferenceNames directionNames:(NSArray<NSString *> *)directionNames streetSide:(GNCTurnInfoStreetSide *)streetSide suppressed:(BOOL)suppressed __attribute__((swift_name("init(turnCommand:leadsToRoadClass:leadsToStreetName:leadsToLevel:endOfStreet:turnCostMs:turnAngle:directionReferenceNames:directionNames:streetSide:suppressed:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (GNCTurnCommand *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
@@ -2171,11 +2461,11 @@ __attribute__((swift_name("TurnInfo")))
 - (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (GNCInt * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BOOL)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (float)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (float)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLong * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCFloat * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSArray<NSString *> *)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSArray<NSString *> *)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCTurnInfo *)doCopyTurnCommand:(GNCTurnCommand *)turnCommand leadsToRoadClass:(GNCRoadClass *)leadsToRoadClass leadsToStreetName:(NSString * _Nullable)leadsToStreetName leadsToLevel:(GNCInt * _Nullable)leadsToLevel endOfStreet:(BOOL)endOfStreet turnCost:(float)turnCost turnAngle:(float)turnAngle directionReferenceNames:(NSArray<NSString *> *)directionReferenceNames directionNames:(NSArray<NSString *> *)directionNames streetSide:(GNCTurnInfoStreetSide *)streetSide suppressed:(BOOL)suppressed __attribute__((swift_name("doCopy(turnCommand:leadsToRoadClass:leadsToStreetName:leadsToLevel:endOfStreet:turnCost:turnAngle:directionReferenceNames:directionNames:streetSide:suppressed:)")));
+- (GNCTurnInfo *)doCopyTurnCommand:(GNCTurnCommand *)turnCommand leadsToRoadClass:(GNCRoadClass *)leadsToRoadClass leadsToStreetName:(NSString * _Nullable)leadsToStreetName leadsToLevel:(GNCInt * _Nullable)leadsToLevel endOfStreet:(BOOL)endOfStreet turnCostMs:(GNCLong * _Nullable)turnCostMs turnAngle:(GNCFloat * _Nullable)turnAngle directionReferenceNames:(NSArray<NSString *> *)directionReferenceNames directionNames:(NSArray<NSString *> *)directionNames streetSide:(GNCTurnInfoStreetSide *)streetSide suppressed:(BOOL)suppressed __attribute__((swift_name("doCopy(turnCommand:leadsToRoadClass:leadsToStreetName:leadsToLevel:endOfStreet:turnCostMs:turnAngle:directionReferenceNames:directionNames:streetSide:suppressed:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -2185,11 +2475,11 @@ __attribute__((swift_name("TurnInfo")))
 @property (readonly) GNCInt * _Nullable leadsToLevel __attribute__((swift_name("leadsToLevel")));
 @property (readonly) GNCRoadClass *leadsToRoadClass __attribute__((swift_name("leadsToRoadClass")));
 @property (readonly) NSString * _Nullable leadsToStreetName __attribute__((swift_name("leadsToStreetName")));
-@property (readonly) GNCTurnInfoStreetSide *streetSide __attribute__((swift_name("streetSide")));
+@property (readonly) GNCTurnInfoStreetSide *streetSide __attribute__((swift_name("streetSide"))) __attribute__((deprecated("This should not be here, since it's only used to determine the side of the street for the destination")));
 @property (readonly) BOOL suppressed __attribute__((swift_name("suppressed")));
-@property (readonly) float turnAngle __attribute__((swift_name("turnAngle")));
+@property (readonly) GNCFloat * _Nullable turnAngle __attribute__((swift_name("turnAngle")));
 @property (readonly) GNCTurnCommand *turnCommand __attribute__((swift_name("turnCommand")));
-@property (readonly) float turnCost __attribute__((swift_name("turnCost")));
+@property (readonly) GNCLong * _Nullable turnCostMs __attribute__((swift_name("turnCostMs")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2204,54 +2494,214 @@ __attribute__((swift_name("TurnInfo.StreetSide")))
 + (GNCKotlinArray<GNCTurnInfoStreetSide *> *)values __attribute__((swift_name("values()")));
 @end
 
+__attribute__((swift_name("StatisticsProvider")))
+@protocol GNCStatisticsProvider
+@required
+- (NSDictionary<NSString *, id> *)getStatistics __attribute__((swift_name("getStatistics()")));
+- (void)start __attribute__((swift_name("start()")));
+- (void)stop __attribute__((swift_name("stop()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceStatisticsProvider")))
+@interface GNCDeviceStatisticsProvider : GNCBase <GNCStatisticsProvider>
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor deviceStateProvider:(id<GNCDeviceStatisticsProviderDeviceStateProvider>)deviceStateProvider __attribute__((swift_name("init(executor:deviceStateProvider:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNCDeviceStatisticsProviderCompanion *companion __attribute__((swift_name("companion")));
+- (NSDictionary<NSString *, id> *)getStatistics __attribute__((swift_name("getStatistics()")));
+- (void)start __attribute__((swift_name("start()")));
+- (void)stop __attribute__((swift_name("stop()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceStatisticsProvider.Companion")))
+@interface GNCDeviceStatisticsProviderCompanion : GNCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNCDeviceStatisticsProviderCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceStatisticsProvider.DeviceState")))
+@interface GNCDeviceStatisticsProviderDeviceState : GNCBase
+- (instancetype)initWithIsCharging:(BOOL)isCharging batteryCapacityPercent:(double)batteryCapacityPercent thermalState:(GNCDeviceStatisticsProviderThermalState *)thermalState isAppInBackground:(BOOL)isAppInBackground isMainAppInForeground:(BOOL)isMainAppInForeground isCarAppInForeground:(BOOL)isCarAppInForeground __attribute__((swift_name("init(isCharging:batteryCapacityPercent:thermalState:isAppInBackground:isMainAppInForeground:isCarAppInForeground:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (double)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCDeviceStatisticsProviderThermalState *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCDeviceStatisticsProviderDeviceState *)doCopyIsCharging:(BOOL)isCharging batteryCapacityPercent:(double)batteryCapacityPercent thermalState:(GNCDeviceStatisticsProviderThermalState *)thermalState isAppInBackground:(BOOL)isAppInBackground isMainAppInForeground:(BOOL)isMainAppInForeground isCarAppInForeground:(BOOL)isCarAppInForeground __attribute__((swift_name("doCopy(isCharging:batteryCapacityPercent:thermalState:isAppInBackground:isMainAppInForeground:isCarAppInForeground:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) double batteryCapacityPercent __attribute__((swift_name("batteryCapacityPercent")));
+@property (readonly) BOOL isAppInBackground __attribute__((swift_name("isAppInBackground")));
+@property (readonly) BOOL isCarAppInForeground __attribute__((swift_name("isCarAppInForeground")));
+@property (readonly) BOOL isCharging __attribute__((swift_name("isCharging")));
+@property (readonly) BOOL isMainAppInForeground __attribute__((swift_name("isMainAppInForeground")));
+@property (readonly) GNCDeviceStatisticsProviderThermalState *thermalState __attribute__((swift_name("thermalState")));
+@end
+
+__attribute__((swift_name("DeviceStatisticsProviderDeviceStateProvider")))
+@protocol GNCDeviceStatisticsProviderDeviceStateProvider
+@required
+- (GNCDeviceStatisticsProviderDeviceState *)getDeviceState __attribute__((swift_name("getDeviceState()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceStatisticsProvider.DeviceStatistics")))
+@interface GNCDeviceStatisticsProviderDeviceStatistics : GNCBase
+- (instancetype)initWithBatteryCapacityChangeWhileChargingPercent:(double)batteryCapacityChangeWhileChargingPercent batteryCapacityChangeWithoutChargingPercent:(double)batteryCapacityChangeWithoutChargingPercent chargingDurationMs:(int64_t)chargingDurationMs appInBackgroundDurationMs:(int64_t)appInBackgroundDurationMs mainAppInForegroundMs:(int64_t)mainAppInForegroundMs carAppInForegroundMs:(int64_t)carAppInForegroundMs durationThermalStateMs:(NSDictionary<GNCDeviceStatisticsProviderThermalState *, GNCLong *> *)durationThermalStateMs __attribute__((swift_name("init(batteryCapacityChangeWhileChargingPercent:batteryCapacityChangeWithoutChargingPercent:chargingDurationMs:appInBackgroundDurationMs:mainAppInForegroundMs:carAppInForegroundMs:durationThermalStateMs:)"))) __attribute__((objc_designated_initializer));
+- (double)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (double)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int64_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int64_t)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int64_t)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int64_t)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSDictionary<GNCDeviceStatisticsProviderThermalState *, GNCLong *> *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCDeviceStatisticsProviderDeviceStatistics *)doCopyBatteryCapacityChangeWhileChargingPercent:(double)batteryCapacityChangeWhileChargingPercent batteryCapacityChangeWithoutChargingPercent:(double)batteryCapacityChangeWithoutChargingPercent chargingDurationMs:(int64_t)chargingDurationMs appInBackgroundDurationMs:(int64_t)appInBackgroundDurationMs mainAppInForegroundMs:(int64_t)mainAppInForegroundMs carAppInForegroundMs:(int64_t)carAppInForegroundMs durationThermalStateMs:(NSDictionary<GNCDeviceStatisticsProviderThermalState *, GNCLong *> *)durationThermalStateMs __attribute__((swift_name("doCopy(batteryCapacityChangeWhileChargingPercent:batteryCapacityChangeWithoutChargingPercent:chargingDurationMs:appInBackgroundDurationMs:mainAppInForegroundMs:carAppInForegroundMs:durationThermalStateMs:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int64_t appInBackgroundDurationMs __attribute__((swift_name("appInBackgroundDurationMs")));
+@property (readonly) double batteryCapacityChangeWhileChargingPercent __attribute__((swift_name("batteryCapacityChangeWhileChargingPercent")));
+@property (readonly) double batteryCapacityChangeWithoutChargingPercent __attribute__((swift_name("batteryCapacityChangeWithoutChargingPercent")));
+@property (readonly) int64_t carAppInForegroundMs __attribute__((swift_name("carAppInForegroundMs")));
+@property (readonly) int64_t chargingDurationMs __attribute__((swift_name("chargingDurationMs")));
+@property (readonly) NSDictionary<GNCDeviceStatisticsProviderThermalState *, GNCLong *> *durationThermalStateMs __attribute__((swift_name("durationThermalStateMs")));
+@property (readonly) int64_t mainAppInForegroundMs __attribute__((swift_name("mainAppInForegroundMs")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceStatisticsProvider.ThermalState")))
+@interface GNCDeviceStatisticsProviderThermalState : GNCKotlinEnum<GNCDeviceStatisticsProviderThermalState *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) GNCDeviceStatisticsProviderThermalState *none __attribute__((swift_name("none")));
+@property (class, readonly) GNCDeviceStatisticsProviderThermalState *light __attribute__((swift_name("light")));
+@property (class, readonly) GNCDeviceStatisticsProviderThermalState *moderate __attribute__((swift_name("moderate")));
+@property (class, readonly) GNCDeviceStatisticsProviderThermalState *severe __attribute__((swift_name("severe")));
+@property (class, readonly) GNCDeviceStatisticsProviderThermalState *critical __attribute__((swift_name("critical")));
+@property (class, readonly) GNCDeviceStatisticsProviderThermalState *emergency __attribute__((swift_name("emergency")));
+@property (class, readonly) GNCDeviceStatisticsProviderThermalState *shutdown __attribute__((swift_name("shutdown")));
++ (GNCKotlinArray<GNCDeviceStatisticsProviderThermalState *> *)values __attribute__((swift_name("values()")));
+@end
+
+__attribute__((swift_name("NavigationEventHandlerOnInitialRouteReceivedListener")))
+@protocol GNCNavigationEventHandlerOnInitialRouteReceivedListener
+@required
+- (void)onInitialRouteReceivedRoute:(GNCRoute *)route __attribute__((swift_name("onInitialRouteReceived(route:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NavigationStatisticsProvider")))
+@interface GNCNavigationStatisticsProvider : GNCBase <GNCStatisticsProvider, GNCNavigationEventHandlerOnInitialRouteReceivedListener, GNCOnNavigationStateUpdatedListener>
+- (instancetype)initWithNavigationSdk:(id<GNCNavigationSdk>)navigationSdk __attribute__((swift_name("init(navigationSdk:)"))) __attribute__((objc_designated_initializer));
+- (NSDictionary<NSString *, id> *)getStatistics __attribute__((swift_name("getStatistics()")));
+- (void)onInitialRouteReceivedRoute:(GNCRoute *)route __attribute__((swift_name("onInitialRouteReceived(route:)")));
+- (void)onNavigationStateUpdatedNavigationState:(GNCNavigationState * _Nullable)navigationState __attribute__((swift_name("onNavigationStateUpdated(navigationState:)")));
+- (void)start __attribute__((swift_name("start()")));
+- (void)stop __attribute__((swift_name("stop()")));
+@end
+
+__attribute__((swift_name("NavigationEventHandlerOnNavigationStartedListener")))
+@protocol GNCNavigationEventHandlerOnNavigationStartedListener
+@required
+- (void)onNavigationStartedRoutable:(id<GNCRoutable>)routable __attribute__((swift_name("onNavigationStarted(routable:)")));
+@end
+
+__attribute__((swift_name("NavigationEventHandlerOnNavigationStoppedListener")))
+@protocol GNCNavigationEventHandlerOnNavigationStoppedListener
+@required
+- (void)onNavigationStopped __attribute__((swift_name("onNavigationStopped()")));
+@end
+
+__attribute__((swift_name("NavigationEventHandlerOnDestinationReachedListener")))
+@protocol GNCNavigationEventHandlerOnDestinationReachedListener
+@required
+- (void)onDestinationReachedNavigationResult:(GNCNavigationResult *)navigationResult __attribute__((swift_name("onDestinationReached(navigationResult:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NavigationLifeCycleAnalyticsLogger")))
+@interface GNCNavigationLifeCycleAnalyticsLogger : GNCBase <GNCNavigationEventHandlerOnNavigationStartedListener, GNCNavigationEventHandlerOnNavigationStoppedListener, GNCNavigationEventHandlerOnDestinationReachedListener>
+- (instancetype)initWithNavigationSdk:(id<GNCNavigationSdk>)navigationSdk __attribute__((swift_name("init(navigationSdk:)"))) __attribute__((objc_designated_initializer));
+- (void)addStatisticsProviderStatisticsProvider:(id<GNCStatisticsProvider>)statisticsProvider __attribute__((swift_name("addStatisticsProvider(statisticsProvider:)")));
+- (void)onDestinationReachedNavigationResult:(GNCNavigationResult *)navigationResult __attribute__((swift_name("onDestinationReached(navigationResult:)")));
+- (void)onNavigationStartedRoutable:(id<GNCRoutable>)routable __attribute__((swift_name("onNavigationStarted(routable:)")));
+- (void)onNavigationStopped __attribute__((swift_name("onNavigationStopped()")));
+@end
+
 __attribute__((swift_name("VehicleConfig")))
 @protocol GNCVehicleConfig
 @required
 @property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) GNCVehicleConfigProperties * _Nullable properties __attribute__((swift_name("properties")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BicycleConfig")))
-@interface GNCBicycleConfig : GNCBase <GNCVehicleConfig>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+__attribute__((swift_name("GenericVehicleConfig")))
+@interface GNCGenericVehicleConfig : GNCBase <GNCVehicleConfig>
+- (instancetype)initWithName:(NSString *)name properties:(GNCVehicleConfigProperties * _Nullable)properties __attribute__((swift_name("init(name:properties:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) GNCVehicleConfigProperties * _Nullable properties __attribute__((swift_name("properties")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BusConfig")))
-@interface GNCBusConfig : GNCBase <GNCVehicleConfig>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CarConfig")))
-@interface GNCCarConfig : GNCBase <GNCVehicleConfig>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MotorbikeConfig")))
-@interface GNCMotorbikeConfig : GNCBase <GNCVehicleConfig>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
+__attribute__((swift_name("Templates")))
+@interface GNCTemplates : GNCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)templates __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNCTemplates *shared __attribute__((swift_name("shared")));
+@property (readonly) GNCGenericVehicleConfig *BICYCLE __attribute__((swift_name("BICYCLE")));
+@property (readonly) GNCGenericVehicleConfig *BUS __attribute__((swift_name("BUS")));
+@property (readonly) GNCGenericVehicleConfig *CAR __attribute__((swift_name("CAR")));
+@property (readonly) GNCGenericVehicleConfig *MOTORBIKE __attribute__((swift_name("MOTORBIKE")));
+@property (readonly) GNCTruckConfig *TRUCK __attribute__((swift_name("TRUCK")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TruckConfig")))
 @interface GNCTruckConfig : GNCBase <GNCVehicleConfig>
-- (instancetype)initWithWidth:(GNCLength *)width height:(GNCLength *)height length:(GNCLength *)length weightKg:(GNCDouble * _Nullable)weightKg trailerCount:(GNCInt * _Nullable)trailerCount __attribute__((swift_name("init(width:height:length:weightKg:trailerCount:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithProperties:(GNCVehicleConfigProperties * _Nullable)properties numberOfTrailers:(GNCInt * _Nullable)numberOfTrailers __attribute__((swift_name("init(properties:numberOfTrailers:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) GNCInt * _Nullable numberOfTrailers __attribute__((swift_name("numberOfTrailers")));
+@property (readonly) GNCVehicleConfigProperties * _Nullable properties __attribute__((swift_name("properties")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VehicleConfigDimensions")))
+@interface GNCVehicleConfigDimensions : GNCBase
+- (instancetype)initWithWidth:(GNCLength *)width height:(GNCLength *)height length:(GNCLength *)length __attribute__((swift_name("init(width:height:length:)"))) __attribute__((objc_designated_initializer));
+- (GNCLength *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLength *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLength *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCVehicleConfigDimensions *)doCopyWidth:(GNCLength *)width height:(GNCLength *)height length:(GNCLength *)length __attribute__((swift_name("doCopy(width:height:length:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) GNCLength *height __attribute__((swift_name("height")));
 @property (readonly) GNCLength *length __attribute__((swift_name("length")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) GNCInt * _Nullable trailerCount __attribute__((swift_name("trailerCount")));
-@property (readonly) GNCDouble * _Nullable weightKg __attribute__((swift_name("weightKg")));
 @property (readonly) GNCLength *width __attribute__((swift_name("width")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VehicleConfigProperties")))
+@interface GNCVehicleConfigProperties : GNCBase
+- (instancetype)initWithDimensions:(GNCVehicleConfigDimensions * _Nullable)dimensions weightKg:(GNCDouble * _Nullable)weightKg additionalData:(NSDictionary<NSString *, NSString *> *)additionalData __attribute__((swift_name("init(dimensions:weightKg:additionalData:)"))) __attribute__((objc_designated_initializer));
+- (GNCVehicleConfigDimensions * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCDouble * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSDictionary<NSString *, NSString *> *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCVehicleConfigProperties *)doCopyDimensions:(GNCVehicleConfigDimensions * _Nullable)dimensions weightKg:(GNCDouble * _Nullable)weightKg additionalData:(NSDictionary<NSString *, NSString *> *)additionalData __attribute__((swift_name("doCopy(dimensions:weightKg:additionalData:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSDictionary<NSString *, NSString *> *additionalData __attribute__((swift_name("additionalData")));
+@property (readonly) GNCVehicleConfigDimensions * _Nullable dimensions __attribute__((swift_name("dimensions")));
+@property (readonly) GNCDouble * _Nullable weightKg __attribute__((swift_name("weightKg")));
 @end
 
 __attribute__((swift_name("OnRouteProjector")))
@@ -2407,19 +2857,19 @@ __attribute__((swift_name("OnRoutePredictorOnRoutePredictionListener")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("OnRoutePredictorOptions")))
 @interface GNCOnRoutePredictorOptions : GNCFreezable
-- (instancetype)initWithStopAtNextMilestone:(BOOL)stopAtNextMilestone predictionTimestamp:(int64_t)predictionTimestamp minPredictionDistance:(GNCLength *)minPredictionDistance __attribute__((swift_name("init(stopAtNextMilestone:predictionTimestamp:minPredictionDistance:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithStopAtNextManeuver:(BOOL)stopAtNextManeuver predictionTimestamp:(int64_t)predictionTimestamp minPredictionDistance:(GNCLength *)minPredictionDistance __attribute__((swift_name("init(stopAtNextManeuver:predictionTimestamp:minPredictionDistance:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (BOOL)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (int64_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (GNCLength *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCOnRoutePredictorOptions *)doCopyStopAtNextMilestone:(BOOL)stopAtNextMilestone predictionTimestamp:(int64_t)predictionTimestamp minPredictionDistance:(GNCLength *)minPredictionDistance __attribute__((swift_name("doCopy(stopAtNextMilestone:predictionTimestamp:minPredictionDistance:)")));
+- (GNCOnRoutePredictorOptions *)doCopyStopAtNextManeuver:(BOOL)stopAtNextManeuver predictionTimestamp:(int64_t)predictionTimestamp minPredictionDistance:(GNCLength *)minPredictionDistance __attribute__((swift_name("doCopy(stopAtNextManeuver:predictionTimestamp:minPredictionDistance:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) GNCLength *minPredictionDistance __attribute__((swift_name("minPredictionDistance")));
 @property (readonly) int64_t predictionTimestamp __attribute__((swift_name("predictionTimestamp")));
-@property (readonly) BOOL stopAtNextMilestone __attribute__((swift_name("stopAtNextMilestone")));
+@property (readonly) BOOL stopAtNextManeuver __attribute__((swift_name("stopAtNextManeuver")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2481,87 +2931,96 @@ __attribute__((swift_name("OnRouteShifterShiftedLocation")))
 @property (readonly) GNCRouteSegment *segment __attribute__((swift_name("segment")));
 @end
 
-__attribute__((swift_name("NavigationStartDelegate")))
-@protocol GNCNavigationStartDelegate
+__attribute__((swift_name("NavigationStateRepository")))
+@protocol GNCNavigationStateRepository
 @required
-- (void)startNavigationStops:(NSArray<id<GNCRoutable>> *)stops __attribute__((swift_name("startNavigation(stops:)")));
-- (void)startNavigationRoutable:(id<GNCRoutable>)routable __attribute__((swift_name("startNavigation(routable:)")));
-- (void)startNavigationRoute:(GNCRoute *)route sessionId:(NSString * _Nullable)sessionId __attribute__((swift_name("startNavigation(route:sessionId:)")));
-@end
-
-__attribute__((swift_name("NavigationStartDelegateRoutableHandler")))
-@protocol GNCNavigationStartDelegateRoutableHandler
-@required
+- (void)addOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("addOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
+- (void)addOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
+- (void)clear __attribute__((swift_name("clear()")));
+- (void)createSessionId:(NSString *)sessionId routable:(id<GNCRoutable>)routable vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig __attribute__((swift_name("create(sessionId:routable:vehicleConfig:)")));
+- (void)removeOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("removeOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
+- (void)removeOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("removeOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
 
 /**
- * @note This method converts instances of Exception to errors.
+ * @note This method converts instances of IllegalStateException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (BOOL)handleRoutableRoutable:(id<GNCRoutable>)routable error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("handleRoutable(routable:)"))) __attribute__((swift_error(nonnull_error)));
-@end
-
-__attribute__((swift_name("NavigationStateProvider")))
-@protocol GNCNavigationStateProvider
-@required
-- (void)addOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCNavigationStateProviderOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("addOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
-- (void)addOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCNavigationStateProviderOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
-- (void)removeOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCNavigationStateProviderOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("removeOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
-- (void)removeOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCNavigationStateProviderOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("removeOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
-- (void)reset __attribute__((swift_name("reset()")));
-@property GNCNavigationStateProviderNavigationState *navigationState __attribute__((swift_name("navigationState")));
+- (GNCNavigationState * _Nullable)updateRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("update(routeProgress:)")));
+@property (readonly) GNCNavigationState * _Nullable navigationState __attribute__((swift_name("navigationState")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("NavigationStateProviderNavigationState")))
-@interface GNCNavigationStateProviderNavigationState : GNCFreezable
-- (instancetype)initWithDestination:(id<GNCRoutable> _Nullable)destination currentlyNavigating:(BOOL)currentlyNavigating destinationReached:(BOOL)destinationReached trackingSpeedReached:(BOOL)trackingSpeedReached firstRoute:(BOOL)firstRoute sessionId:(NSString * _Nullable)sessionId onRoute:(BOOL)onRoute speed:(GNCSpeed * _Nullable)speed startTime:(int64_t)startTime routeProgress:(GNCRouteProgressTrackerRouteProgress * _Nullable)routeProgress __attribute__((swift_name("init(destination:currentlyNavigating:destinationReached:trackingSpeedReached:firstRoute:sessionId:onRoute:speed:startTime:routeProgress:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("DefaultNavigationStateRepository")))
+@interface GNCDefaultNavigationStateRepository : GNCBase <GNCNavigationStateRepository>
+- (instancetype)initWithSpeedTracker:(id<GNCSpeedTracker>)speedTracker onRouteTracker:(id<GNCOnRouteTracker>)onRouteTracker destinationReachedValidator:(id<GNCValidator>)destinationReachedValidator leavingDestinationValidator:(id<GNCValidator>)leavingDestinationValidator __attribute__((swift_name("init(speedTracker:onRouteTracker:destinationReachedValidator:leavingDestinationValidator:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNCDefaultNavigationStateRepositoryCompanion *companion __attribute__((swift_name("companion")));
+- (void)addOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("addOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
+- (void)addOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
+- (void)clear __attribute__((swift_name("clear()")));
+- (void)createSessionId:(NSString *)sessionId routable:(id<GNCRoutable>)routable vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig __attribute__((swift_name("create(sessionId:routable:vehicleConfig:)")));
+- (void)removeOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("removeOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
+- (void)removeOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("removeOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
+
+/**
+ * @note This method converts instances of IllegalStateException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (GNCNavigationState * _Nullable)updateRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("update(routeProgress:)")));
+@property GNCNavigationState * _Nullable navigationState __attribute__((swift_name("navigationState")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DefaultNavigationStateRepository.Companion")))
+@interface GNCDefaultNavigationStateRepositoryCompanion : GNCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNCDefaultNavigationStateRepositoryCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) double MIN_TRACKING_SPEED_KMH __attribute__((swift_name("MIN_TRACKING_SPEED_KMH")));
+@property (readonly) int64_t MIN_TRAVEL_DURATION_DESTINATION_REACHED_SEC __attribute__((swift_name("MIN_TRAVEL_DURATION_DESTINATION_REACHED_SEC")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NavigationState")))
+@interface GNCNavigationState : GNCFreezable
+- (instancetype)initWithSessionId:(NSString *)sessionId destination:(id<GNCRoutable>)destination startTime:(int64_t)startTime vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig firstRoute:(BOOL)firstRoute onRoute:(BOOL)onRoute speed:(GNCSpeed * _Nullable)speed traveledDuration:(GNCDuration *)traveledDuration routeProgress:(GNCRouteProgressTrackerRouteProgress * _Nullable)routeProgress destinationReached:(BOOL)destinationReached trackingSpeedReached:(BOOL)trackingSpeedReached __attribute__((swift_name("init(sessionId:destination:startTime:vehicleConfig:firstRoute:onRoute:speed:traveledDuration:routeProgress:destinationReached:trackingSpeedReached:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-- (id<GNCRoutable> _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteProgressTrackerRouteProgress * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
+- (id<GNCRoutable>)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int64_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (id<GNCVehicleConfig>)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BOOL)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCSpeed * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int64_t)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCNavigationStateProviderNavigationState *)doCopyDestination:(id<GNCRoutable> _Nullable)destination currentlyNavigating:(BOOL)currentlyNavigating destinationReached:(BOOL)destinationReached trackingSpeedReached:(BOOL)trackingSpeedReached firstRoute:(BOOL)firstRoute sessionId:(NSString * _Nullable)sessionId onRoute:(BOOL)onRoute speed:(GNCSpeed * _Nullable)speed startTime:(int64_t)startTime routeProgress:(GNCRouteProgressTrackerRouteProgress * _Nullable)routeProgress __attribute__((swift_name("doCopy(destination:currentlyNavigating:destinationReached:trackingSpeedReached:firstRoute:sessionId:onRoute:speed:startTime:routeProgress:)")));
+- (BOOL)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCSpeed * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCDuration *)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteProgressTrackerRouteProgress * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCNavigationState *)doCopySessionId:(NSString *)sessionId destination:(id<GNCRoutable>)destination startTime:(int64_t)startTime vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig firstRoute:(BOOL)firstRoute onRoute:(BOOL)onRoute speed:(GNCSpeed * _Nullable)speed traveledDuration:(GNCDuration *)traveledDuration routeProgress:(GNCRouteProgressTrackerRouteProgress * _Nullable)routeProgress destinationReached:(BOOL)destinationReached trackingSpeedReached:(BOOL)trackingSpeedReached __attribute__((swift_name("doCopy(sessionId:destination:startTime:vehicleConfig:firstRoute:onRoute:speed:traveledDuration:routeProgress:destinationReached:trackingSpeedReached:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL currentlyNavigating __attribute__((swift_name("currentlyNavigating")));
-@property (readonly) id<GNCRoutable> _Nullable destination __attribute__((swift_name("destination")));
+@property (readonly) id<GNCRoutable> destination __attribute__((swift_name("destination")));
 @property (readonly) BOOL destinationReached __attribute__((swift_name("destinationReached")));
 @property (readonly) BOOL firstRoute __attribute__((swift_name("firstRoute")));
 @property (readonly) BOOL initialized __attribute__((swift_name("initialized")));
 @property (readonly) BOOL onRoute __attribute__((swift_name("onRoute")));
 @property (readonly) GNCRoute * _Nullable route __attribute__((swift_name("route")));
 @property (readonly) GNCRouteProgressTrackerRouteProgress * _Nullable routeProgress __attribute__((swift_name("routeProgress")));
-@property (readonly) NSString * _Nullable sessionId __attribute__((swift_name("sessionId")));
+@property (readonly) NSString *sessionId __attribute__((swift_name("sessionId")));
 @property (readonly) GNCSpeed * _Nullable speed __attribute__((swift_name("speed")));
 @property (readonly) int64_t startTime __attribute__((swift_name("startTime")));
 @property (readonly) BOOL trackingSpeedReached __attribute__((swift_name("trackingSpeedReached")));
+@property (readonly) GNCLength *traveledDistance __attribute__((swift_name("traveledDistance")));
+@property (readonly) GNCDuration *traveledDuration __attribute__((swift_name("traveledDuration")));
+@property (readonly) id<GNCVehicleConfig> vehicleConfig __attribute__((swift_name("vehicleConfig")));
 @end
 
-__attribute__((swift_name("NavigationStateProviderOnNavigationStateInitializedListener")))
-@protocol GNCNavigationStateProviderOnNavigationStateInitializedListener
+__attribute__((swift_name("OnNavigationStateInitializedListener")))
+@protocol GNCOnNavigationStateInitializedListener
 @required
-- (void)onNavigationStateInitializedNavigationState:(GNCNavigationStateProviderNavigationState *)navigationState __attribute__((swift_name("onNavigationStateInitialized(navigationState:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SimpleNavigationStateProvider")))
-@interface GNCSimpleNavigationStateProvider : GNCBase <GNCNavigationStateProvider>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)addOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCNavigationStateProviderOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("addOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
-- (void)addOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCNavigationStateProviderOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("addOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
-- (void)removeOnNavigationStateInitializedListenerOnNavigationStateInitializedListener:(id<GNCNavigationStateProviderOnNavigationStateInitializedListener>)onNavigationStateInitializedListener __attribute__((swift_name("removeOnNavigationStateInitializedListener(onNavigationStateInitializedListener:)")));
-- (void)removeOnNavigationStateUpdatedListenerOnNavigationStateUpdatedListener:(id<GNCNavigationStateProviderOnNavigationStateUpdatedListener>)onNavigationStateUpdatedListener __attribute__((swift_name("removeOnNavigationStateUpdatedListener(onNavigationStateUpdatedListener:)")));
-- (void)reset __attribute__((swift_name("reset()")));
-@property GNCNavigationStateProviderNavigationState *navigationState __attribute__((swift_name("navigationState")));
+- (void)onNavigationStateInitializedNavigationState:(GNCNavigationState *)navigationState __attribute__((swift_name("onNavigationStateInitialized(navigationState:)")));
 @end
 
 __attribute__((swift_name("SessionClient")))
@@ -2639,34 +3098,10 @@ __attribute__((swift_name("NavigationEventHandlerOnDestinationChangedListener"))
 - (void)onDestinationChangedRoutable:(id<GNCRoutable> _Nullable)routable __attribute__((swift_name("onDestinationChanged(routable:)")));
 @end
 
-__attribute__((swift_name("NavigationEventHandlerOnDestinationReachedListener")))
-@protocol GNCNavigationEventHandlerOnDestinationReachedListener
-@required
-- (void)onDestinationReachedRoutable:(id<GNCRoutable>)routable __attribute__((swift_name("onDestinationReached(routable:)")));
-@end
-
-__attribute__((swift_name("NavigationEventHandlerOnInitialRouteReceivedListener")))
-@protocol GNCNavigationEventHandlerOnInitialRouteReceivedListener
-@required
-- (void)onInitialRouteReceivedRoute:(GNCRoute *)route __attribute__((swift_name("onInitialRouteReceived(route:)")));
-@end
-
 __attribute__((swift_name("NavigationEventHandlerOnLeavingDestinationListener")))
 @protocol GNCNavigationEventHandlerOnLeavingDestinationListener
 @required
 - (void)onLeavingDestinationRoutable:(id<GNCRoutable>)routable __attribute__((swift_name("onLeavingDestination(routable:)")));
-@end
-
-__attribute__((swift_name("NavigationEventHandlerOnNavigationStartedListener")))
-@protocol GNCNavigationEventHandlerOnNavigationStartedListener
-@required
-- (void)onNavigationStartedRoutable:(id<GNCRoutable>)routable __attribute__((swift_name("onNavigationStarted(routable:)")));
-@end
-
-__attribute__((swift_name("NavigationEventHandlerOnNavigationStoppedListener")))
-@protocol GNCNavigationEventHandlerOnNavigationStoppedListener
-@required
-- (void)onNavigationStopped __attribute__((swift_name("onNavigationStopped()")));
 @end
 
 __attribute__((swift_name("NavigationEventHandlerOnOffRouteListener")))
@@ -2692,6 +3127,22 @@ __attribute__((swift_name("NavigationEventHandlerOnTrackingSpeedReachedListener"
 @protocol GNCNavigationEventHandlerOnTrackingSpeedReachedListener
 @required
 - (void)onTrackingSpeedReachedSpeed:(GNCSpeed *)speed __attribute__((swift_name("onTrackingSpeedReached(speed:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NavigationResult")))
+@interface GNCNavigationResult : GNCBase
+- (instancetype)initWithDistanceDriven:(GNCLength *)distanceDriven duration:(GNCDuration *)duration destination:(id<GNCRoutable>)destination __attribute__((swift_name("init(distanceDriven:duration:destination:)"))) __attribute__((objc_designated_initializer));
+- (GNCLength *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCDuration *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (id<GNCRoutable>)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCNavigationResult *)doCopyDistanceDriven:(GNCLength *)distanceDriven duration:(GNCDuration *)duration destination:(id<GNCRoutable>)destination __attribute__((swift_name("doCopy(distanceDriven:duration:destination:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<GNCRoutable> destination __attribute__((swift_name("destination")));
+@property (readonly) GNCLength *distanceDriven __attribute__((swift_name("distanceDriven")));
+@property (readonly) GNCDuration *duration __attribute__((swift_name("duration")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2831,32 +3282,10 @@ __attribute__((swift_name("SingleDestinationRepository")))
 __attribute__((swift_name("NavigationEngine")))
 @protocol GNCNavigationEngine
 @required
-
-/**
- * @note This method converts instances of Exception to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (BOOL)startNavigationStops:(NSArray<id<GNCRoutable>> *)stops error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(stops_:)")));
-
-/**
- * @note This method converts instances of Exception to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (BOOL)startNavigationLatLng:(GNCLatLng *)latLng error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(latLng:)")));
-
-/**
- * @note This method converts instances of Exception to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (BOOL)startNavigationRoutable:(id<GNCRoutable> _Nullable)routable error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(routable_:)")));
-
-/**
- * @note This method converts instances of Exception to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (BOOL)startNavigationRoute:(GNCRoute *)route sessionId:(NSString * _Nullable)sessionId error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(route:sessionId_:)")));
+- (void)startNavigationStops:(NSArray<id<GNCRoutable>> *)stops vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig __attribute__((swift_name("startNavigation(stops:vehicleConfig_:)")));
+- (void)startNavigationRoutable:(id<GNCRoutable> _Nullable)routable vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig __attribute__((swift_name("startNavigation(routable:vehicleConfig_:)")));
+- (void)startNavigationRoute:(GNCRoute *)route sessionId:(NSString * _Nullable)sessionId vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig __attribute__((swift_name("startNavigation(route:sessionId:vehicleConfig_:)")));
 - (void)stopNavigation __attribute__((swift_name("stopNavigation()")));
-@property (readonly) id<GNCNavigationEventHandler> navigationEventHandler __attribute__((swift_name("navigationEventHandler")));
 @end
 
 __attribute__((swift_name("RouteRepositoryRouteUpdatedListener")))
@@ -2868,73 +3297,42 @@ __attribute__((swift_name("RouteRepositoryRouteUpdatedListener")))
 - (void)onRouteUpdatedRoute:(GNCRoute *)route __attribute__((swift_name("onRouteUpdated(route:)")));
 @end
 
-__attribute__((swift_name("RouteProgressTrackerRouteProgressListener")))
-@protocol GNCRouteProgressTrackerRouteProgressListener
+__attribute__((swift_name("RouteProgressTrackerOnRouteProgressUpdatedListener")))
+@protocol GNCRouteProgressTrackerOnRouteProgressUpdatedListener
 @required
-- (void)onUpdatedRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("onUpdated(routeProgress:)")));
+- (void)onRouteProgressUpdatedRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("onRouteProgressUpdated(routeProgress:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SchedulingNavigationEngine")))
-@interface GNCSchedulingNavigationEngine : GNCBase <GNCNavigationEngine, GNCRouteRepositoryRouteUpdatedListener, GNCRouteProgressTrackerRouteProgressListener, GNCOnRouteTrackerOnRouteStateListener, GNCDestinationRepositoryOnDestinationChangedListener>
-- (instancetype)initWithSimpleNavigationEventHandler:(GNCSimpleNavigationEventHandler *)simpleNavigationEventHandler routeRepository:(id<GNCRouteRepository>)routeRepository destinationProvider:(id<GNCDestinationRepository>)destinationProvider sessionRepository:(id<GNCSessionRepository>)sessionRepository routeProgressTracker:(id<GNCRouteProgressTracker>)routeProgressTracker navigationStateProvider:(id<GNCNavigationStateProvider>)navigationStateProvider onRouteTracker:(id<GNCOnRouteTracker>)onRouteTracker speedTracker:(id<GNCSpeedTracker>)speedTracker destinationReachedValidator:(id<GNCDestinationReachedValidator>)destinationReachedValidator leavingDestinationValidator:(id<GNCLeavingDestinationValidator>)leavingDestinationValidator __attribute__((swift_name("init(simpleNavigationEventHandler:routeRepository:destinationProvider:sessionRepository:routeProgressTracker:navigationStateProvider:onRouteTracker:speedTracker:destinationReachedValidator:leavingDestinationValidator:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) GNCSchedulingNavigationEngineCompanion *companion __attribute__((swift_name("companion")));
+@interface GNCSchedulingNavigationEngine : GNCBase <GNCNavigationEngine, GNCRouteRepositoryRouteUpdatedListener, GNCRouteProgressTrackerOnRouteProgressUpdatedListener, GNCOnRouteTrackerOnRouteStateListener, GNCDestinationRepositoryOnDestinationChangedListener>
+- (instancetype)initWithSimpleNavigationEventHandler:(GNCSimpleNavigationEventHandler *)simpleNavigationEventHandler routeRepository:(id<GNCRouteRepository>)routeRepository destinationRepository:(id<GNCDestinationRepository>)destinationRepository sessionRepository:(id<GNCSessionRepository>)sessionRepository routeProgressTracker:(id<GNCRouteProgressTracker>)routeProgressTracker navigationStateRepository:(id<GNCNavigationStateRepository>)navigationStateRepository onRouteTracker:(id<GNCOnRouteTracker>)onRouteTracker __attribute__((swift_name("init(simpleNavigationEventHandler:routeRepository:destinationRepository:sessionRepository:routeProgressTracker:navigationStateRepository:onRouteTracker:)"))) __attribute__((objc_designated_initializer));
 - (void)onDestinationChangedDestination:(id<GNCRoutable> _Nullable)destination __attribute__((swift_name("onDestinationChanged(destination:)")));
+- (void)onRouteProgressUpdatedRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("onRouteProgressUpdated(routeProgress:)")));
 - (void)onRouteUpdateCanceledRouteRequest:(GNCRouteProviderRouteRequest *)routeRequest __attribute__((swift_name("onRouteUpdateCanceled(routeRequest:)")));
 - (void)onRouteUpdateFailedE:(GNCKotlinException *)e __attribute__((swift_name("onRouteUpdateFailed(e:)")));
 - (void)onRouteUpdateStartedRouteRequest:(GNCRouteProviderRouteRequest *)routeRequest __attribute__((swift_name("onRouteUpdateStarted(routeRequest:)")));
 - (void)onRouteUpdatedRoute:(GNCRoute *)route __attribute__((swift_name("onRouteUpdated(route:)")));
 - (void)onStateChangedState:(GNCOnRouteTrackerState *)state location:(GNCLocation *)location __attribute__((swift_name("onStateChanged(state:location:)")));
-- (void)onUpdatedRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("onUpdated(routeProgress:)")));
-
-/**
- * @note This method converts instances of Exception to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (BOOL)startNavigationStops:(NSArray<id<GNCRoutable>> *)stops error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(stops_:)")));
-
-/**
- * @note This method converts instances of Exception to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (BOOL)startNavigationLatLng:(GNCLatLng *)latLng error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(latLng:)")));
-
-/**
- * @note This method converts instances of Exception to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (BOOL)startNavigationRoutable:(id<GNCRoutable> _Nullable)routable error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(routable_:)")));
-
-/**
- * @note This method converts instances of Exception to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (BOOL)startNavigationRoute:(GNCRoute *)route sessionId:(NSString * _Nullable)sessionId error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("startNavigation(route:sessionId_:)")));
+- (void)startNavigationStops:(NSArray<id<GNCRoutable>> *)stops vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig __attribute__((swift_name("startNavigation(stops:vehicleConfig_:)")));
+- (void)startNavigationRoutable:(id<GNCRoutable> _Nullable)routable vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig __attribute__((swift_name("startNavigation(routable:vehicleConfig_:)")));
+- (void)startNavigationRoute:(GNCRoute *)route sessionId:(NSString * _Nullable)sessionId vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig __attribute__((swift_name("startNavigation(route:sessionId:vehicleConfig_:)")));
 - (void)stopNavigation __attribute__((swift_name("stopNavigation()")));
-@property (readonly) id<GNCNavigationEventHandler> navigationEventHandler __attribute__((swift_name("navigationEventHandler")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SchedulingNavigationEngine.Companion")))
-@interface GNCSchedulingNavigationEngineCompanion : GNCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNCSchedulingNavigationEngineCompanion *shared __attribute__((swift_name("shared")));
 @end
 
 __attribute__((swift_name("UpdateRateProvider")))
 @protocol GNCUpdateRateProvider
 @required
-@property (readonly) GNCDuration *updateRate __attribute__((swift_name("updateRate")));
+- (GNCDuration *)getUpdateRateRouteProgress:(GNCRouteProgressTrackerRouteProgress * _Nullable)routeProgress __attribute__((swift_name("getUpdateRate(routeProgress:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DistanceBasedUpdateRateProvider")))
 @interface GNCDistanceBasedUpdateRateProvider : GNCBase <GNCUpdateRateProvider>
-- (instancetype)initWithSpeedTracker:(id<GNCSpeedTracker>)speedTracker navigationStateProvider:(id<GNCNavigationStateProvider>)navigationStateProvider __attribute__((swift_name("init(speedTracker:navigationStateProvider:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (class, readonly, getter=companion) GNCDistanceBasedUpdateRateProviderCompanion *companion __attribute__((swift_name("companion")));
-@property (readonly) GNCDuration *updateRate __attribute__((swift_name("updateRate")));
+- (GNCDuration *)getUpdateRateRouteProgress:(GNCRouteProgressTrackerRouteProgress * _Nullable)routeProgress __attribute__((swift_name("getUpdateRate(routeProgress:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2950,15 +3348,13 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("StaticUpdateRateProvider")))
 @interface GNCStaticUpdateRateProvider : GNCBase <GNCUpdateRateProvider>
 - (instancetype)initWithUpdateRate:(GNCDuration *)updateRate __attribute__((swift_name("init(updateRate:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) GNCDuration *updateRate __attribute__((swift_name("updateRate")));
+- (GNCDuration *)getUpdateRateRouteProgress:(GNCRouteProgressTrackerRouteProgress * _Nullable)routeProgress __attribute__((swift_name("getUpdateRate(routeProgress:)")));
 @end
 
 __attribute__((swift_name("RouteProgressTracker")))
 @protocol GNCRouteProgressTracker
 @required
-- (void)addOnMilestoneReachedListenerMilestoneReachedListener:(id<GNCRouteProgressTrackerOnMilestoneReachedListener>)milestoneReachedListener __attribute__((swift_name("addOnMilestoneReachedListener(milestoneReachedListener:)")));
-- (void)addOnWaypointReachedListenerOnWaypointReachedListener:(id<GNCRouteProgressTrackerOnWaypointReachedListener>)onWaypointReachedListener __attribute__((swift_name("addOnWaypointReachedListener(onWaypointReachedListener:)")));
-- (void)addRouteProgressListenerRouteProgressListener:(id<GNCRouteProgressTrackerRouteProgressListener>)routeProgressListener __attribute__((swift_name("addRouteProgressListener(routeProgressListener:)")));
+- (void)addRouteProgressListenerOnRouteProgressUpdatedListener:(id<GNCRouteProgressTrackerOnRouteProgressUpdatedListener>)onRouteProgressUpdatedListener __attribute__((swift_name("addRouteProgressListener(onRouteProgressUpdatedListener:)")));
 - (GNCLength * _Nullable)getDistanceToWaypointWaypointIndex:(int32_t)waypointIndex __attribute__((swift_name("getDistanceToWaypoint(waypointIndex:)")));
 
 /**
@@ -2971,9 +3367,7 @@ __attribute__((swift_name("RouteProgressTracker")))
 - (int32_t)indexOfWaypoint:(GNCRouteWaypoint *)waypoint __attribute__((swift_name("indexOf(waypoint:)")));
 - (BOOL)isWaypointReachedWaypointIndex:(int32_t)waypointIndex __attribute__((swift_name("isWaypointReached(waypointIndex:)")));
 - (BOOL)isWaypointReachedWaypoint:(GNCRouteWaypoint *)waypoint __attribute__((swift_name("isWaypointReached(waypoint:)")));
-- (void)removeOnMilestoneReachedListenerMilestoneReachedListener:(id<GNCRouteProgressTrackerOnMilestoneReachedListener>)milestoneReachedListener __attribute__((swift_name("removeOnMilestoneReachedListener(milestoneReachedListener:)")));
-- (void)removeOnWaypointReachedListenerOnWaypointReachedListener:(id<GNCRouteProgressTrackerOnWaypointReachedListener>)onWaypointReachedListener __attribute__((swift_name("removeOnWaypointReachedListener(onWaypointReachedListener:)")));
-- (void)removeRouteProgressListenerRouteProgressListener:(id<GNCRouteProgressTrackerRouteProgressListener>)routeProgressListener __attribute__((swift_name("removeRouteProgressListener(routeProgressListener:)")));
+- (void)removeRouteProgressListenerOnRouteProgressUpdatedListener:(id<GNCRouteProgressTrackerOnRouteProgressUpdatedListener>)onRouteProgressUpdatedListener __attribute__((swift_name("removeRouteProgressListener(onRouteProgressUpdatedListener:)")));
 - (void)start __attribute__((swift_name("start()")));
 - (void)stop __attribute__((swift_name("stop()")));
 @property (readonly) BOOL initialized __attribute__((swift_name("initialized")));
@@ -2983,10 +3377,8 @@ __attribute__((swift_name("RouteProgressTracker")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PredictionBasedRouteProgressTracker")))
 @interface GNCPredictionBasedRouteProgressTracker : GNCBase <GNCRouteProgressTracker>
-- (instancetype)initWithExecutor:(id<GNCExecutor>)executor timeProvider:(id<GNCTimeProvider>)timeProvider routeProgressStateUpdater:(id<GNCRouteProgressStateUpdater>)routeProgressStateUpdater onRoutePredictor:(id<GNCOnRoutePredictor>)onRoutePredictor updateRateProvider:(id<GNCUpdateRateProvider>)updateRateProvider speedTracker:(id<GNCSpeedTracker>)speedTracker maxMilestoneStopSpeed:(GNCSpeed *)maxMilestoneStopSpeed __attribute__((swift_name("init(executor:timeProvider:routeProgressStateUpdater:onRoutePredictor:updateRateProvider:speedTracker:maxMilestoneStopSpeed:)"))) __attribute__((objc_designated_initializer));
-- (void)addOnMilestoneReachedListenerMilestoneReachedListener:(id<GNCRouteProgressTrackerOnMilestoneReachedListener>)milestoneReachedListener __attribute__((swift_name("addOnMilestoneReachedListener(milestoneReachedListener:)")));
-- (void)addOnWaypointReachedListenerOnWaypointReachedListener:(id<GNCRouteProgressTrackerOnWaypointReachedListener>)onWaypointReachedListener __attribute__((swift_name("addOnWaypointReachedListener(onWaypointReachedListener:)")));
-- (void)addRouteProgressListenerRouteProgressListener:(id<GNCRouteProgressTrackerRouteProgressListener>)routeProgressListener __attribute__((swift_name("addRouteProgressListener(routeProgressListener:)")));
+- (instancetype)initWithExecutor:(id<GNCExecutor>)executor timeProvider:(id<GNCTimeProvider>)timeProvider routeProgressStateUpdater:(id<GNCRouteProgressStateUpdater>)routeProgressStateUpdater onRoutePredictor:(id<GNCOnRoutePredictor>)onRoutePredictor updateRateProvider:(id<GNCUpdateRateProvider>)updateRateProvider speedTracker:(id<GNCSpeedTracker>)speedTracker maxManeuverStopSpeed:(GNCSpeed *)maxManeuverStopSpeed __attribute__((swift_name("init(executor:timeProvider:routeProgressStateUpdater:onRoutePredictor:updateRateProvider:speedTracker:maxManeuverStopSpeed:)"))) __attribute__((objc_designated_initializer));
+- (void)addRouteProgressListenerOnRouteProgressUpdatedListener:(id<GNCRouteProgressTrackerOnRouteProgressUpdatedListener>)onRouteProgressUpdatedListener __attribute__((swift_name("addRouteProgressListener(onRouteProgressUpdatedListener:)")));
 - (GNCLength * _Nullable)getDistanceToWaypointWaypointIndex:(int32_t)waypointIndex __attribute__((swift_name("getDistanceToWaypoint(waypointIndex:)")));
 
 /**
@@ -2999,9 +3391,7 @@ __attribute__((swift_name("PredictionBasedRouteProgressTracker")))
 - (int32_t)indexOfWaypoint:(GNCRouteWaypoint *)waypoint __attribute__((swift_name("indexOf(waypoint:)")));
 - (BOOL)isWaypointReachedWaypointIndex:(int32_t)waypointIndex __attribute__((swift_name("isWaypointReached(waypointIndex:)")));
 - (BOOL)isWaypointReachedWaypoint:(GNCRouteWaypoint *)waypoint __attribute__((swift_name("isWaypointReached(waypoint:)")));
-- (void)removeOnMilestoneReachedListenerMilestoneReachedListener:(id<GNCRouteProgressTrackerOnMilestoneReachedListener>)milestoneReachedListener __attribute__((swift_name("removeOnMilestoneReachedListener(milestoneReachedListener:)")));
-- (void)removeOnWaypointReachedListenerOnWaypointReachedListener:(id<GNCRouteProgressTrackerOnWaypointReachedListener>)onWaypointReachedListener __attribute__((swift_name("removeOnWaypointReachedListener(onWaypointReachedListener:)")));
-- (void)removeRouteProgressListenerRouteProgressListener:(id<GNCRouteProgressTrackerRouteProgressListener>)routeProgressListener __attribute__((swift_name("removeRouteProgressListener(routeProgressListener:)")));
+- (void)removeRouteProgressListenerOnRouteProgressUpdatedListener:(id<GNCRouteProgressTrackerOnRouteProgressUpdatedListener>)onRouteProgressUpdatedListener __attribute__((swift_name("removeRouteProgressListener(onRouteProgressUpdatedListener:)")));
 - (void)start __attribute__((swift_name("start()")));
 - (void)stop __attribute__((swift_name("stop()")));
 @property (readonly) BOOL initialized __attribute__((swift_name("initialized")));
@@ -3049,111 +3439,88 @@ __attribute__((swift_name("RouteProgressTrackerNotYetInitializedException")))
 - (instancetype)initWithCause:(GNCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
-__attribute__((swift_name("RouteProgressTrackerOnMilestoneReachedListener")))
-@protocol GNCRouteProgressTrackerOnMilestoneReachedListener
-@required
-- (void)onMilestoneReachedWaypoint:(GNCRouteWaypoint *)waypoint index:(int32_t)index __attribute__((swift_name("onMilestoneReached(waypoint:index:)")));
-@end
-
-__attribute__((swift_name("RouteProgressTrackerOnWaypointReachedListener")))
-@protocol GNCRouteProgressTrackerOnWaypointReachedListener
-@required
-- (void)onWaypointReachedWaypoint:(GNCRouteWaypoint *)waypoint index:(int32_t)index __attribute__((swift_name("onWaypointReached(waypoint:index:)")));
-@end
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RouteProgressTrackerRouteProgress")))
 @interface GNCRouteProgressTrackerRouteProgress : GNCFreezable
-- (instancetype)initWithRoute:(GNCRoute *)route destination:(id<GNCRoutable>)destination remainingDistance:(GNCLength *)remainingDistance traveledDistance:(GNCLength *)traveledDistance distancesWaypointToWaypoint:(NSArray<GNCLength *> *)distancesWaypointToWaypoint distancesWaypointToDestination:(NSArray<GNCLength *> *)distancesWaypointToDestination distancesMilestoneToMilestone:(NSArray<GNCLength *> *)distancesMilestoneToMilestone waypointToDestinationTravelTimes:(NSArray<GNCDuration *> *)waypointToDestinationTravelTimes nextMilestones:(NSArray<GNCRouteWaypoint *> *)nextMilestones currentLocationOnRoute:(GNCOnRouteProjectorProjectedLocation *)currentLocationOnRoute currentWaypoint:(GNCRouteWaypoint * _Nullable)currentWaypoint currentStreetName:(NSString * _Nullable)currentStreetName currentWaypointIndex:(int32_t)currentWaypointIndex nextMilestoneIndex:(int32_t)nextMilestoneIndex nextMilestone:(GNCRouteWaypoint * _Nullable)nextMilestone nextMilestoneDistance:(GNCLength *)nextMilestoneDistance nextMilestoneDuration:(GNCDuration *)nextMilestoneDuration remainingTravelTime:(GNCDuration *)remainingTravelTime estimatedArrivalTime:(GNCLong * _Nullable)estimatedArrivalTime speedLimit:(GNCSpeed * _Nullable)speedLimit anticipatedSpeed:(GNCSpeed * _Nullable)anticipatedSpeed __attribute__((swift_name("init(route:destination:remainingDistance:traveledDistance:distancesWaypointToWaypoint:distancesWaypointToDestination:distancesMilestoneToMilestone:waypointToDestinationTravelTimes:nextMilestones:currentLocationOnRoute:currentWaypoint:currentStreetName:currentWaypointIndex:nextMilestoneIndex:nextMilestone:nextMilestoneDistance:nextMilestoneDuration:remainingTravelTime:estimatedArrivalTime:speedLimit:anticipatedSpeed:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithRoute:(GNCRoute *)route remainingWaypoints:(NSArray<GNCRouteWaypoint *> *)remainingWaypoints destination:(id<GNCRoutable>)destination remainingDistance:(GNCLength *)remainingDistance traveledDistance:(GNCLength *)traveledDistance locationOnRoute:(GNCOnRouteProjectorProjectedLocation *)locationOnRoute streetName:(NSString * _Nullable)streetName remainingManeuvers:(NSArray<GNCManeuver *> *)remainingManeuvers remainingTravelTime:(GNCDuration *)remainingTravelTime estimatedArrivalTime:(int64_t)estimatedArrivalTime speedLimit:(GNCSpeed * _Nullable)speedLimit anticipatedSpeed:(GNCSpeed * _Nullable)anticipatedSpeed distancesWaypointToDestination:(NSArray<GNCLength *> *)distancesWaypointToDestination waypointToDestinationTravelTimes:(NSArray<GNCDuration *> *)waypointToDestinationTravelTimes currentWaypoint:(GNCRouteWaypoint * _Nullable)currentWaypoint currentWaypointIndex:(int32_t)currentWaypointIndex __attribute__((swift_name("init(route:remainingWaypoints:destination:remainingDistance:traveledDistance:locationOnRoute:streetName:remainingManeuvers:remainingTravelTime:estimatedArrivalTime:speedLimit:anticipatedSpeed:distancesWaypointToDestination:waypointToDestinationTravelTimes:currentWaypoint:currentWaypointIndex:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (GNCRoute *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCOnRouteProjectorProjectedLocation *)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteWaypoint * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int64_t)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCSpeed * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCSpeed * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
 - (GNCRouteWaypoint * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCLength *)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCDuration *)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCDuration *)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCLong * _Nullable)component19 __attribute__((swift_name("component19()"))) __attribute__((deprecated("use corresponding property instead")));
-- (id<GNCRoutable>)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCSpeed * _Nullable)component20 __attribute__((swift_name("component20()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCSpeed * _Nullable)component21 __attribute__((swift_name("component21()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCLength *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSArray<GNCRouteWaypoint *> *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (id<GNCRoutable>)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (GNCLength *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<GNCLength *> *)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<GNCLength *> *)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<GNCLength *> *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<GNCDuration *> *)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<GNCRouteWaypoint *> *)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteProgressTrackerRouteProgress *)doCopyRoute:(GNCRoute *)route destination:(id<GNCRoutable>)destination remainingDistance:(GNCLength *)remainingDistance traveledDistance:(GNCLength *)traveledDistance distancesWaypointToWaypoint:(NSArray<GNCLength *> *)distancesWaypointToWaypoint distancesWaypointToDestination:(NSArray<GNCLength *> *)distancesWaypointToDestination distancesMilestoneToMilestone:(NSArray<GNCLength *> *)distancesMilestoneToMilestone waypointToDestinationTravelTimes:(NSArray<GNCDuration *> *)waypointToDestinationTravelTimes nextMilestones:(NSArray<GNCRouteWaypoint *> *)nextMilestones currentLocationOnRoute:(GNCOnRouteProjectorProjectedLocation *)currentLocationOnRoute currentWaypoint:(GNCRouteWaypoint * _Nullable)currentWaypoint currentStreetName:(NSString * _Nullable)currentStreetName currentWaypointIndex:(int32_t)currentWaypointIndex nextMilestoneIndex:(int32_t)nextMilestoneIndex nextMilestone:(GNCRouteWaypoint * _Nullable)nextMilestone nextMilestoneDistance:(GNCLength *)nextMilestoneDistance nextMilestoneDuration:(GNCDuration *)nextMilestoneDuration remainingTravelTime:(GNCDuration *)remainingTravelTime estimatedArrivalTime:(GNCLong * _Nullable)estimatedArrivalTime speedLimit:(GNCSpeed * _Nullable)speedLimit anticipatedSpeed:(GNCSpeed * _Nullable)anticipatedSpeed __attribute__((swift_name("doCopy(route:destination:remainingDistance:traveledDistance:distancesWaypointToWaypoint:distancesWaypointToDestination:distancesMilestoneToMilestone:waypointToDestinationTravelTimes:nextMilestones:currentLocationOnRoute:currentWaypoint:currentStreetName:currentWaypointIndex:nextMilestoneIndex:nextMilestone:nextMilestoneDistance:nextMilestoneDuration:remainingTravelTime:estimatedArrivalTime:speedLimit:anticipatedSpeed:)")));
+- (GNCLength *)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCOnRouteProjectorProjectedLocation *)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSArray<GNCManeuver *> *)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCDuration *)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteProgressTrackerRouteProgress *)doCopyRoute:(GNCRoute *)route remainingWaypoints:(NSArray<GNCRouteWaypoint *> *)remainingWaypoints destination:(id<GNCRoutable>)destination remainingDistance:(GNCLength *)remainingDistance traveledDistance:(GNCLength *)traveledDistance locationOnRoute:(GNCOnRouteProjectorProjectedLocation *)locationOnRoute streetName:(NSString * _Nullable)streetName remainingManeuvers:(NSArray<GNCManeuver *> *)remainingManeuvers remainingTravelTime:(GNCDuration *)remainingTravelTime estimatedArrivalTime:(int64_t)estimatedArrivalTime speedLimit:(GNCSpeed * _Nullable)speedLimit anticipatedSpeed:(GNCSpeed * _Nullable)anticipatedSpeed distancesWaypointToDestination:(NSArray<GNCLength *> *)distancesWaypointToDestination waypointToDestinationTravelTimes:(NSArray<GNCDuration *> *)waypointToDestinationTravelTimes currentWaypoint:(GNCRouteWaypoint * _Nullable)currentWaypoint currentWaypointIndex:(int32_t)currentWaypointIndex __attribute__((swift_name("doCopy(route:remainingWaypoints:destination:remainingDistance:traveledDistance:locationOnRoute:streetName:remainingManeuvers:remainingTravelTime:estimatedArrivalTime:speedLimit:anticipatedSpeed:distancesWaypointToDestination:waypointToDestinationTravelTimes:currentWaypoint:currentWaypointIndex:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) GNCSpeed * _Nullable anticipatedSpeed __attribute__((swift_name("anticipatedSpeed")));
-@property (readonly) GNCOnRouteProjectorProjectedLocation *currentLocationOnRoute __attribute__((swift_name("currentLocationOnRoute")));
-@property (readonly) NSString * _Nullable currentStreetName __attribute__((swift_name("currentStreetName")));
 @property (readonly) GNCRouteWaypoint * _Nullable currentWaypoint __attribute__((swift_name("currentWaypoint")));
 @property (readonly) int32_t currentWaypointIndex __attribute__((swift_name("currentWaypointIndex")));
 @property (readonly) id<GNCRoutable> destination __attribute__((swift_name("destination")));
-@property (readonly) NSArray<GNCLength *> *distancesMilestoneToMilestone __attribute__((swift_name("distancesMilestoneToMilestone")));
-@property (readonly) NSArray<GNCLength *> *distancesWaypointToDestination __attribute__((swift_name("distancesWaypointToDestination")));
-@property (readonly) NSArray<GNCLength *> *distancesWaypointToWaypoint __attribute__((swift_name("distancesWaypointToWaypoint")));
-@property (readonly) GNCLong * _Nullable estimatedArrivalTime __attribute__((swift_name("estimatedArrivalTime")));
+@property (readonly) int64_t estimatedArrivalTime __attribute__((swift_name("estimatedArrivalTime")));
 @property (readonly) BOOL initialized __attribute__((swift_name("initialized")));
-@property (readonly) GNCRouteWaypoint * _Nullable nextMilestone __attribute__((swift_name("nextMilestone")));
-@property (readonly) GNCLength *nextMilestoneDistance __attribute__((swift_name("nextMilestoneDistance")));
-@property (readonly) GNCDuration *nextMilestoneDuration __attribute__((swift_name("nextMilestoneDuration")));
-@property (readonly) int32_t nextMilestoneIndex __attribute__((swift_name("nextMilestoneIndex")));
-@property (readonly) NSArray<GNCRouteWaypoint *> *nextMilestones __attribute__((swift_name("nextMilestones")));
+@property (readonly) GNCOnRouteProjectorProjectedLocation *locationOnRoute __attribute__((swift_name("locationOnRoute")));
+@property (readonly) GNCManeuver *nextManeuver __attribute__((swift_name("nextManeuver")));
 @property (readonly) GNCLength *remainingDistance __attribute__((swift_name("remainingDistance")));
+@property (readonly) NSArray<GNCManeuver *> *remainingManeuvers __attribute__((swift_name("remainingManeuvers")));
 @property (readonly) GNCDuration *remainingTravelTime __attribute__((swift_name("remainingTravelTime")));
+@property (readonly) NSArray<GNCRouteWaypoint *> *remainingWaypoints __attribute__((swift_name("remainingWaypoints")));
 @property (readonly) GNCRoute *route __attribute__((swift_name("route")));
 @property (readonly) GNCSpeed * _Nullable speedLimit __attribute__((swift_name("speedLimit")));
+@property (readonly) NSString * _Nullable streetName __attribute__((swift_name("streetName")));
 @property (readonly) GNCLength *traveledDistance __attribute__((swift_name("traveledDistance")));
-@property (readonly) NSArray<GNCDuration *> *waypointToDestinationTravelTimes __attribute__((swift_name("waypointToDestinationTravelTimes")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("StatelessRouteProgressStateUpdater")))
 @interface GNCStatelessRouteProgressStateUpdater : GNCBase <GNCRouteProgressStateUpdater>
-- (instancetype)initWithSpeedTracker:(id<GNCSpeedTracker>)speedTracker internetConnectionValidator:(id<GNCInternetConnectionValidator>)internetConnectionValidator __attribute__((swift_name("init(speedTracker:internetConnectionValidator:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithInternetConnectionValidator:(id<GNCInternetConnectionValidator>)internetConnectionValidator __attribute__((swift_name("init(internetConnectionValidator:)"))) __attribute__((objc_designated_initializer));
 - (GNCRouteProgressTrackerRouteProgress *)initializeRoute:(GNCRoute *)route projectedLocation:(GNCOnRouteProjectorProjectedLocation *)projectedLocation previousRouteProgress:(GNCRouteProgressTrackerRouteProgress * _Nullable)previousRouteProgress __attribute__((swift_name("initialize(route:projectedLocation:previousRouteProgress:)")));
 - (GNCRouteProgressTrackerRouteProgress *)updateRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress projectedLocation:(GNCOnRouteProjectorProjectedLocation *)projectedLocation __attribute__((swift_name("update(routeProgress:projectedLocation:)")));
 @end
 
-__attribute__((swift_name("DestinationReachedValidator")))
-@protocol GNCDestinationReachedValidator
+__attribute__((swift_name("Validator")))
+@protocol GNCValidator
 @required
-- (BOOL)isDestinationReachedRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("isDestinationReached(routeProgress:)")));
+- (BOOL)isValidRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("isValid(routeProgress:)")));
 @end
 
-__attribute__((swift_name("DistanceBasedDestinationReachedValidator")))
-@interface GNCDistanceBasedDestinationReachedValidator : GNCBase <GNCDestinationReachedValidator>
-- (instancetype)initWithDestinationReachedDistance:(GNCLength *)destinationReachedDistance __attribute__((swift_name("init(destinationReachedDistance:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)isDestinationReachedRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("isDestinationReached(routeProgress:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BOOL)isPointToPointDistanceCloseEnoughRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("isPointToPointDistanceCloseEnough(routeProgress:)")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("InterceptingValidator")))
+@interface GNCInterceptingValidator : GNCBase <GNCValidator>
+- (void)addInterceptorInterceptor:(id<GNCInterceptingValidatorInterceptor>)interceptor __attribute__((swift_name("addInterceptor(interceptor:)")));
+- (BOOL)isValidRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("isValid(routeProgress:)")));
 @end
 
-__attribute__((swift_name("LeavingDestinationValidator")))
-@protocol GNCLeavingDestinationValidator
+__attribute__((swift_name("InterceptingValidatorInterceptor")))
+@protocol GNCInterceptingValidatorInterceptor
 @required
-- (BOOL)isLeavingDestinationRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("isLeavingDestination(routeProgress:)")));
+- (GNCBoolean * _Nullable)interceptRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress originalResult:(BOOL)originalResult __attribute__((swift_name("intercept(routeProgress:originalResult:)")));
+@end
+
+__attribute__((swift_name("DistanceBasedReachingDestinationValidator")))
+@interface GNCDistanceBasedReachingDestinationValidator : GNCBase <GNCValidator>
+- (instancetype)initWithDefaultDistance:(GNCLength *)defaultDistance __attribute__((swift_name("init(defaultDistance:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)isValidRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("isValid(routeProgress:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DistanceBasedLeavingDestinationValidator")))
-@interface GNCDistanceBasedLeavingDestinationValidator : GNCBase <GNCLeavingDestinationValidator>
+@interface GNCDistanceBasedLeavingDestinationValidator : GNCBase <GNCValidator>
 - (instancetype)initWithLocationRepository:(id<GNCLocationRepository>)locationRepository __attribute__((swift_name("init(locationRepository:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithLocationRepository:(id<GNCLocationRepository>)locationRepository leavingDestinationDistance:(GNCLength *)leavingDestinationDistance __attribute__((swift_name("init(locationRepository:leavingDestinationDistance:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNCDistanceBasedLeavingDestinationValidatorCompanion *companion __attribute__((swift_name("companion")));
-- (BOOL)isLeavingDestinationRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("isLeavingDestination(routeProgress:)")));
+- (BOOL)isValidRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("isValid(routeProgress:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3163,42 +3530,21 @@ __attribute__((swift_name("DistanceBasedLeavingDestinationValidator.Companion"))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNCDistanceBasedLeavingDestinationValidatorCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) GNCLength *DEFAULT_LEAVING_DESTINATION_REACHED_DISTANCE __attribute__((swift_name("DEFAULT_LEAVING_DESTINATION_REACHED_DISTANCE")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RouteBasedDestinationReachedValidator")))
-@interface GNCRouteBasedDestinationReachedValidator : GNCDistanceBasedDestinationReachedValidator
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithDestinationReachedDistance:(GNCLength *)destinationReachedDistance __attribute__((swift_name("init(destinationReachedDistance:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) GNCRouteBasedDestinationReachedValidatorCompanion *companion __attribute__((swift_name("companion")));
-- (BOOL)isDestinationReachedRouteProgress:(GNCRouteProgressTrackerRouteProgress *)routeProgress __attribute__((swift_name("isDestinationReached(routeProgress:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RouteBasedDestinationReachedValidator.Companion")))
-@interface GNCRouteBasedDestinationReachedValidatorCompanion : GNCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNCRouteBasedDestinationReachedValidatorCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) GNCLength *DEFAULT_DESTINATION_REACHED_DISTANCE __attribute__((swift_name("DEFAULT_DESTINATION_REACHED_DISTANCE")));
 @end
 
 __attribute__((swift_name("SchedulingRouteRepositoryOffRouteRequestValidator")))
 @protocol GNCSchedulingRouteRepositoryOffRouteRequestValidator
 @required
-- (BOOL)canRequestOffValidationLocation:(GNCLocation *)location previousRouteRequestJob:(GNCRouteRequestJob * _Nullable)previousRouteRequestJob __attribute__((swift_name("canRequestOffValidation(location:previousRouteRequestJob:)")));
 - (void)updateRoute:(GNCRoute *)route __attribute__((swift_name("update(route:)")));
+- (BOOL)validateLocation:(GNCLocation *)location previousRouteRequestJob:(GNCRouteRequestJob * _Nullable)previousRouteRequestJob __attribute__((swift_name("validate(location:previousRouteRequestJob:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CombiningOffRouteRequestValidator")))
 @interface GNCCombiningOffRouteRequestValidator : GNCBase <GNCSchedulingRouteRepositoryOffRouteRequestValidator>
 - (instancetype)initWithOffRouteRequestValidators:(NSArray<id<GNCSchedulingRouteRepositoryOffRouteRequestValidator>> *)offRouteRequestValidators __attribute__((swift_name("init(offRouteRequestValidators:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)canRequestOffValidationLocation:(GNCLocation *)location previousRouteRequestJob:(GNCRouteRequestJob * _Nullable)previousRouteRequestJob __attribute__((swift_name("canRequestOffValidation(location:previousRouteRequestJob:)")));
 - (void)updateRoute:(GNCRoute *)route __attribute__((swift_name("update(route:)")));
+- (BOOL)validateLocation:(GNCLocation *)location previousRouteRequestJob:(GNCRouteRequestJob * _Nullable)previousRouteRequestJob __attribute__((swift_name("validate(location:previousRouteRequestJob:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3207,8 +3553,8 @@ __attribute__((swift_name("DistanceOffRouteRequestValidator")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithMinDisplacement:(GNCLength *)minDisplacement __attribute__((swift_name("init(minDisplacement:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)canRequestOffValidationLocation:(GNCLocation *)location previousRouteRequestJob:(GNCRouteRequestJob * _Nullable)previousRouteRequestJob __attribute__((swift_name("canRequestOffValidation(location:previousRouteRequestJob:)")));
 - (void)updateRoute:(GNCRoute *)route __attribute__((swift_name("update(route:)")));
+- (BOOL)validateLocation:(GNCLocation *)location previousRouteRequestJob:(GNCRouteRequestJob * _Nullable)previousRouteRequestJob __attribute__((swift_name("validate(location:previousRouteRequestJob:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3217,8 +3563,18 @@ __attribute__((swift_name("DurationOffRouteRequestValidator")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithMinDuration:(GNCDuration *)minDuration __attribute__((swift_name("init(minDuration:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)canRequestOffValidationLocation:(GNCLocation *)location previousRouteRequestJob:(GNCRouteRequestJob * _Nullable)previousRouteRequestJob __attribute__((swift_name("canRequestOffValidation(location:previousRouteRequestJob:)")));
 - (void)updateRoute:(GNCRoute *)route __attribute__((swift_name("update(route:)")));
+- (BOOL)validateLocation:(GNCLocation *)location previousRouteRequestJob:(GNCRouteRequestJob * _Nullable)previousRouteRequestJob __attribute__((swift_name("validate(location:previousRouteRequestJob:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NoLocationAvailableException")))
+@interface GNCNoLocationAvailableException : GNCKotlinException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithCause:(GNCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
 __attribute__((swift_name("RouteRepository")))
@@ -3227,7 +3583,7 @@ __attribute__((swift_name("RouteRepository")))
 - (void)addRouteUpdatedListenerRouteUpdatedListener:(id<GNCRouteRepositoryRouteUpdatedListener>)routeUpdatedListener __attribute__((swift_name("addRouteUpdatedListener(routeUpdatedListener:)")));
 - (void)removeRouteUpdatedListenerRouteUpdatedListener:(id<GNCRouteRepositoryRouteUpdatedListener>)routeUpdatedListener __attribute__((swift_name("removeRouteUpdatedListener(routeUpdatedListener:)")));
 - (void)reportOffRouteLocation:(GNCLocation *)location __attribute__((swift_name("reportOffRoute(location:)")));
-- (void)startRoute:(GNCRoute * _Nullable)route __attribute__((swift_name("start(route:)")));
+- (void)startRoute:(GNCRoute * _Nullable)route vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig __attribute__((swift_name("start(route:vehicleConfig:)")));
 - (void)stop __attribute__((swift_name("stop()")));
 @property (readonly) BOOL active __attribute__((swift_name("active")));
 @property (readonly) GNCRoute * _Nullable route __attribute__((swift_name("route")));
@@ -3253,14 +3609,15 @@ __attribute__((swift_name("RouteRequestJobListener")))
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SchedulingRouteRepository")))
-@interface GNCSchedulingRouteRepository : GNCBase <GNCRouteRepository, GNCRouteRequestJobListener>
+@interface GNCSchedulingRouteRepository : GNCBase <GNCRouteRepository, GNCRouteRequestJobListener, GNCLocationUpdateListener>
 - (void)addRouteUpdatedListenerRouteUpdatedListener:(id<GNCRouteRepositoryRouteUpdatedListener>)routeUpdatedListener __attribute__((swift_name("addRouteUpdatedListener(routeUpdatedListener:)")));
 - (void)onDoneRouteRequest:(GNCRouteProviderRouteRequest *)routeRequest route:(GNCRoute *)route __attribute__((swift_name("onDone(routeRequest:route:)")));
 - (void)onFailedRouteRequest:(GNCRouteProviderRouteRequest *)routeRequest exception:(GNCKotlinException *)exception __attribute__((swift_name("onFailed(routeRequest:exception:)")));
+- (void)onLocationUpdatedLocation:(GNCLocation *)location __attribute__((swift_name("onLocationUpdated(location:)")));
 - (void)onStartRouteRequest:(GNCRouteProviderRouteRequest *)routeRequest __attribute__((swift_name("onStart(routeRequest:)")));
 - (void)removeRouteUpdatedListenerRouteUpdatedListener:(id<GNCRouteRepositoryRouteUpdatedListener>)routeUpdatedListener __attribute__((swift_name("removeRouteUpdatedListener(routeUpdatedListener:)")));
 - (void)reportOffRouteLocation:(GNCLocation *)location __attribute__((swift_name("reportOffRoute(location:)")));
-- (void)startRoute:(GNCRoute * _Nullable)route __attribute__((swift_name("start(route:)")));
+- (void)startRoute:(GNCRoute * _Nullable)route vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig __attribute__((swift_name("start(route:vehicleConfig:)")));
 - (void)stop __attribute__((swift_name("stop()")));
 @property (readonly) BOOL active __attribute__((swift_name("active")));
 @property (readonly) GNCRoute * _Nullable route __attribute__((swift_name("route")));
@@ -3275,36 +3632,12 @@ __attribute__((swift_name("RouteProvider")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (GNCRoute * _Nullable)requestRouteRouteRequest:(GNCRouteProviderRouteRequest *)routeRequest error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("requestRoute(routeRequest:)")));
-- (void)requestRouteRouteRequest:(GNCRouteProviderRouteRequest *)routeRequest callback:(id<GNCRouteProviderCallback>)callback __attribute__((swift_name("requestRoute(routeRequest:callback:)")));
 
 /**
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (GNCRouteProviderRouteData * _Nullable)requestRouteDataOrigin:(GNCLatLng *)origin destination:(GNCLatLng *)destination error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("requestRouteData(origin:destination:)")));
-@end
-
-__attribute__((swift_name("RouteProviderCallback")))
-@protocol GNCRouteProviderCallback
-@required
-- (void)onFailedException:(GNCKotlinException *)exception __attribute__((swift_name("onFailed(exception:)")));
-- (void)onSuccessRoute:(GNCRoute *)route __attribute__((swift_name("onSuccess(route:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RouteProviderRouteData")))
-@interface GNCRouteProviderRouteData : GNCFreezable
-- (instancetype)initWithDuration:(GNCDuration *)duration distance:(GNCLength *)distance __attribute__((swift_name("init(duration:distance:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (GNCDuration *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCLength *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteProviderRouteData *)doCopyDuration:(GNCDuration *)duration distance:(GNCLength *)distance __attribute__((swift_name("doCopy(duration:distance:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) GNCLength *distance __attribute__((swift_name("distance")));
-@property (readonly) GNCDuration *duration __attribute__((swift_name("duration")));
+- (GNCRouteData * _Nullable)requestRouteDataOrigin:(GNCLatLng *)origin destination:(GNCLatLng *)destination vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("requestRouteData(origin:destination:vehicleConfig:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3322,19 +3655,19 @@ __attribute__((swift_name("RouteProviderRouteNotFoundException")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RouteProviderRouteRequest")))
 @interface GNCRouteProviderRouteRequest : GNCFreezable
-- (instancetype)initWithOrigin:(GNCLocation *)origin originHeading:(GNCDouble * _Nullable)originHeading forceRoute:(BOOL)forceRoute type:(GNCRouteProviderType *)type verifyOffRoute:(BOOL)verifyOffRoute sessionId:(NSString * _Nullable)sessionId destination:(GNCRouteProviderRouteRequestDestination *)destination previousRoute:(GNCRoute * _Nullable)previousRoute locationTrail:(NSArray<GNCLocation *> *)locationTrail __attribute__((swift_name("init(origin:originHeading:forceRoute:type:verifyOffRoute:sessionId:destination:previousRoute:locationTrail:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithOrigin:(GNCLocation *)origin forceRoute:(BOOL)forceRoute type:(GNCRouteProviderType *)type verifyOffRoute:(BOOL)verifyOffRoute sessionId:(NSString * _Nullable)sessionId destination:(GNCRouteProviderRouteRequestDestination *)destination previousRoute:(GNCRoute * _Nullable)previousRoute vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig locationTrail:(NSArray<GNCLocation *> *)locationTrail __attribute__((swift_name("init(origin:forceRoute:type:verifyOffRoute:sessionId:destination:previousRoute:vehicleConfig:locationTrail:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (GNCLocation *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCDouble * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteProviderType *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteProviderRouteRequestDestination *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRoute * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteProviderType *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteProviderRouteRequestDestination *)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRoute * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (id<GNCVehicleConfig>)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSArray<GNCLocation *> *)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteProviderRouteRequest *)doCopyOrigin:(GNCLocation *)origin originHeading:(GNCDouble * _Nullable)originHeading forceRoute:(BOOL)forceRoute type:(GNCRouteProviderType *)type verifyOffRoute:(BOOL)verifyOffRoute sessionId:(NSString * _Nullable)sessionId destination:(GNCRouteProviderRouteRequestDestination *)destination previousRoute:(GNCRoute * _Nullable)previousRoute locationTrail:(NSArray<GNCLocation *> *)locationTrail __attribute__((swift_name("doCopy(origin:originHeading:forceRoute:type:verifyOffRoute:sessionId:destination:previousRoute:locationTrail:)")));
+- (GNCRouteProviderRouteRequest *)doCopyOrigin:(GNCLocation *)origin forceRoute:(BOOL)forceRoute type:(GNCRouteProviderType *)type verifyOffRoute:(BOOL)verifyOffRoute sessionId:(NSString * _Nullable)sessionId destination:(GNCRouteProviderRouteRequestDestination *)destination previousRoute:(GNCRoute * _Nullable)previousRoute vehicleConfig:(id<GNCVehicleConfig>)vehicleConfig locationTrail:(NSArray<GNCLocation *> *)locationTrail __attribute__((swift_name("doCopy(origin:forceRoute:type:verifyOffRoute:sessionId:destination:previousRoute:vehicleConfig:locationTrail:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -3342,10 +3675,10 @@ __attribute__((swift_name("RouteProviderRouteRequest")))
 @property (readonly) BOOL forceRoute __attribute__((swift_name("forceRoute")));
 @property (readonly) NSArray<GNCLocation *> *locationTrail __attribute__((swift_name("locationTrail")));
 @property (readonly) GNCLocation *origin __attribute__((swift_name("origin")));
-@property (readonly) GNCDouble * _Nullable originHeading __attribute__((swift_name("originHeading")));
 @property (readonly) GNCRoute * _Nullable previousRoute __attribute__((swift_name("previousRoute")));
 @property (readonly) NSString * _Nullable sessionId __attribute__((swift_name("sessionId")));
 @property (readonly) GNCRouteProviderType *type __attribute__((swift_name("type")));
+@property (readonly) id<GNCVehicleConfig> vehicleConfig __attribute__((swift_name("vehicleConfig")));
 @property (readonly) BOOL verifyOffRoute __attribute__((swift_name("verifyOffRoute")));
 @end
 
@@ -3383,7 +3716,6 @@ __attribute__((swift_name("RoutingConfig")))
 @required
 @property (readonly) NSString *instanceId __attribute__((swift_name("instanceId")));
 @property (readonly) NSString *serviceUrl __attribute__((swift_name("serviceUrl")));
-@property (readonly) id<GNCVehicleConfig> vehicleConfig __attribute__((swift_name("vehicleConfig")));
 @end
 
 __attribute__((swift_name("RoutingParamProvider")))
@@ -3406,31 +3738,31 @@ __attribute__((swift_name("RouteDtoConverter")))
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (GNCRouteProviderRouteData * _Nullable)convertRouteDataDto:(GNCRouteDataDto *)routeDataDto error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("convert(routeDataDto:)")));
+- (GNCRoute * _Nullable)convertRouteRequest:(GNCRouteProviderRouteRequest *)routeRequest routeDto:(GNCRouteDto *)routeDto previousRoute:(GNCRoute * _Nullable)previousRoute origin:(GNCLatLng * _Nullable)origin destination:(id<GNCRoutable> _Nullable)destination error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("convert(routeRequest:routeDto:previousRoute:origin:destination:)")));
 
 /**
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (GNCRoute * _Nullable)convertRouteDto:(GNCRouteDto *)routeDto previousRoute:(GNCRoute * _Nullable)previousRoute origin:(GNCLatLng * _Nullable)origin destination:(id<GNCRoutable> _Nullable)destination error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("convert(routeDto:previousRoute:origin:destination:)")));
+- (GNCRouteData * _Nullable)convertRouteDataDto:(GNCRouteDataDto *)routeDataDto error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("convert(routeDataDto:)")));
 @end
 
 __attribute__((swift_name("FullRouteDtoConverter")))
 @interface GNCFullRouteDtoConverter : GNCBase <GNCRouteDtoConverter>
-- (instancetype)initWithTimeProvider:(id<GNCTimeProvider>)timeProvider dateTimeFormatter:(id<GNCDateTimeFormatter>)dateTimeFormatter __attribute__((swift_name("init(timeProvider:dateTimeFormatter:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithTimeProvider:(id<GNCTimeProvider>)timeProvider __attribute__((swift_name("init(timeProvider:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNCFullRouteDtoConverterCompanion *companion __attribute__((swift_name("companion")));
 
 /**
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (GNCRouteProviderRouteData * _Nullable)convertRouteDataDto:(GNCRouteDataDto *)routeDataDto error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("convert(routeDataDto:)")));
+- (GNCRoute * _Nullable)convertRouteRequest:(GNCRouteProviderRouteRequest *)routeRequest routeDto:(GNCRouteDto *)routeDto previousRoute:(GNCRoute * _Nullable)previousRoute origin:(GNCLatLng * _Nullable)origin destination:(id<GNCRoutable> _Nullable)destination error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("convert(routeRequest:routeDto:previousRoute:origin:destination:)")));
 
 /**
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (GNCRoute * _Nullable)convertRouteDto:(GNCRouteDto *)routeDto previousRoute:(GNCRoute * _Nullable)previousRoute origin:(GNCLatLng * _Nullable)origin destination:(id<GNCRoutable> _Nullable)destination error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("convert(routeDto:previousRoute:origin:destination:)")));
+- (GNCRouteData * _Nullable)convertRouteDataDto:(GNCRouteDataDto *)routeDataDto error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("convert(routeDataDto:)")));
 - (NSArray<GNCRouteDestinationInfo *> *)convertDestinationInfoDestinationInfoDtos:(NSArray<GNCRouteDtoDestinationInfo *> *)destinationInfoDtos __attribute__((swift_name("convertDestinationInfo(destinationInfoDtos:)")));
 - (GNCDuration *)convertNextUpdateCallNextRefreshInterval:(NSString *)nextRefreshInterval __attribute__((swift_name("convertNextUpdateCall(nextRefreshInterval:)")));
 - (GNCDuration *)convertRemainingTravelTimeRemainingTravelTime:(NSString *)remainingTravelTime __attribute__((swift_name("convertRemainingTravelTime(remainingTravelTime:)")));
@@ -3443,21 +3775,19 @@ __attribute__((swift_name("FullRouteDtoConverter.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNCFullRouteDtoConverterCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) NSString *DURATION_FORMAT __attribute__((swift_name("DURATION_FORMAT")));
-@property (readonly) NSString *NEXT_UPDATE_CALL_FORMAT __attribute__((swift_name("NEXT_UPDATE_CALL_FORMAT")));
 @property (readonly) NSString *TAG __attribute__((swift_name("TAG")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MergingRouteDtoConverter")))
 @interface GNCMergingRouteDtoConverter : GNCFullRouteDtoConverter
-- (instancetype)initWithTimeProvider:(id<GNCTimeProvider>)timeProvider dateTimeFormatter:(id<GNCDateTimeFormatter>)dateTimeFormatter __attribute__((swift_name("init(timeProvider:dateTimeFormatter:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithTimeProvider:(id<GNCTimeProvider>)timeProvider __attribute__((swift_name("init(timeProvider:)"))) __attribute__((objc_designated_initializer));
 
 /**
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (GNCRoute * _Nullable)convertRouteDto:(GNCRouteDto *)routeDto previousRoute:(GNCRoute * _Nullable)previousRoute origin:(GNCLatLng * _Nullable)origin destination:(id<GNCRoutable> _Nullable)destination error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("convert(routeDto:previousRoute:origin:destination:)")));
+- (GNCRoute * _Nullable)convertRouteRequest:(GNCRouteProviderRouteRequest *)routeRequest routeDto:(GNCRouteDto *)routeDto previousRoute:(GNCRoute * _Nullable)previousRoute origin:(GNCLatLng * _Nullable)origin destination:(id<GNCRoutable> _Nullable)destination error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("convert(routeRequest:routeDto:previousRoute:origin:destination:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3505,19 +3835,21 @@ __attribute__((swift_name("RouteDto")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RouteDto.DestinationInfo")))
 @interface GNCRouteDtoDestinationInfo : GNCFreezable
-- (instancetype)initWithLocation:(GNCRouteDtoGeoPoint *)location tag:(NSString *)tag tags:(NSDictionary<NSString *, id> *)tags __attribute__((swift_name("init(location:tag:tags:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithLocation:(GNCRouteDtoGeoPoint *)location type:(NSString *)type tags:(NSDictionary<NSString *, id> *)tags destinationReachedDistanceMeters:(GNCDouble * _Nullable)destinationReachedDistanceMeters __attribute__((swift_name("init(location:type:tags:destinationReachedDistanceMeters:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (GNCRouteDtoGeoPoint *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSDictionary<NSString *, id> *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteDtoDestinationInfo *)doCopyLocation:(GNCRouteDtoGeoPoint *)location tag:(NSString *)tag tags:(NSDictionary<NSString *, id> *)tags __attribute__((swift_name("doCopy(location:tag:tags:)")));
+- (GNCDouble * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteDtoDestinationInfo *)doCopyLocation:(GNCRouteDtoGeoPoint *)location type:(NSString *)type tags:(NSDictionary<NSString *, id> *)tags destinationReachedDistanceMeters:(GNCDouble * _Nullable)destinationReachedDistanceMeters __attribute__((swift_name("doCopy(location:type:tags:destinationReachedDistanceMeters:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) GNCDouble * _Nullable destinationReachedDistanceMeters __attribute__((swift_name("destinationReachedDistanceMeters")));
 @property (readonly) GNCRouteDtoGeoPoint *location __attribute__((swift_name("location")));
-@property (readonly) NSString *tag __attribute__((swift_name("tag")));
 @property (readonly) NSDictionary<NSString *, id> *tags __attribute__((swift_name("tags")));
+@property (readonly) NSString *type __attribute__((swift_name("type")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3555,18 +3887,20 @@ __attribute__((swift_name("RouteDto.GeoPoint")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RouteDto.RouteLeg")))
 @interface GNCRouteDtoRouteLeg : GNCFreezable
-- (instancetype)initWithDestinationRoadOffset:(double)destinationRoadOffset steps:(NSArray<GNCRouteDtoRouteLegStep *> *)steps fuelStations:(NSArray<GNCRouteDtoRouteLegFuelStation *> * _Nullable)fuelStations __attribute__((swift_name("init(destinationRoadOffset:steps:fuelStations:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDestinationRoadOffset:(double)destinationRoadOffset steps:(NSArray<GNCRouteDtoRouteLegStep *> *)steps fuelStations:(NSArray<GNCRouteDtoRouteLegFuelStation *> * _Nullable)fuelStations parkingAreas:(NSArray<GNCRouteDtoRouteLegParkingArea *> * _Nullable)parkingAreas __attribute__((swift_name("init(destinationRoadOffset:steps:fuelStations:parkingAreas:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (double)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSArray<GNCRouteDtoRouteLegStep *> *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSArray<GNCRouteDtoRouteLegFuelStation *> * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteDtoRouteLeg *)doCopyDestinationRoadOffset:(double)destinationRoadOffset steps:(NSArray<GNCRouteDtoRouteLegStep *> *)steps fuelStations:(NSArray<GNCRouteDtoRouteLegFuelStation *> * _Nullable)fuelStations __attribute__((swift_name("doCopy(destinationRoadOffset:steps:fuelStations:)")));
+- (NSArray<GNCRouteDtoRouteLegParkingArea *> * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteDtoRouteLeg *)doCopyDestinationRoadOffset:(double)destinationRoadOffset steps:(NSArray<GNCRouteDtoRouteLegStep *> *)steps fuelStations:(NSArray<GNCRouteDtoRouteLegFuelStation *> * _Nullable)fuelStations parkingAreas:(NSArray<GNCRouteDtoRouteLegParkingArea *> * _Nullable)parkingAreas __attribute__((swift_name("doCopy(destinationRoadOffset:steps:fuelStations:parkingAreas:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) double destinationRoadOffset __attribute__((swift_name("destinationRoadOffset")));
 @property (readonly) NSArray<GNCRouteDtoRouteLegFuelStation *> * _Nullable fuelStations __attribute__((swift_name("fuelStations")));
+@property (readonly) NSArray<GNCRouteDtoRouteLegParkingArea *> * _Nullable parkingAreas __attribute__((swift_name("parkingAreas")));
 @property (readonly) NSArray<GNCRouteDtoRouteLegStep *> *steps __attribute__((swift_name("steps")));
 @end
 
@@ -3588,6 +3922,44 @@ __attribute__((swift_name("RouteDto.RouteLegFuelStation")))
 @property (readonly) GNCRouteDtoGeoPoint *location __attribute__((swift_name("location")));
 @property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
 @property (readonly) NSArray<NSString *> * _Nullable types __attribute__((swift_name("types")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RouteDto.RouteLegParkingArea")))
+@interface GNCRouteDtoRouteLegParkingArea : GNCFreezable
+- (instancetype)initWithName:(NSString * _Nullable)name position:(GNCRouteDtoRouteLegPosition *)position liableToFee:(GNCBoolean * _Nullable)liableToFee parkingType:(int32_t)parkingType distanceToDestinationMetres:(double)distanceToDestinationMetres __attribute__((swift_name("init(name:position:liableToFee:parkingType:distanceToDestinationMetres:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteDtoRouteLegPosition *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCBoolean * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (double)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteDtoRouteLegParkingArea *)doCopyName:(NSString * _Nullable)name position:(GNCRouteDtoRouteLegPosition *)position liableToFee:(GNCBoolean * _Nullable)liableToFee parkingType:(int32_t)parkingType distanceToDestinationMetres:(double)distanceToDestinationMetres __attribute__((swift_name("doCopy(name:position:liableToFee:parkingType:distanceToDestinationMetres:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) double distanceToDestinationMetres __attribute__((swift_name("distanceToDestinationMetres")));
+@property (readonly) GNCBoolean * _Nullable liableToFee __attribute__((swift_name("liableToFee")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) int32_t parkingType __attribute__((swift_name("parkingType")));
+@property (readonly) GNCRouteDtoRouteLegPosition *position __attribute__((swift_name("position")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RouteDto.RouteLegPosition")))
+@interface GNCRouteDtoRouteLegPosition : GNCFreezable
+- (instancetype)initWithLat:(double)lat lng:(double)lng __attribute__((swift_name("init(lat:lng:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (double)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (double)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteDtoRouteLegPosition *)doCopyLat:(double)lat lng:(double)lng __attribute__((swift_name("doCopy(lat:lng:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) double lat __attribute__((swift_name("lat")));
+@property (readonly) double lng __attribute__((swift_name("lng")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3641,21 +4013,24 @@ __attribute__((swift_name("RouteDto.RouteLegStepLane")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RouteDto.RouteLegStepTurnInfo")))
 @interface GNCRouteDtoRouteLegStepTurnInfo : GNCFreezable
-- (instancetype)initWithIsEndOfStreet:(BOOL)isEndOfStreet shouldSuppressTurnCommand:(BOOL)shouldSuppressTurnCommand directionNames:(NSArray<NSString *> *)directionNames directionReferenceNames:(NSArray<NSString *> *)directionReferenceNames turnCommand:(NSString *)turnCommand leadsToRoadClass:(NSString * _Nullable)leadsToRoadClass leadsToStreetName:(NSString * _Nullable)leadsToStreetName leadsToLevel:(GNCInt * _Nullable)leadsToLevel __attribute__((swift_name("init(isEndOfStreet:shouldSuppressTurnCommand:directionNames:directionReferenceNames:turnCommand:leadsToRoadClass:leadsToStreetName:leadsToLevel:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithIsEndOfStreet:(BOOL)isEndOfStreet shouldSuppressTurnCommand:(BOOL)shouldSuppressTurnCommand directionNames:(NSArray<NSString *> *)directionNames directionReferenceNames:(NSArray<NSString *> *)directionReferenceNames turnCommand:(NSString *)turnCommand turnCost:(GNCFloat * _Nullable)turnCost angle:(GNCFloat * _Nullable)angle leadsToRoadClass:(NSString * _Nullable)leadsToRoadClass leadsToStreetName:(NSString * _Nullable)leadsToStreetName leadsToLevel:(GNCInt * _Nullable)leadsToLevel __attribute__((swift_name("init(isEndOfStreet:shouldSuppressTurnCommand:directionNames:directionReferenceNames:turnCommand:turnCost:angle:leadsToRoadClass:leadsToStreetName:leadsToLevel:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (BOOL)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCInt * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSArray<NSString *> *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSArray<NSString *> *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCInt * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (GNCRouteDtoRouteLegStepTurnInfo *)doCopyIsEndOfStreet:(BOOL)isEndOfStreet shouldSuppressTurnCommand:(BOOL)shouldSuppressTurnCommand directionNames:(NSArray<NSString *> *)directionNames directionReferenceNames:(NSArray<NSString *> *)directionReferenceNames turnCommand:(NSString *)turnCommand leadsToRoadClass:(NSString * _Nullable)leadsToRoadClass leadsToStreetName:(NSString * _Nullable)leadsToStreetName leadsToLevel:(GNCInt * _Nullable)leadsToLevel __attribute__((swift_name("doCopy(isEndOfStreet:shouldSuppressTurnCommand:directionNames:directionReferenceNames:turnCommand:leadsToRoadClass:leadsToStreetName:leadsToLevel:)")));
+- (GNCFloat * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCFloat * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCRouteDtoRouteLegStepTurnInfo *)doCopyIsEndOfStreet:(BOOL)isEndOfStreet shouldSuppressTurnCommand:(BOOL)shouldSuppressTurnCommand directionNames:(NSArray<NSString *> *)directionNames directionReferenceNames:(NSArray<NSString *> *)directionReferenceNames turnCommand:(NSString *)turnCommand turnCost:(GNCFloat * _Nullable)turnCost angle:(GNCFloat * _Nullable)angle leadsToRoadClass:(NSString * _Nullable)leadsToRoadClass leadsToStreetName:(NSString * _Nullable)leadsToStreetName leadsToLevel:(GNCInt * _Nullable)leadsToLevel __attribute__((swift_name("doCopy(isEndOfStreet:shouldSuppressTurnCommand:directionNames:directionReferenceNames:turnCommand:turnCost:angle:leadsToRoadClass:leadsToStreetName:leadsToLevel:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) GNCFloat * _Nullable angle __attribute__((swift_name("angle")));
 @property (readonly) NSArray<NSString *> *directionNames __attribute__((swift_name("directionNames")));
 @property (readonly) NSArray<NSString *> *directionReferenceNames __attribute__((swift_name("directionReferenceNames")));
 @property (readonly) BOOL isEndOfStreet __attribute__((swift_name("isEndOfStreet")));
@@ -3664,6 +4039,7 @@ __attribute__((swift_name("RouteDto.RouteLegStepTurnInfo")))
 @property (readonly) NSString * _Nullable leadsToStreetName __attribute__((swift_name("leadsToStreetName")));
 @property (readonly) BOOL shouldSuppressTurnCommand __attribute__((swift_name("shouldSuppressTurnCommand")));
 @property (readonly) NSString *turnCommand __attribute__((swift_name("turnCommand")));
+@property (readonly) GNCFloat * _Nullable turnCost __attribute__((swift_name("turnCost")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3737,6 +4113,18 @@ __attribute__((swift_name("Serializable")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IteratingLocationProvider")))
+@interface GNCIteratingLocationProvider : GNCBase <GNCLocationProvider>
+- (instancetype)initWithLocations:(NSArray<GNCLocation *> *)locations executor:(id<GNCExecutor>)executor __attribute__((swift_name("init(locations:executor:)"))) __attribute__((objc_designated_initializer));
+- (void)addLocationUpdateListenerLocationUpdateListener:(id<GNCLocationProviderLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("addLocationUpdateListener(locationUpdateListener:)")));
+- (void)removeLocationUpdateListenerLocationUpdateListener:(id<GNCLocationProviderLocationUpdateListener>)locationUpdateListener __attribute__((swift_name("removeLocationUpdateListener(locationUpdateListener:)")));
+- (void)startLocationUpdates __attribute__((swift_name("startLocationUpdates()")));
+- (void)stopLocationUpdates __attribute__((swift_name("stopLocationUpdates()")));
+@property (readonly) BOOL active __attribute__((swift_name("active")));
+@property GNCLocation * _Nullable lastKnownLocation __attribute__((swift_name("lastKnownLocation")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Location.Companion")))
 @interface GNCLocationCompanion : GNCBase
 + (instancetype)alloc __attribute__((unavailable));
@@ -3807,13 +4195,17 @@ __attribute__((swift_name("Duration")))
 - (GNCDuration *)doCopyMilliseconds:(int64_t)milliseconds __attribute__((swift_name("doCopy(milliseconds:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (int64_t)hours __attribute__((swift_name("hours()")));
-- (int64_t)milliseconds __attribute__((swift_name("milliseconds()")));
+- (int64_t)hours __attribute__((swift_name("hours()"))) __attribute__((deprecated("Use wholeHours() instead.")));
+- (int64_t)milliseconds __attribute__((swift_name("milliseconds()"))) __attribute__((deprecated("Use wholeMilliseconds() instead.")));
 - (GNCDuration *)minusOther:(GNCDuration *)other __attribute__((swift_name("minus(other:)")));
-- (int64_t)minutes __attribute__((swift_name("minutes()")));
+- (int64_t)minutes __attribute__((swift_name("minutes()"))) __attribute__((deprecated("Use wholeMinutes() instead.")));
 - (GNCDuration *)plusOther:(GNCDuration *)other __attribute__((swift_name("plus(other:)")));
-- (int64_t)seconds __attribute__((swift_name("seconds()")));
+- (int64_t)seconds __attribute__((swift_name("seconds()"))) __attribute__((deprecated("Use wholeSeconds() instead.")));
 - (NSString *)description __attribute__((swift_name("description()")));
+- (int64_t)wholeHours __attribute__((swift_name("wholeHours()")));
+- (int64_t)wholeMilliseconds __attribute__((swift_name("wholeMilliseconds()")));
+- (int64_t)wholeMinutes __attribute__((swift_name("wholeMinutes()")));
+- (int64_t)wholeSeconds __attribute__((swift_name("wholeSeconds()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3823,13 +4215,13 @@ __attribute__((swift_name("Duration.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNCDurationCompanion *shared __attribute__((swift_name("shared")));
-- (GNCDuration *)addFirst:(GNCDuration *)first second:(GNCDuration *)second __attribute__((swift_name("add(first:second:)")));
+- (GNCDuration *)addFirst:(GNCDuration *)first second:(GNCDuration *)second __attribute__((swift_name("add(first:second:)"))) __attribute__((deprecated("Use default addition.")));
 - (GNCDuration *)fromHoursHours:(int64_t)hours __attribute__((swift_name("fromHours(hours:)")));
 - (GNCDuration *)fromMillisecondsMilliseconds:(int64_t)milliseconds __attribute__((swift_name("fromMilliseconds(milliseconds:)")));
 - (GNCDuration *)fromMinutesMinutes:(int64_t)minutes __attribute__((swift_name("fromMinutes(minutes:)")));
 - (GNCDuration *)fromSecondsSeconds:(int64_t)seconds __attribute__((swift_name("fromSeconds(seconds:)")));
 - (id<GNCKSerializer>)serializer __attribute__((swift_name("serializer()")));
-- (GNCDuration *)subtractFirst:(GNCDuration *)first second:(GNCDuration *)second __attribute__((swift_name("subtract(first:second:)")));
+- (GNCDuration *)subtractFirst:(GNCDuration *)first second:(GNCDuration *)second __attribute__((swift_name("subtract(first:second:)"))) __attribute__((deprecated("Use default subtraction.")));
 @property (readonly) GNCDuration *ZERO __attribute__((swift_name("ZERO")));
 @end
 
@@ -3841,6 +4233,7 @@ __attribute__((swift_name("Length")))
 @property (class, readonly, getter=companion) GNCLengthCompanion *companion __attribute__((swift_name("companion")));
 - (int32_t)compareToOther:(GNCLength *)other __attribute__((swift_name("compareTo(other:)")));
 - (GNCLength *)doCopyMeters:(double)meters __attribute__((swift_name("doCopy(meters:)")));
+- (GNCSpeed *)divDuration:(GNCDuration *)duration __attribute__((swift_name("div(duration:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (double)feet __attribute__((swift_name("feet()")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -3864,7 +4257,32 @@ __attribute__((swift_name("Length.Companion")))
 - (GNCLength *)fromMetersMeters:(double)meters __attribute__((swift_name("fromMeters(meters:)")));
 - (id<GNCKSerializer>)serializer __attribute__((swift_name("serializer()")));
 - (GNCLength *)subtractFirst:(GNCLength *)first second:(GNCLength *)second __attribute__((swift_name("subtract(first:second:)")));
+@property (readonly) double SECONDS_TO_MILLISECONDS __attribute__((swift_name("SECONDS_TO_MILLISECONDS")));
 @property (readonly) GNCLength *ZERO __attribute__((swift_name("ZERO")));
+@end
+
+__attribute__((swift_name("MeasurementSystemProvider")))
+@protocol GNCMeasurementSystemProvider
+@required
+- (GNCMeasurementSystem *)getMeasurementSystem __attribute__((swift_name("getMeasurementSystem()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LocaleMeasurementSystemProvider")))
+@interface GNCLocaleMeasurementSystemProvider : GNCBase <GNCMeasurementSystemProvider>
+- (instancetype)initWithLocale:(NSLocale *)locale __attribute__((swift_name("init(locale:)"))) __attribute__((objc_designated_initializer));
+- (GNCMeasurementSystem *)getMeasurementSystem __attribute__((swift_name("getMeasurementSystem()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MeasurementSystem")))
+@interface GNCMeasurementSystem : GNCKotlinEnum<GNCMeasurementSystem *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) GNCMeasurementSystem *metric __attribute__((swift_name("metric")));
+@property (class, readonly) GNCMeasurementSystem *imperial __attribute__((swift_name("imperial")));
++ (GNCKotlinArray<GNCMeasurementSystem *> *)values __attribute__((swift_name("values()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3880,6 +4298,7 @@ __attribute__((swift_name("Speed")))
 - (double)kmh __attribute__((swift_name("kmh()")));
 - (double)mph __attribute__((swift_name("mph()")));
 - (double)ms __attribute__((swift_name("ms()")));
+- (GNCLength *)timesOther:(GNCDuration *)other __attribute__((swift_name("times(other:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @end
 
@@ -3895,25 +4314,48 @@ __attribute__((swift_name("Speed.Companion")))
 - (id<GNCKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @property (readonly) double KMH_TO_MS __attribute__((swift_name("KMH_TO_MS")));
 @property (readonly) double MS_TO_MPH __attribute__((swift_name("MS_TO_MPH")));
+@property (readonly) double SECONDS_TO_MILLISECONDS __attribute__((swift_name("SECONDS_TO_MILLISECONDS")));
 @property (readonly) GNCSpeed *ZERO __attribute__((swift_name("ZERO")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Timestamp")))
+@interface GNCTimestamp : GNCFreezable <GNCSerializable>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+@property (class, readonly, getter=companion) GNCTimestampCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(GNCTimestamp *)other __attribute__((swift_name("compareTo(other:)")));
+- (GNCTimestamp *)doCopyMillisecondsSince1970:(int64_t)millisecondsSince1970 __attribute__((swift_name("doCopy(millisecondsSince1970:)")));
+- (GNCDuration *)deltaOther:(GNCTimestamp *)other __attribute__((swift_name("delta(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (GNCTimestamp *)minusOther:(GNCDuration *)other __attribute__((swift_name("minus(other:)")));
+- (GNCTimestamp *)plusOther:(GNCDuration *)other __attribute__((swift_name("plus(other:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+- (int64_t)wholeMilliseconds __attribute__((swift_name("wholeMilliseconds()")));
+- (int64_t)wholeSeconds __attribute__((swift_name("wholeSeconds()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Timestamp.Companion")))
+@interface GNCTimestampCompanion : GNCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNCTimestampCompanion *shared __attribute__((swift_name("shared")));
+- (GNCTimestamp *)fromMillisecondsMilliseconds:(int64_t)milliseconds __attribute__((swift_name("fromMilliseconds(milliseconds:)")));
+- (GNCTimestamp *)fromSecondsSeconds:(int64_t)seconds __attribute__((swift_name("fromSeconds(seconds:)")));
+- (GNCTimestamp *)now __attribute__((swift_name("now()")));
+- (id<GNCKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@property (readonly) int32_t SECONDS_TO_MILLISECONDS __attribute__((swift_name("SECONDS_TO_MILLISECONDS")));
 @end
 
 __attribute__((swift_name("AnalyticsHandler")))
 @protocol GNCAnalyticsHandler
 @required
 - (void)postErrorThrowable:(GNCKotlinThrowable *)throwable properties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("postError(throwable:properties:)")));
-- (void)postEventMessage:(NSString *)message properties:(NSDictionary<NSString *, id> *)properties type:(GNCAnalyticsHandlerType *)type __attribute__((swift_name("postEvent(message:properties:type:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("AnalyticsHandlerType")))
-@interface GNCAnalyticsHandlerType : GNCKotlinEnum<GNCAnalyticsHandlerType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) GNCAnalyticsHandlerType *default_ __attribute__((swift_name("default_")));
-@property (class, readonly) GNCAnalyticsHandlerType *critical __attribute__((swift_name("critical")));
-+ (GNCKotlinArray<GNCAnalyticsHandlerType *> *)values __attribute__((swift_name("values()")));
+- (void)postEventMessage:(NSString *)message properties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("postEvent(message:properties:)")));
+- (void)postStatisticsMessage:(NSString *)message statistics:(NSDictionary<NSString *, id> *)statistics __attribute__((swift_name("postStatistics(message:statistics:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3932,7 +4374,8 @@ __attribute__((swift_name("GMAnalytics")))
 - (void)postErrorThrowable:(GNCKotlinThrowable *)throwable properties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("postError(throwable:properties:)")));
 - (void)postEventMessage:(NSString *)message __attribute__((swift_name("postEvent(message:)")));
 - (void)postEventTag:(NSString *)tag message:(NSString *)message __attribute__((swift_name("postEvent(tag:message:)")));
-- (void)postEventTag:(NSString * _Nullable)tag message:(NSString *)message properties:(NSDictionary<NSString *, id> *)properties type:(GNCAnalyticsHandlerType *)type __attribute__((swift_name("postEvent(tag:message:properties:type:)")));
+- (void)postEventTag:(NSString * _Nullable)tag message:(NSString *)message properties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("postEvent(tag:message:properties:)")));
+- (void)postStatisticsTag:(NSString * _Nullable)tag message:(NSString *)message statistics:(NSDictionary<NSString *, id> *)statistics __attribute__((swift_name("postStatistics(tag:message:statistics:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -4452,12 +4895,14 @@ __attribute__((swift_name("Geodesy")))
 - (double)getHeadingDeltaRouteHeading:(double)routeHeading probeHeading:(double)probeHeading __attribute__((swift_name("getHeadingDelta(routeHeading:probeHeading:)")));
 - (double)getHeadingInDegreesStart:(GNCLatLng *)start end:(GNCLatLng *)end __attribute__((swift_name("getHeadingInDegrees(start:end:)")));
 - (double)getHeadingInRadiansSrc:(GNCLatLng *)src dst:(GNCLatLng *)dst __attribute__((swift_name("getHeadingInRadians(src:dst:)")));
+- (BOOL)isOrthogonallyProjectableOntoSegmentBase:(GNCLatLng *)base segment:(GNCGeodesySegment *)segment __attribute__((swift_name("isOrthogonallyProjectableOntoSegment(base:segment:)")));
 - (GNCLength *)lineDistanceLine:(NSArray<GNCLatLng *> *)line __attribute__((swift_name("lineDistance(line:)")));
 - (GNCLatLng *)moveLocationOnLineStart:(GNCLatLng *)start end:(GNCLatLng *)end distance:(GNCLength *)distance __attribute__((swift_name("moveLocationOnLine(start:end:distance:)")));
 - (GNCLength *)pointToPointDistanceStart:(GNCLatLng *)start end:(GNCLatLng *)end __attribute__((swift_name("pointToPointDistance(start:end:)")));
 - (double)pointToPointDistanceHaversineALat:(double)aLat aLon:(double)aLon bLat:(double)bLat bLon:(double)bLon __attribute__((swift_name("pointToPointDistanceHaversine(aLat:aLon:bLat:bLon:)")));
 - (double)pointToPointDistanceHaversineStart:(GNCLatLng *)start end:(GNCLatLng *)end __attribute__((swift_name("pointToPointDistanceHaversine(start:end:)")));
 - (GNCLatLng *)projectPointOntoLineBase:(GNCLatLng *)base start:(GNCLatLng *)start end:(GNCLatLng *)end __attribute__((swift_name("projectPointOntoLine(base:start:end:)")));
+- (GNCLatLng *)projectPointOntoSegmentBase:(GNCLatLng *)base segment:(GNCGeodesySegment *)segment __attribute__((swift_name("projectPointOntoSegment(base:segment:)")));
 - (GNCLatLng *)projectPointOntoSegmentBase:(GNCLatLng *)base start:(GNCLatLng *)start end:(GNCLatLng *)end __attribute__((swift_name("projectPointOntoSegment(base:start:end:)")));
 - (GNCLatLng *)shiftByCartesianPosition:(GNCLatLng *)position metersNorth:(double)metersNorth metersEast:(double)metersEast __attribute__((swift_name("shiftByCartesian(position:metersNorth:metersEast:)")));
 - (GNCLatLng *)shiftByCartesianPosition:(GNCLatLng *)position shift:(GNCKotlinDoubleArray *)shift __attribute__((swift_name("shiftByCartesian(position:shift:)")));
@@ -4467,6 +4912,20 @@ __attribute__((swift_name("Geodesy")))
 - (double)toRadiansDegrees:(double)degrees __attribute__((swift_name("toRadians(degrees:)")));
 @property (readonly) double EARTH_RADIUS_METER __attribute__((swift_name("EARTH_RADIUS_METER")));
 @property (readonly) double METERS_NORTH_TO_LATITUDE __attribute__((swift_name("METERS_NORTH_TO_LATITUDE")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Geodesy.Segment")))
+@interface GNCGeodesySegment : GNCBase
+- (instancetype)initWithStart:(GNCLatLng *)start end:(GNCLatLng *)end __attribute__((swift_name("init(start:end:)"))) __attribute__((objc_designated_initializer));
+- (GNCLatLng *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCLatLng *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (GNCGeodesySegment *)doCopyStart:(GNCLatLng *)start end:(GNCLatLng *)end __attribute__((swift_name("doCopy(start:end:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) GNCLatLng *end __attribute__((swift_name("end")));
+@property (readonly) GNCLatLng *start __attribute__((swift_name("start")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -7248,6 +7707,14 @@ __attribute__((swift_name("GraphmastersNavigationCore")))
 @property (readonly) NSString *frameworkName __attribute__((swift_name("frameworkName")));
 @end
 
+@interface GNCBaseNavigationSdk (Extensions)
+- (void)updateLocationClLocation:(CLLocation *)clLocation __attribute__((swift_name("updateLocation(clLocation:)")));
+@end
+
+@interface GNCOnRouteProjectorProjectedLocation (Extensions)
+- (NSArray<GNCRouteWaypoint *> *)remainingWaypoints __attribute__((swift_name("remainingWaypoints()")));
+@end
+
 @interface GNCRoute (Extensions)
 - (BOOL)isFullRoute __attribute__((swift_name("isFullRoute()")));
 @end
@@ -7266,9 +7733,19 @@ __attribute__((swift_name("GraphmastersNavigationCore")))
 - (GNCLocation *)fromClLocation:(CLLocation *)clLocation __attribute__((swift_name("from(clLocation:)")));
 @end
 
+@interface GNCGMLog (Extensions)
+- (void)eTag:(NSString * _Nullable)tag error:(NSError *)error __attribute__((swift_name("e(tag:error:)")));
+- (void)eError:(NSError *)error __attribute__((swift_name("e(error:)")));
+@end
+
 @interface GNCDuration (Extensions)
 - (GNCDuration *)fromTimeInterval:(double)timeInterval __attribute__((swift_name("from(timeInterval:)")));
 @property (readonly) double timeInterval __attribute__((swift_name("timeInterval")));
+@end
+
+@interface GNCGMAnalytics (Extensions)
+- (void)postErrorError:(NSError *)error __attribute__((swift_name("postError(error:)")));
+- (void)postErrorError:(NSError *)error properties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("postError(error:properties:)")));
 @end
 
 @interface GNCLatLng (Extensions)
@@ -8128,10 +8605,32 @@ __attribute__((swift_name("KotlinDuration.Companion")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VehicleConfigKt")))
+@interface GNCVehicleConfigKt : GNCBase
+@property (class, readonly) NSString *KEY_BICYCLE __attribute__((swift_name("KEY_BICYCLE")));
+@property (class, readonly) NSString *KEY_BUS __attribute__((swift_name("KEY_BUS")));
+@property (class, readonly) NSString *KEY_CAR __attribute__((swift_name("KEY_CAR")));
+@property (class, readonly) NSString *KEY_MOTORBIKE __attribute__((swift_name("KEY_MOTORBIKE")));
+@property (class, readonly) NSString *KEY_TRUCK __attribute__((swift_name("KEY_TRUCK")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NormalizedKt")))
+@interface GNCNormalizedKt : GNCBase
++ (double)normalize:(double)receiver range:(GNCKotlinIntRange *)range __attribute__((swift_name("normalize(_:range:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DateKt")))
 @interface GNCDateKt : GNCBase
 + (int64_t)millisecondsSince1970:(NSDate *)receiver __attribute__((swift_name("millisecondsSince1970(_:)")));
 + (NSDate *)from:(Class)receiver millisecondsSince1970:(int64_t)millisecondsSince1970 __attribute__((swift_name("from(_:millisecondsSince1970:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TimeProviderKt")))
+@interface GNCTimeProviderKt : GNCBase
++ (GNCTimestamp *)currentTimestamp:(id<GNCTimeProvider>)receiver __attribute__((swift_name("currentTimestamp(_:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -9277,6 +9776,19 @@ __attribute__((swift_name("SynchronizedKt_")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinFloatArray")))
+@interface GNCKotlinFloatArray : GNCBase
++ (instancetype)arrayWithSize:(int32_t)size __attribute__((swift_name("init(size:)")));
++ (instancetype)arrayWithSize:(int32_t)size init:(GNCFloat *(^)(GNCInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (float)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (GNCKotlinFloatIterator *)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(float)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinEnumCompanion")))
 @interface GNCKotlinEnumCompanion : GNCBase
 + (instancetype)alloc __attribute__((unavailable));
@@ -9577,6 +10089,14 @@ __attribute__((swift_name("KotlinSuspendFunction6")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)invokeP1:(id _Nullable)p1 p2:(id _Nullable)p2 p3:(id _Nullable)p3 p4:(id _Nullable)p4 p5:(id _Nullable)p5 p6:(id _Nullable)p6 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:p2:p3:p4:p5:p6:completionHandler:)")));
+@end
+
+__attribute__((swift_name("KotlinFloatIterator")))
+@interface GNCKotlinFloatIterator : GNCBase <GNCKotlinIterator>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (GNCFloat *)next __attribute__((swift_name("next()")));
+- (float)nextFloat __attribute__((swift_name("nextFloat()")));
 @end
 
 __attribute__((swift_name("KotlinDoubleIterator")))

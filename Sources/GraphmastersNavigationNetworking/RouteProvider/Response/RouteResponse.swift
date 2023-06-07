@@ -36,7 +36,7 @@ public struct RouteResponse: Codable {
 
     struct DestinationInfoResponse: Codable {
         var location: GeoLocationResponse
-        var tag: String
+        var type: String
         var tags: DestinationInfoTagResponse?
     }
 

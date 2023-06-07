@@ -42,7 +42,7 @@ extension Result where Success == (value: Data, response: HTTPURLResponse), Fail
         switch self {
         case let .success(value):
             do {
-                return .success(try transform(value))
+                return try .success(transform(value))
             } catch {
                 return .failure(error)
             }

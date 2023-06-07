@@ -71,21 +71,14 @@ public class IosNavigationSdk: BaseNavigationSdk {
                 routeResponseConverter: PlainRouteResponseConverter()
             ),
             routeConverter: MergingRouteDtoConverter(
-                timeProvider: FoundationTimeProvider(),
-                dateTimeFormatter: FoundationDateTimeFormatter()
+                timeProvider: FoundationTimeProvider()
             )
         )
 
         super.init(
             executor: OperationQueueExecutor(),
             sessionClient: sessionClient,
-            routeProvider: routeProvider,
-            destinationReachedValidator: nil,
-            leavingDestinationValidator: nil,
-            internetConnectionValidator: nil,
-            updateRateProvider: nil,
-            destinationRepository: MultiStopDestinationRepository(),
-            vehicleConfig: CarConfig()
+            routeProvider: routeProvider
         )
     }
 }

@@ -14,38 +14,78 @@ public final class RouteDtoRouteProvider: RouteProvider {
 
     // MARK: - Route Provider
 
-    public func requestRoute(routeRequest request: RouteProviderRouteRequest, callback: RouteProviderCallback) {
+    private func convert(request: RouteProviderRouteRequest, routeDto: RouteDto) throws -> Route {
+        return try routeConverter.convert(
+            routeRequest: request,
+            routeDto: routeDto,
+            previousRoute: request.previousRoute,
+            origin: request.origin.latLng,
+            destination: request.destination.routable
+        )
+    }
+
+    public func requestRoute(routeRequest request: RouteProviderRouteRequest) throws -> Route {
+        let group = DispatchGroup()
+        group.enter()
+
+        var route: Route?
+        var errorResponse: Error?
+
         routeDtoProvider.route(routeRequest: request) { result in
             switch result {
             case let .success(response):
-                self.convert(request: request, routeDto: response, callback: callback)
+                do {
+                    route = try self.convert(request: request, routeDto: response)
+                } catch {
+                    errorResponse = errorResponse
+                }
             case let .failure(error):
-                callback.onFailed(exception: KotlinException(message: error.localizedDescription))
+                errorResponse = error
             }
+            group.leave()
         }
+
+        group.wait()
+
+        guard let route = route else {
+            throw errorResponse ?? NSError(domain: "Unknown", code: -1)
+        }
+
+        return route
     }
 
-    private func convert(request: RouteProviderRouteRequest, routeDto: RouteDto, callback: RouteProviderCallback) {
+    public func requestRouteData(origin: LatLng, destination: LatLng, vehicleConfig: VehicleConfig) throws -> RouteData {
         do {
-            let route = try routeConverter.convert(
-                routeDto: routeDto,
-                previousRoute: request.previousRoute,
-                origin: request.origin.latLng,
-                destination: request.destination.routable
+            let route = try requestRoute(
+                routeRequest: RouteProviderRouteRequest(
+                    origin: Location(
+                        provider: "Unknown",
+                        timestamp: Int64(Date().timeIntervalSince1970) * 1000,
+                        latLng: origin,
+                        altitude: nil,
+                        heading: nil,
+                        speed: nil,
+                        accuracy: nil,
+                        level: nil
+                    ),
+                    forceRoute: true,
+                    type: .light,
+                    verifyOffRoute: false,
+                    sessionId: nil,
+                    destination: RouteProviderRouteRequest.Destination(
+                        routable: RoutableFactory.shared.create(latLng: destination),
+                        approachHeading: nil,
+                        streetName: nil,
+                        parkingLocation: nil
+                    ),
+                    previousRoute: nil,
+                    vehicleConfig: vehicleConfig,
+                    locationTrail: []
+                )
             )
-            callback.onSuccess(route: route)
+            return RouteData(duration: route.remainingTravelTime, distance: route.distance)
         } catch {
-            callback.onFailed(exception: RouteDtoConverterRouteConversionExceptions(
-                message: error.localizedDescription, throwable: nil
-            ))
+            throw error
         }
-    }
-
-    public func requestRoute(routeRequest _: RouteProviderRouteRequest) throws -> Route {
-        fatalError("Missing implementation")
-    }
-
-    public func requestRouteData(origin _: LatLng, destination _: LatLng) throws -> RouteProviderRouteData {
-        fatalError("Missing implementation")
     }
 }
