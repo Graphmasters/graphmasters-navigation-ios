@@ -1,6 +1,5 @@
 import CoreLocation
 import GraphamstersNavigationVoiceInstructions
-import GraphmastersNavigation
 import GraphmastersNavigationCore
 import Mapbox
 import UIKit
