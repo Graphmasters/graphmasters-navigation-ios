@@ -10,7 +10,7 @@ let package = Package(
         .library(
             name: "GraphmastersNavigation",
             targets: [
-                "GraphmastersNavigation",
+                "GraphmastersNavigationCore",
                 "GraphamstersNavigationVoiceInstructions",
             ]
         ),
@@ -25,26 +25,12 @@ let package = Package(
             path: "Sources/GraphmastersNavigationCore/GraphmastersNavigationCore.xcframework"
         ),
         .target(
-            name: "GraphmastersNavigation",
-            dependencies: [
-                "GraphmastersNavigationUtility",
-                "GraphmastersNavigationNetworking",
-                "GraphmastersNavigationCore",
-            ]
-        ),
-        .target(
             name: "GraphamstersNavigationVoiceInstructions",
             dependencies: [
-                "GraphmastersNavigationUtility",
                 "GraphmastersNavigationCore",
                 .product(name: "Logging", package: "swift-log"),
             ]
         ),
-        .target(
-            name: "GraphmastersNavigationNetworking",
-            dependencies: ["GraphmastersNavigationCore"]
-        ),
-        .target(name: "GraphmastersNavigationUtility"),
         .testTarget(
             name: "GraphmastersNavigationCoreTests",
             dependencies: ["GraphmastersNavigationCore"]
