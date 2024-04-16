@@ -10,8 +10,9 @@ let package = Package(
         .library(
             name: "GraphmastersNavigation",
             targets: [
+                "GraphmastersNavigation",
                 "GraphmastersNavigationCore",
-                "GraphamstersNavigationVoiceInstructions",
+                "GraphmastersNavigationVoiceInstructions",
             ]
         ),
         .library(name: "GraphmastersNavigationCore", targets: ["GraphmastersNavigationCore"]),
@@ -20,12 +21,18 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
     ],
     targets: [
+        .target(
+            name: "GraphmastersNavigation",
+            resources: [
+                .process("Resources/PrivacyInfo.xcprivacy")
+            ]
+        ),
         .binaryTarget(
             name: "GraphmastersNavigationCore",
             path: "Sources/GraphmastersNavigationCore/GraphmastersNavigationCore.xcframework"
         ),
         .target(
-            name: "GraphamstersNavigationVoiceInstructions",
+            name: "GraphmastersNavigationVoiceInstructions",
             dependencies: [
                 "GraphmastersNavigationCore",
                 .product(name: "Logging", package: "swift-log"),
