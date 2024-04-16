@@ -1,12 +1,13 @@
 import CoreLocation
-import GraphamstersNavigationVoiceInstructions
+import GraphmastersNavigationVoiceInstructions
 import GraphmastersNavigationCore
+import GraphmastersNavigation
 import Mapbox
 import UIKit
 
 class ViewController: UIViewController {
     private lazy var navigationSdk: NavigationSdk = IosNavigationSdk(
-        apiKey: Configuration.navigationApiKey
+        apiKey: "API_KEY"
     )
 
     private lazy var cameraComponent = CameraComponent(navigationSdk: navigationSdk, paddingProvider: self)
@@ -82,7 +83,7 @@ class ViewController: UIViewController {
     }
 
     private func configureMapView() {
-        mapView.styleURL = URL(string: Configuration.mapStyleUrl)!
+        mapView.styleURL = URL(string: "MAP_STYLE_URL")!
         mapView.showsUserLocation = true
         mapView.delegate = self
         mapView.addGestureRecognizer(mapLongPressGestureRecognizer)
@@ -162,7 +163,7 @@ class ViewController: UIViewController {
 
 extension ViewController: MGLMapViewDelegate {
     func mapView(_ mapView: MGLMapView, didFinishLoading style: MGLStyle) {
-        guard mapView.styleURL == URL(string: Configuration.mapStyleUrl) else {
+        guard mapView.styleURL == URL(string: "MAP_STYLE_URL") else {
             return
         }
         style.addSource(routeMapSource)
@@ -188,7 +189,8 @@ extension ViewController: CLLocationManagerDelegate {
         guard let newLocation = locations.last else {
             return
         }
-        navigationSdk.updateLocation(location: .companion.from(clLocation: newLocation))
+        navigationSdk.updateLocation(location: 
+                                        CLLocationConverter.shared.convert(clLocation: newLocation))
     }
 }
 
